@@ -84,11 +84,11 @@ img.work {
 }
 
 .work-img-med {
-	width: 420px;
+	max-width: 420px;
 }
 
 .work-img-mobile {
-	width: 320px;
+	max-width: 320px;
 }
 
 .row {
