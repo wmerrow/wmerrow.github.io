@@ -70,8 +70,17 @@ img.work {
 	font-weight: 300;
 }
 
-.credit {
+.work-credit {
 	font-style: italic;
+}
+
+.work-role {
+	margin-bottom: 10px;
+}
+
+.work-link {
+	margin-bottom: 20px;
+	font-size: 14px;
 }
 
 .work-img-med {
