@@ -70,6 +70,27 @@ img.work {
 	font-weight: 300;
 }
 
+.credit {
+	font-style: italic;
+}
+
+.work-img-med {
+	width: 420px;
+}
+
+.work-img-mobile {
+	width: 320px;
+}
+
+.row {
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+.work-title {
+	margin-top: 40px;
+}
+
 ul {
 	font-size: 16px;
 	font-weight: 300;
