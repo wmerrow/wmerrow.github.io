@@ -1,0 +1,9 @@
+{
+    "path" : "~/Documents/Dev/Data-Journalism-IS/right-wing-parties/data",
+    "sortOrder" : [
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        }
+    ]
+}

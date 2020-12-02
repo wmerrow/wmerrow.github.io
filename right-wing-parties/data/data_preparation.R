@@ -1,0 +1,108 @@
+rm(list = ls(all = TRUE))
+
+library(dplyr)
+
+vp <- read.csv(file = "V-Dem-CPD-Party-V1.csv", header = TRUE, stringsAsFactors = FALSE)
+str(vp)
+
+# filter to US and western europe, excluding small countries
+myCountries <- c(#"Sweden",
+                 #"Switzerland",
+                 "United States of America",
+                 #"Portugal",
+                 #"Canada",
+                 #"Australia",
+                 "France",
+                 "Germany",
+                 #"Ireland",
+                 "Italy",
+                 #"Netherlands",
+                 "Spain",
+                 "United Kingdom")
+                 #"Austria",
+                 #"Belgium",
+                 #"Cyprus",
+                 #"Denmark",
+                 #"Finland",
+                 #"Greece",
+                 #"Iceland",
+                 #"Luxembourg",
+                 #"Malta",
+                 #"New Zealand",
+                 #"Norway")
+
+vp <- filter(vp, country_name %in% myCountries)
+str(vp)
+
+# select desired columns
+vp <- vp %>% select(v2paenname, 
+                    v2paid, 
+                    country_name, 
+                    country_text_id, 
+                    year, 
+                    historical_date, 
+                    v2pavote, 
+                    v2xpa_illiberal, 
+                    v2xpa_popul, 
+                    v2pariglef, 
+                    v2pariglef_osp, 
+                    v2paimmig, 
+                    v2paimmig_osp
+                    )
+str(vp)
+
+# filter to recent years
+vp <- vp %>%
+  filter(year >= 2012)
+
+# identify last elections
+# create table with year of last election for each country (group by country and find max year for each)
+le <- vp %>%
+          group_by(country_name) %>%
+          summarize(last_election = max(year))
+# join
+vp <- left_join(vp, le, by = "country_name")
+
+# identify first elections (because we have already filtered, this is first since 2012)
+# create table with year of first election for each country (group by country and find max year for each)
+fe <- vp %>%
+  group_by(country_name) %>%
+  summarize(first_election = min(year))
+# join
+vp <- left_join(vp, fe, by = "country_name")
+
+# col for is last election
+vp$is_last_election[vp$year == vp$last_election] <- TRUE
+vp$is_last_election[vp$year != vp$last_election] <- FALSE
+
+# col for is first election
+vp$is_first_election[vp$year == vp$first_election] <- TRUE
+vp$is_first_election[vp$year != vp$first_election] <- FALSE
+
+# get farthest right parties on immig in last election
+# flip immig so it use same scale as riglef
+vp$v2paimmig_inverted <- vp$v2paimmig * -1
+# get avg of immig and riglef
+vp$immig_riglef_avg <- (vp$v2paimmig_inverted + vp$v2pariglef) / 2
+
+# create a list of parties with the farthest right score for each country in the last election (results in 13 parties)
+rp <- vp %>%
+        filter(is_last_election == TRUE) %>%
+        filter(immig_riglef_avg >= 1.4) %>%
+        select(v2paid) %>%
+        # add column for is farthest right on immig in last election
+        mutate(is_fri_le = TRUE)
+
+# join
+vp <- left_join(vp, rp, by = "v2paid")
+# change is_fri_le NAs to FALSE for clarity 
+# (some NAs were due to immig being NA, but coding as FALSE for purposes of this analysis)
+vp$is_fri_le[is.na(vp$is_fri_le)] <- FALSE
+
+# change country name for US
+vp$country_name[vp$country_name == "United States of America"] <- "United States"
+# change party name for Austrian People's Party
+vp$v2paenname[vp$v2paenname == "Progress Party [Anders Lange’s Party]"] <- "Progress Party"
+
+# output
+write.csv(vp,"parties.csv", row.names = FALSE)

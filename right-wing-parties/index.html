@@ -1,0 +1,1010 @@
+
+<!DOCTYPE html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<style>
+
+body{
+  max-width: 900px;
+  margin: 0px auto;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.byline {
+  font-size: 14px;
+  color: #aaaaaa;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#last {
+  margin-bottom: 300px;
+}
+
+#last-section {
+  border-bottom: 0px;
+}
+
+#container{
+  position: relative;
+}
+
+#sections{
+  width: 420px;
+}
+
+#sections > div{
+  background: white;
+  opacity: .2;
+  margin-bottom: 200px;
+}
+#sections > div:last-child{
+  margin-bottom: 30px;
+}
+#sections > div.graph-scroll-active{
+  opacity: 1;
+}
+
+#graph{
+  margin-left: 40px;
+  width: 420px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  float: right;
+}
+
+@media (max-width: 2000px)  {
+
+h1{
+  margin-bottom: 50px;
+  margin-top: 200px;
+}
+
+p{
+  font-size: 18px;
+}
+
+.content-well {
+  max-width: 650px;
+  margin: auto;
+}
+
+  #graph{
+    width: 100%;
+    margin-left: 0px;
+    float: none;
+  }
+
+  #sections{
+    width: auto;
+    position: relative;
+    margin: 0px auto;
+  }
+
+  #sections > div{
+    background: rgba(255,255,255,.94);
+    padding: 10px;
+    border-top: 1px solid #bbbbbb;
+    border-bottom: 1px solid #bbbbbb;
+    margin-bottom: 80vh;
+  }
+
+  pre{
+    overflow: hidden;
+  }
+
+}
+
+.mono{
+  font-family: monospace;
+}
+
+svg{
+  background-color: #ffffff;
+}
+
+.partyLabel {
+  font-size: 13px;
+  text-anchor: end;
+  font-weight: bold;
+}
+
+.countryLabel {
+  font-size: 10px;
+  text-anchor: end;
+  fill: #aaaaaa;
+}
+
+.plotTitle {
+  font-size: 16px;
+  font-weight: bold;
+  text-anchor: middle;
+}
+
+.bubbleTitle {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.bubbleSubTitle {
+  font-size: 14px;
+  color: #aaaaaa;
+}
+
+.voteLabel {
+  font-size: 11px;
+  text-anchor: start;
+}
+
+.yearLabel {
+  font-size: 11px;
+  text-anchor: middle;
+}
+
+.line {
+  stroke-width: 0.5;
+  stroke: #aaaaaa;
+}
+
+.arrow {
+  stroke-width: 5;
+}
+
+.arrowOuter {
+  stroke-width: 6;
+}
+
+.arrowInner {
+  stroke-width: 4;
+  stroke: #ffffff;
+}
+
+.arrowRect {
+  fill: #ffffff;
+  stroke: #aaaaaa;
+}
+
+</style>
+
+
+<div class="content-well">
+  <h1>Anti-Immigrant Political Parties Are Varied and Evolving, New Data Shows</h1>
+  <p class="byline">By Will Merrow</p>
+  <p class="byline">Data Journalism Independent Study</p>
+  <p class="byline">December 2, 2020</p>
+  <p>In the last few years, the GOP’s stance on immigration has aligned with far-right parties like Marine Le Pen’s National Front, according to new research which tracks parties’ positions over time.</p>
+  <p>With President Trump’s takeover in 2016, the Republican Party moved sharply to the right on immigration. Over the same time period, Le Pen’s party, which has roots in Holocaust denial and islamophobia, moderated some of its positions, and as of 2019 actually scored to the left of the GOP.</p>
+  <p>Created by political scientists at the University of Gothenburg in Sweden, the dataset combines the assessments of hundreds of country experts to quantify party positions on immigration and other issues.
+  </p>
+</div>
+
+<div id='container' class='container-1'>
+  <div id='graph'></div>
+  <div id='sections'>
+    
+    <div>
+      <div class="content-well">
+        <p>Compared to parties in the six largest countries in western Europe - France, Germany, Italy, the Netherlands, Spain, and the United Kingdom - both Republicans and Democrats are right of center in their immigration views.</p>
+      </div>
+    </div>
+
+    <div>
+      <div class="content-well">
+        <p>Republicans are among the most far right, although fringe parties in Italy, the Netherlands, and Spain have more extreme views.</p>
+        <p>Political science research has shown that in Western Europe, immigration is the most important factor driving right wing parties' support. Immigration has been the defining issue of Le Pen's party, and she has called for "putting a stop" to it, targeting lower-income countries in particular. In Trump's speech announcing his run for president, it was his remark that "they're sending rapists" and calls for a border wall that most defined his candidacy.</p>
+      </div>
+    </div>
+
+    <div>
+      <div class="content-well">
+        <p>Looking at the most far-right parties in these countries, the Republicans and the Conservatives in the UK were the most successful in the last elections, while the other parties failed to break 20 percent of the vote (the data goes up to 2019, so does not include the 2020 election in the U.S.) </p>
+        <p>These small vote shares are nonetheless significant, as the parliamentary systems in Europe mean they still translate into seats in the legislature or a role in a coalition government. In 2017, Le Pen lost the French presidential election, but not before forcing a one-on-one runoff against the ultimate winner, Emmanuel Macron.</p>
+      </div>
+    </div>
+
+    <div>
+      <div class="content-well">
+        <p>The shifts in recent years are significant. The GOP has exhibited the largest change in its immigration views, moving far to the right. Le Pen’s National Front and the Alternative for Germany both moved somewhat left, while the Conservatives moved right and then tacked left.</p>
+      </div>
+    </div>
+
+    <div>
+      <div class="content-well">
+        <p>On the economy, the parties’ views are varied, with the National Front and Alternative for Germany scoring near the center. There is less movement than on immigration, and the GOP’s score on economic issues is unchanged since 2012.</p>
+        <p>Immigration may be the defining issue for these parties and a main reason for their voters’ support, but they have also enacted major economic changes, such as the UK's Conservatives pushing through Brexit, and Republican’s 2017 tax legislation which lowered taxes for corporations and wealthy Americans in particular.</p>
+      </div>
+    </div>
+
+    <div>
+      <div class="content-well" id="last-section">
+        <p>The dataset also includes parties’ support for democratic norms, based on metrics such as views on political violence and respect for political opponents. On this measure, the anti-immigration parties vary widely. The Party for Freedom in the Netherlands - which holds the most far-right immigration stance in the group - is generally committed to democratic norms. Overall however, most of these parties are well outside the norm.</p>
+        <p>In recent years, five of the eight parties have become more authoritarian, moving toward the illiberal end of the scale, with the GOP and Conservatives showing dramatic shifts. None have moved away from authoritarianism.</p>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<div class="content-well">
+  <p>Notably, the data is as of 2019, so doesn’t yet reflect the Republican Party’s unfounded claims of voter fraud and other anti-democratic behavior in 2020. With the U.S. election concluded, the next battles over immigration and democracy will be in Europe.</p>
+  <p class="byline" id="last">Source: The V-Party dataset from the Varieties of Democracy Institute at the University of Gothenburg, Sweden.</p>
+</div>
+<!-- <h1>
+  Multiple graphs work too!
+</h1> -->
+
+
+<script src="d3v4+jetpack.js"></script>
+<script src="graph-scroll.js"></script>
+<script>
+
+d3.queue()
+.defer(d3.csv, "data/parties.csv")
+.defer(d3.csv, "data/parties_first-last.csv")
+.await(function(error, data_all, data_fe_le) {
+    if (error) throw error;
+
+// d3.csv('data/parties.csv', function (data_all) {
+  console.log(data_all);
+  console.log(data_fe_le);
+
+  // DATASETS
+
+  // create data for just parties that were far right on immigration (fri) in last election, keeping all years
+  var data_all_fri = data_all
+  	.filter(({is_fri_le}) => is_fri_le === "TRUE");
+  console.log(data_all_fri); 
+
+  // create data for just parties that were far right on immigration (fri) in last election, limited to last election year
+  var data_le_fri = data_all
+  	.filter(({is_last_election}) => is_last_election === "TRUE")
+  	.filter(({is_fri_le}) => is_fri_le === "TRUE");
+  console.log(data_le_fri);
+
+  // same for non-fri parties
+  var data_le_not_fri = data_all
+  	.filter(({is_last_election}) => is_last_election === "TRUE")
+  	.filter(({is_fri_le}) => is_fri_le === "FALSE");
+  console.log(data_le_not_fri);
+
+  // nested by party
+  // var data_all_fri_nested = d3.nest()
+	 //  .key(function(d){
+	 //    return d.v2paenname; // okay to use name since there are no duplicate party names in this dataset
+	 //  })
+	 //  .entries(data_all_fri);
+  // console.log(data_all_fri_nested);
+
+
+  // CHART LAYOUT
+
+  var width = 900;
+  var height = 450;
+
+  var colWidth = width / 4;
+
+  var margin = {
+        top: 80,
+        right: 10,
+        bottom: 10,
+        left: 10
+      };
+
+  var colMargin = {
+        right: 12,
+        left: 12
+      };
+
+  // SCALES
+
+  // sqrt scale so data value maps to bubble area
+  var bubbleSize = d3.scaleSqrt()
+        .domain([0, 50])
+        .range([0, 17]);
+
+
+  // scales for x values
+  // bubbles immig
+  var bubbleImmigX = d3.scaleLinear()
+        .domain([5, -5])
+        .range([margin.left, width - margin.right]);
+  // range plot immig
+  var rangeImmigX = d3.scaleLinear()
+        .domain([5, -5])
+        .range([colMargin.left, colWidth - colMargin.right]);
+  // range plot econ
+  var rangeEconX = d3.scaleLinear()
+        .domain([-5, 5])
+        .range([colMargin.left, colWidth - colMargin.right]);
+  // range plot illib
+  var rangeIllibX = d3.scaleLinear()
+        .domain([0, 1])
+        .range([colMargin.left, colWidth - colMargin.right]);
+
+  //// econ scale for testing
+  var econScale = d3.scaleLinear()
+        .domain([-5, 5])
+        .range([height - margin.bottom, 0 + margin.top]);
+
+  // band scale for y positions in table (sorting by vote share in last election)
+  var yScale = d3.scaleBand()
+        .domain(data_le_fri.sort(function(a,b) {return d3.ascending(+a.v2pavote, +b.v2pavote);}).map(d => d.v2paid))
+        .range([height - margin.bottom, 0 + margin.top]);
+        // .paddingInner(.2) 
+        // .paddingOuter(.2);
+
+  // color scales
+
+  // immig
+  var immigColor = d3.scaleLinear()
+	    .domain([-5, 5])
+	    .range(['red','blue'])
+	    .interpolate(d3.interpolateRgb); //interpolateHsl interpolateHcl interpolateRgb
+  // var immigColor = d3.scaleLinear()
+  //     .domain([-5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5])
+  //     .range(['#67001f','#b2182b','#d6604d','#f4a582','#fddbc7','#dddddd','#d1e5f0','#92c5de','#4393c3','#2166ac','#053061'])
+  //     .interpolate(d3.interpolateRgb); //interpolateHsl interpolateHcl interpolateRgb
+
+  // econ
+  var econColor = d3.scaleLinear()
+      .domain([5, -5])
+      .range(['red','blue'])
+      .interpolate(d3.interpolateRgb); //interpolateHsl interpolateHcl interpolateRgb
+  // var econColor = d3.scaleLinear()
+	 //    .domain([5, 4, 3, 2, 1, 0, -1, -2, -3, -4, -5])
+	 //    .range(['#67001f','#b2182b','#d6604d','#f4a582','#fddbc7','#dddddd','#d1e5f0','#92c5de','#4393c3','#2166ac','#053061'])
+	 //    .interpolate(d3.interpolateRgb); //interpolateHsl interpolateHcl interpolateRgb
+
+  // illib
+  var illibColor = d3.scaleLinear()
+      //.domain([0, .1, .2, .3, .4, .5, .6, .7, .8, .9, 1])
+      .domain([1, 0])
+      .range(['#000000','#aaaaaa'])
+      .interpolate(d3.interpolateRgb); //interpolateHsl interpolateHcl interpolateRgb
+  // var illibColor = d3.scaleLinear()
+	 //    //.domain([0, .1, .2, .3, .4, .5, .6, .7, .8, .9, 1])
+	 //    .domain([1, .9, .8, .7, .6, .5, .4, .3, .2, .1, 0])
+	 //    .range(['#67001f','#b2182b','#d6604d','#f4a582','#fddbc7','#dddddd','#d1e5f0','#92c5de','#4393c3','#2166ac','#053061'])
+	 //    .interpolate(d3.interpolateRgb); //interpolateHsl interpolateHcl interpolateRgb
+  
+  var red = '#b2182b';
+  var lightRed = '#f4a582';
+
+  var yearColor = d3.scaleOrdinal()
+      .domain(["TRUE", "FALSE"])
+      .range([red, lightRed]);
+
+
+
+
+  // CREATE CHARTS
+
+ // var oldWidth = 0
+  function render(){
+    
+    //// LOGIC FOR MOBILE LAYOUT
+
+    // if (oldWidth == innerWidth) return
+    // oldWidth = innerWidth
+
+    // var width = height = d3.select('#graph').node().offsetWidth
+    // var r = 40
+
+    // if (innerWidth <= 925){
+    //   width = innerWidth
+    //   height = innerHeight*.7
+    // }
+
+    // return console.log(width, height)
+
+    // add SVG
+    var svg = d3.select('#graph').html('')
+      .append('svg')
+        .attrs({width: width, height: height})
+
+    var initialY = 150;
+
+    var xAxis = svg.append("g")
+      .attr("transform", "translate(0," + initialY + ")")
+      .attr('class', 'axis')
+      .call(d3.axisTop(bubbleImmigX).tickSize(20));
+
+    var bubbleTitle = svg
+      .append('text')
+      .text("Where Parties Stand on Immigration")
+      .attr('class', 'bubbleTitle')
+      .attr('x', 0) // position in middle of second column
+      .attr('y', margin.top - 10);
+
+    // var bubbleSubTitle = svg
+    //   .append('text')
+    //   .text("Bubbles represent party positions on immigration at the time of the last election (through 2019), sized according to the party’s vote share. Parties included are those receiving at least 5 percent of the vote in the last election in France, Germany, Italy, the Netherlands, Spain, the United Kingdom, and the United States.")
+    //   .attr('class', 'subTitle')
+    //   .attr('x', 0) // position in middle of second column
+    //   .attr('y', margin.top - 0);
+
+    var bubbles_fri = svg.selectAll('circle_fri')
+      .data(data_le_fri.sort(function(a,b) {return d3.descending(+a.v2pavote, +b.v2pavote);})) // sort bubbles so smallest are on top
+      .enter()
+      .append('circle')
+      .attr('cx', d=> bubbleImmigX(+d.v2paimmig))
+      .attr('cy', initialY)
+      .attr('r', d=> bubbleSize(+d.v2pavote))
+      .style('opacity', 0.9)
+      .style('stroke', '#ffffff')
+      .style('stroke-width', '0.5px')
+      .style('fill', d=> immigColor(+d.v2paimmig));
+
+    var bubbles_not_fri = svg.selectAll('circle_not_fri')
+      .data(data_le_not_fri.sort(function(a,b) {return d3.descending(+a.v2pavote, +b.v2pavote);})) // sort bubbles so smallest are on top
+      .enter()
+      .append('circle')
+      .attr('cx', d=> bubbleImmigX(+d.v2paimmig))
+      .attr('cy', initialY)
+      .attr('r', d=> bubbleSize(+d.v2pavote))
+      .style('opacity', 0.9)
+      .style('stroke', '#ffffff')
+      .style('stroke-width', '0.5px')
+      .style('fill', d=> immigColor(+d.v2paimmig));
+
+    // draw row labels
+
+    var partyLabels = svg.selectAll('partyText')
+      .data(data_le_fri)
+      .enter()
+      .append('text')
+      .attr('class', 'partyLabel')
+      .style('opacity', 0) // hidden to start
+      .text(d=> d.v2paenname)
+      .attr('x', colWidth * 2)
+      .attr('y', initialY);
+
+    var countryLabels = svg.selectAll('countryText')
+      .data(data_le_fri)
+      .enter()
+      .append('text')
+      .attr('class', 'countryLabel')
+      .style('opacity', 0) // hidden to start
+      .text(d=> d.country_name.toUpperCase())
+      .attr('x', colWidth * 2)
+      .attr('y', initialY + 15);
+
+    var voteLabels = svg.selectAll('countryText')
+      .data(data_le_fri)
+      .enter()
+      .append('text')
+      .attr('class', 'voteLabel')
+      .style('opacity', 0) // hidden to start
+      .text(d=> d3.format(".0%")(+d.v2pavote / 100)) // change to pct format
+      .attr('x', colWidth * 2)
+      .attr('y', initialY + 15);
+
+    // var voteTitle = svg
+    //   .append('text')
+    //   .text("Vote Share")
+    //   .attr('class', 'plotTitle')
+    //   .attr('x', colWidth * 1.5) // position in middle of second column
+    //   .attr('y', margin.top - 30);
+
+    // lines
+    // var lines = svg.selectAll('line')
+    //   .data(data_le_fri)
+    //   .enter()
+    //   .append('line')
+    //   .attr('class', 'line')
+    //   .style('opacity', 0) // hidden to start
+    //   .attr('x1', 0)
+    //   .attr('x2', width)
+    //   .attr('y1', d=> yScale(d.v2paid))
+    //   .attr('y2', d=> yScale(d.v2paid));
+
+    var dotSize = 4;
+
+    // range plots
+
+    // lines
+
+    var plot1Lines = svg.selectAll('line1')
+      .data(data_le_fri)
+      .enter()
+      .append('line')
+      .attr('class', 'line')
+      .style('opacity', 0) // hidden to start
+      .attr('x1', colWidth + colMargin.left)
+      .attr('x2', colWidth * 2 - colMargin.right)
+      .attr('y1', d=> yScale(d.v2paid))
+      .attr('y2', d=> yScale(d.v2paid));
+
+    var plot2Lines = svg.selectAll('line2')
+      .data(data_le_fri)
+      .enter()
+      .append('line')
+      .attr('class', 'line')
+      .style('opacity', 0) // hidden to start
+      .attr('x1', colWidth * 2 + colMargin.left)
+      .attr('x2', colWidth * 3 - colMargin.right)
+      .attr('y1', d=> yScale(d.v2paid))
+      .attr('y2', d=> yScale(d.v2paid));
+
+     var plot3Lines = svg.selectAll('line3')
+      .data(data_le_fri)
+      .enter()
+      .append('line')
+      .attr('class', 'line')
+      .style('opacity', 0) // hidden to start
+      .attr('x1', colWidth * 3 + colMargin.left)
+      .attr('x2', colWidth * 4 - colMargin.right)
+      .attr('y1', d=> yScale(d.v2paid))
+      .attr('y2', d=> yScale(d.v2paid));
+
+    // plot arrowRects
+
+    // var plot1Arrows = svg.selectAll('arrow1')
+    //   .data(data_fe_le)
+    //   .enter()
+    //   .append('rect')
+    //   .attr('class', 'arrowRect')
+    //   .style('opacity', 0) // hidden to start
+    //   //.attr('x1', d=> rangeImmigX(+d.v2paimmig_fe) + colWidth)
+    //   .attr('x', d=> rangeImmigX(+d.v2paimmig_le) + colWidth - dotSize)
+    //   .attr('y', d=> yScale(d.v2paid) - dotSize)
+    //   .attr('width', d=> rangeImmigX(+d.v2paimmig_fe) - rangeImmigX(+d.v2paimmig_le) + dotSize*2)
+    //   .attr('height', dotSize * 2)
+    //   .attr('rx', dotSize);
+
+    // plot arrows outer
+
+    var plot1ArrowsOuter = svg.selectAll('arrow1')
+      .data(data_fe_le)
+      .enter()
+      .append('line')
+      .attr('class', 'arrowOuter')
+      .style('opacity', 0) // hidden to start
+      .style('stroke', d=> immigColor(+d.v2paimmig_le))
+      .attr('x1', d=> rangeImmigX(+d.v2paimmig_fe) + colWidth)
+      .attr('x2', d=> rangeImmigX(+d.v2paimmig_le) + colWidth)
+      .attr('y1', d=> yScale(d.v2paid))
+      .attr('y2', d=> yScale(d.v2paid));
+
+    var plot2ArrowsOuter = svg.selectAll('arrow2')
+      .data(data_fe_le)
+      .enter()
+      .append('line')
+      .attr('class', 'arrowOuter')
+      .style('opacity', 0) // hidden to start
+      .style('stroke', d=> econColor(+d.v2pariglef_le))
+      .attr('x1', d=> rangeEconX(+d.v2pariglef_fe) + colWidth*2)
+      .attr('x2', d=> rangeEconX(+d.v2pariglef_le) + colWidth*2)
+      .attr('y1', d=> yScale(d.v2paid))
+      .attr('y2', d=> yScale(d.v2paid));
+
+    var plot3ArrowsOuter = svg.selectAll('arrow3')
+      .data(data_fe_le)
+      .enter()
+      .append('line')
+      .attr('class', 'arrowOuter')
+      .style('opacity', 0) // hidden to start
+      .style('stroke', d=> illibColor(+d.v2xpa_illiberal_le))
+      .attr('x1', d=> rangeIllibX(+d.v2xpa_illiberal_fe) + colWidth*3)
+      .attr('x2', d=> rangeIllibX(+d.v2xpa_illiberal_le) + colWidth*3)
+      .attr('y1', d=> yScale(d.v2paid))
+      .attr('y2', d=> yScale(d.v2paid));
+ 
+ 	// plot arrows inner
+
+    var plot1ArrowsInner = svg.selectAll('arrow1')
+      .data(data_fe_le)
+      .enter()
+      .append('line')
+      .attr('class', 'arrowInner')
+      .style('opacity', 0) // hidden to start
+      .attr('x1', d=> rangeImmigX(+d.v2paimmig_fe) + colWidth)
+      .attr('x2', d=> rangeImmigX(+d.v2paimmig_le) + colWidth)
+      .attr('y1', d=> yScale(d.v2paid))
+      .attr('y2', d=> yScale(d.v2paid));
+
+    var plot2ArrowsInner = svg.selectAll('arrow2')
+      .data(data_fe_le)
+      .enter()
+      .append('line')
+      .attr('class', 'arrowInner')
+      .style('opacity', 0) // hidden to start
+      .attr('x1', d=> rangeEconX(+d.v2pariglef_fe) + colWidth*2)
+      .attr('x2', d=> rangeEconX(+d.v2pariglef_le) + colWidth*2)
+      .attr('y1', d=> yScale(d.v2paid))
+      .attr('y2', d=> yScale(d.v2paid));
+
+    var plot3ArrowsInner = svg.selectAll('arrow3')
+      .data(data_fe_le)
+      .enter()
+      .append('line')
+      .attr('class', 'arrowInner')
+      .style('opacity', 0) // hidden to start
+      .attr('x1', d=> rangeIllibX(+d.v2xpa_illiberal_fe) + colWidth*3)
+      .attr('x2', d=> rangeIllibX(+d.v2xpa_illiberal_le) + colWidth*3)
+      .attr('y1', d=> yScale(d.v2paid))
+      .attr('y2', d=> yScale(d.v2paid));   
+    // dots
+
+    var plot1Dots = svg.selectAll('dots1')
+      .data(data_all_fri)
+      //.filter(function(d) { return +d.year == 2000 })
+      .enter()
+      .append('circle')
+      .attr('cx', d=> rangeImmigX(+d.v2paimmig) + colWidth)
+      .attr('cy', d=> yScale(+d.v2paid))
+      .attr('r', dotSize)
+      // .attr('r', d=> {
+      // 	if (d.is_last_election == "TRUE") {
+      // 		return dotSize + 1.5; // make le dots larger
+      // 	} else {
+      // 		return dotSize;
+      // 	}
+      // })
+      .style('opacity', 0)
+      // .style('fill', d=> yearColor(d.is_last_election));
+      // .style('fill', red);
+     .style('stroke', d=> immigColor(+d.v2paimmig))
+     .style('fill', d=> {if (d.is_last_election == "FALSE"){
+      return '#ffffff';
+     } else {
+      return immigColor(+d.v2paimmig);     
+     }
+   }); 
+
+
+    var plot2Dots = svg.selectAll('dots2')
+      .data(data_all_fri)
+      //.filter(function(d) { return +d.year == 2000 })
+      .enter()
+      .append('circle')
+      .attr('cx', d=> rangeEconX(+d.v2pariglef) + colWidth * 2)
+      .attr('cy', d=> yScale(+d.v2paid))
+      .attr('r', dotSize)
+      .style('opacity', 0)
+      // .style('fill', d=> yearColor(d.is_last_election));
+      // .style('fill', red);
+     .style('stroke', d=> econColor(+d.v2pariglef))
+     .style('fill', d=> {if (d.is_last_election == "FALSE"){
+      return '#ffffff';
+     } else {
+      return econColor(+d.v2pariglef);     
+     }
+   }); 
+
+    var plot3Dots = svg.selectAll('dots3')
+      .data(data_all_fri)
+      //.filter(function(d) { return +d.year == 2000 })
+      .enter()
+      .append('circle')
+      .attr('cx', d=> rangeIllibX(+d.v2xpa_illiberal) + colWidth * 3)
+      .attr('cy', d=> yScale(+d.v2paid))
+      .attr('r', dotSize)
+      .style('opacity', 0)
+      // .style('fill', d=> yearColor(d.is_last_election));
+      // .style('fill', red);
+     .style('stroke', d=> illibColor(+d.v2xpa_illiberal))
+     .style('fill', d=> {if (d.is_last_election == "FALSE"){
+      return '#ffffff';
+     } else {
+      return illibColor(+d.v2xpa_illiberal);     
+     }
+   }); 
+
+    // plot titles
+
+    var plot1Title = svg
+      .append('text')
+      .text("Immigration")
+      .attr('class', 'plotTitle')
+      .attr('x', colWidth * 1.5) // position in middle of second column
+      .attr('y', margin.top - 30);
+
+    var plot2Title = svg
+      .append('text')
+      .text("Economy")
+      .attr('class', 'plotTitle')
+      .attr('x', colWidth * 2.5) // position in middle of third column
+      .attr('y', margin.top - 30);
+
+    var plot3Title = svg
+      .append('text')
+      .text("Democracy")
+      .attr('class', 'plotTitle')
+      .attr('x', colWidth * 3.5) // position in middle of fourth column
+      .attr('y', margin.top - 30);
+
+    // year labels
+
+    var plot1YearLabels = svg.selectAll('yearLabels')
+      .data(data_le_fri)
+      //.filter(function(d) { return +d.year == 2000 })
+      .enter()
+      .append('text')
+      .text(d=> d.year)
+      .attr('class', 'yearLabel')
+      .attr('x', d=> rangeImmigX(+d.v2paimmig) + colWidth)
+      .attr('y', d=> yScale(+d.v2paid) - dotSize - 4)
+      .style('opacity', 0);
+
+    var plot2YearLabels = svg.selectAll('yearLabels')
+      .data(data_le_fri)
+      //.filter(function(d) { return +d.year == 2000 })
+      .enter()
+      .append('text')
+      .text(d=> d.year)
+      .attr('class', 'yearLabel')
+      .attr('x', d=> rangeEconX(+d.v2pariglef) + colWidth * 2)
+      .attr('y', d=> yScale(+d.v2paid) - dotSize - 4)
+      .style('opacity', 0);
+
+    var plot3YearLabels = svg.selectAll('yearLabels')
+      .data(data_le_fri)
+      //.filter(function(d) { return +d.year == 2000 })
+      .enter()
+      .append('text')
+      .text(d=> d.year)
+      .attr('class', 'yearLabel')
+      .attr('x', d=> rangeIllibX(+d.v2xpa_illiberal) + colWidth * 3)
+      .attr('y', d=> yScale(+d.v2paid) - dotSize - 4)
+      .style('opacity', 0);
+
+
+    // first scrollytelling section
+
+    var gs = d3.graphScroll()
+        .container(d3.select('.container-1'))
+        .graph(d3.selectAll('container-1 #graph'))
+        .eventId('uniqueId1')  // namespace for scroll and resize events
+        .sections(d3.selectAll('.container-1 #sections > div'))
+        // .offset(innerWidth < 900 ? innerHeight - 30 : 200)
+        .on('active', function(i){
+
+	    //                         0 initial       1 fade        2 vote       3 plot1       4 plot2      5 plot3
+	    var currentX =             ['v2paimmig',   'v2paimmig',  colWidth*2,  colWidth - colMargin.right,	   colWidth - colMargin.right,	 colWidth - colMargin.right    ][i];
+	    var currentY =             [initialY,      initialY,     'v2paid',    'v2paid',     'v2paid',	 'v2paid'	 ][i];
+	    var currentOpacityNotFri = [0.9,           0.05,         0,           0,            0,			     0       ][i];
+	    var currentOpacityFri =    [0.9,           1,            1,           0,            0,			     0       ][i];
+      	var currentOpacityVote =   [0,             0,            1,           0,            0,           0       ][i];
+	    var currentOpacityLabs =   [0,             0,            1,           1,            1,           1			 ][i];
+	    var currentOpacityPlot1 =  [0,             0,            0,           1,            1,           1			 ][i];
+	    var currentOpacityPlot2 =  [0,             0,            0,           0,            1,           1			 ][i];
+	    var currentOpacityPlot3 =  [0,             0,            0,           0,            0,           1			 ][i];
+
+        bubbles_fri.transition().duration(1000)
+            .filter(function(d) { return +d.v2paimmig <= -2 }) //////// REMOVE?
+            .style('opacity', currentOpacityFri)
+            .attr('cx', d=> {
+              if (typeof currentX == 'string') {
+                return bubbleImmigX(+d[currentX]);
+              } else {
+                return currentX + 15 + bubbleSize(+d.v2pavote); // includes offset and radius so bubbles will be left-aligned
+              }
+            })
+            .attr('cy', d=> {
+              if (typeof currentY == 'string') {
+                return yScale(+d[currentY]);
+              } else {
+                return currentY;
+              }
+            });
+
+        bubbles_not_fri.transition().duration(1000)
+            .style('opacity', currentOpacityNotFri);
+
+        bubbleTitle.transition().duration(1000)
+            .style('opacity', currentOpacityNotFri);
+        // bubbleSubTitle.transition().duration(1000)
+        //     .style('opacity', currentOpacityNotFri);
+
+        xAxis.transition().duration(1000)
+            .style('opacity', currentOpacityNotFri);
+
+        // draw labels
+
+        partyLabels.transition().duration(1000)
+	    	.style('opacity', currentOpacityLabs)
+	    	.attr('x', d=> {
+	      	if (typeof currentX == 'string') {
+	            return bubbleImmigX(+d[currentX]);
+	          } else {
+	            return currentX;
+	          }
+	    	})
+	    	.attr('y', d=> {
+	          if (typeof currentY == 'string') {
+	            return yScale(+d[currentY]);
+	          } else {
+	            return currentY;
+	          }
+	    	});
+
+        countryLabels.transition().duration(1000)
+	    	.style('opacity', currentOpacityLabs)
+	    	.attr('x', d=> {
+	      	if (typeof currentX == 'string') {
+	            return bubbleImmigX(+d[currentX]);
+	          } else {
+	            return currentX;
+	          }
+	    	})
+	    	.attr('y', d=> {
+	          if (typeof currentY == 'string') {
+	            return yScale(+d[currentY]) + 15;
+	          } else {
+	            return currentY + 15;
+	          }
+	    	});
+
+        voteLabels.transition().duration(1000)
+        .style('opacity', currentOpacityVote)
+        .attr('x', d=> {
+          if (typeof currentX == 'string') {
+              return bubbleImmigX(+d[currentX]) + 19 + bubbleSize(+d.v2pavote) * 2;
+            } else {
+              return currentX + 19 + bubbleSize(+d.v2pavote) * 2;
+            }
+        })
+        .attr('y', d=> {
+            if (typeof currentY == 'string') {
+              return yScale(+d[currentY]) + 4;
+            } else {
+              return currentY + 4;
+            }
+        });
+
+        // voteTitle.transition().duration(1000)
+        // .style('opacity', currentOpacityLabs)
+        // .attr('x', d=> {
+        //   if (typeof currentX == 'string') {
+        //       return bubbleImmigX(+d[currentX]);
+        //     } else {
+        //       return currentX;
+        //     }
+        // })
+        // .attr('y', d=> {
+        //     if (typeof currentY == 'string') {
+        //       return yScale(+d[currentY]);
+        //     } else {
+        //       return currentY;
+        //     }
+        // });
+
+        plot1Title.transition().duration(1000)
+          .style('opacity', currentOpacityPlot1);
+        plot2Title.transition().duration(1000)
+          .style('opacity', currentOpacityPlot2);
+        plot3Title.transition().duration(1000)
+          .style('opacity', currentOpacityPlot3);
+
+        plot1Lines.transition().duration(1000)
+          .style('opacity', currentOpacityPlot1);
+        plot2Lines.transition().duration(1000)
+          .style('opacity', currentOpacityPlot2);
+        plot3Lines.transition().duration(1000)
+          .style('opacity', currentOpacityPlot3);
+
+        plot1ArrowsOuter.transition().duration(1000)
+          .style('opacity', currentOpacityPlot1);
+        plot2ArrowsOuter.transition().duration(1000)
+          .style('opacity', currentOpacityPlot2);
+        plot3ArrowsOuter.transition().duration(1000)
+          .style('opacity', currentOpacityPlot3);
+
+		plot1ArrowsInner.transition().duration(1000)
+          .style('opacity', currentOpacityPlot1);
+        plot2ArrowsInner.transition().duration(1000)
+          .style('opacity', currentOpacityPlot2);
+        plot3ArrowsInner.transition().duration(1000)
+          .style('opacity', currentOpacityPlot3);
+
+		plot1YearLabels.transition().duration(1000)
+			.style('opacity', currentOpacityPlot1);
+		plot2YearLabels.transition().duration(1000)
+			.style('opacity', currentOpacityPlot2);
+		plot3YearLabels.transition().duration(1000)
+			.style('opacity', currentOpacityPlot3);
+
+        plot1Dots.transition().duration(1000)
+          .style('opacity', currentOpacityPlot1);
+        plot2Dots.transition().duration(1000)
+          .style('opacity', currentOpacityPlot2);
+        plot3Dots.transition().duration(1000)
+          .style('opacity', currentOpacityPlot3);
+
+        }); // end .on
+
+
+
+    var svg2 = d3.select('.container-2 #graph').html('')
+      .append('svg')
+        .attrs({width: width, height: height})
+
+    // draw second chart
+    //var path = svg2.append('path')
+    var scatter2A = svg2.selectAll('redcircle')
+            .data(data_le_fri)
+            .enter()
+            .append('circle')
+            .attr('cx', d=> +d.v2paimmig*4)
+            .attr('cy', d=> +d.v2paimmig*4)
+            .attr('r', 4)
+            .style('fill', 'red');
+
+    var scatter2B = svg2.selectAll('bluecircle')
+            .data(data_le_fri)
+            .enter()
+            .append('circle')
+            .attr('cx', d=> +d.v2paimmig*4 + 200)
+            .attr('cy', d=> +d.v2paimmig*4)
+            .attr('r', 4)
+            .style('fill', 'blue')
+            .style('opacity', 0);
+
+    var scatter2C = svg2.selectAll('greencircle')
+            .data(data_le_fri)
+            .enter()
+            .append('circle')
+            .attr('cx', d=> +d.v2paimmig*4 + 400)
+            .attr('cy', d=> +d.v2paimmig*4)
+            .attr('r', 4)
+            .style('fill', 'green')
+            .style('opacity', 0);
+
+    // second scrollytelling section
+    var gs2 = d3.graphScroll()
+        .container(d3.select('.container-2'))
+        .graph(d3.selectAll('.container-2 #graph'))
+        .eventId('uniqueId2')  // namespace for scroll and resize events
+        .sections(d3.selectAll('.container-2 #sections > div'))
+        .on('active', function(i){
+          // var h = height
+          // var w = width
+          // var dArray = [
+          //   [[w/4, h/4], [w*3/4, h/4],  [w*3/4, h*3/4], [w/4, h*3/4]],
+          //   [[0, 0],     [w*3/4, h/4],  [w*3/4, h*3/4], [w/4, h*3/4]],
+          //   [[w/2, h/2], [w, h/4],      [w, h],         [w/4, h]],
+          //   [[w/2, h/2], [w, h/4],      [w, h],         [w/4, h]],
+          //   [[w/2, h/2], [w, h/2],      [0, 0],         [w/4, h/2]],
+          //   [[w/2, h/2], [0, h/4],      [0, h/2],         [w/4, 0]],
+          // ].map(function(d){ return 'M' + d.join(' L ') })
+
+          // // update second chart
+          // path.transition().duration(1000)
+          //     .attr('d', dArray[i])
+          //     .style('fill', colors[i])
+
+          //var currentOpacityValue = ['value2', 'value3', 'value4', 'value3'][i];
+          if (i === 0) {
+            scatter2B.transition().duration(1000)
+             .style('opacity', 0);
+            scatter2C.transition().duration(1000)
+             .style('opacity', 0);
+          }
+
+          if (i === 1) {
+            scatter2B.transition().duration(1000)
+             .style('opacity', 1);
+            scatter2C.transition().duration(1000)
+             .style('opacity', 0);
+          }
+
+          if (i === 2) {
+            scatter2C.transition().duration(1000)
+             .style('opacity', 1);
+          }
+          
+
+        })
+
+    d3.select('#source')
+        .styles({'margin-bottom': window.innerHeight - 450 + 'px', padding: '100px'})
+  }
+  render()
+  d3.select(window).on('resize', render)
+
+  }); // end d3.csv
+
+</script>
