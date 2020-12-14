@@ -8,7 +8,7 @@ My final project uses the Twitter recent search API to identify articles about s
 
 The script analyzes content by the New York Times, Vox, CNN, Fox News, and the Trump-friendly One America News Network.
 
-The code for getting tweet data and then scraping article text is contained in get_data.py. To run the code, Twitter API keys are required (not incuded in this repo).
+The code for getting tweet data and then scraping article text is contained in get_data.py. To run the code, Twitter API keys are required (not included in this repo).
 
 The get_data.py script does two main things when it is run:
 * Get tweets containing search text
@@ -24,11 +24,11 @@ Each of these processes generates messages in the terminal noting how many tweet
 * Aggregate number of Twitter likes for each URL.
 * Write out the results for visualization.
 
-I decided to include all of these in a single script (get_data.py). This is less flexible when working on one aspect of the code at a time, but is very helpful for experimenting with different search terms, becuase it allows for getting tweets and article content with a single function call, making it easier to try different search terms. My project analyzed political news coverage but the script can be used to scrape article content on whatever search text. 
+I decided to include all of these in a single script (get_data.py). This is less flexible when working on one aspect of the code at a time, but is very helpful for experimenting with different search terms, because it allows for getting tweets and article content with a single function call, making it easier to try different search terms. My project analyzed political news coverage but the script can be used to scrape article content on whatever search text. 
 
 After running get_data.py, the output data files (in the output folder) can be passed into the d3.json function in index.html to change what data is visualized in the webpage.
 
-The text_analysis.py script is unfinished and not currenty in use.
+The text_analysis.py script is unfinished and not currently in use.
 
 ### Results
 
