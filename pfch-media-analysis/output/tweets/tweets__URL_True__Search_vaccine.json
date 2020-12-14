@@ -1,0 +1,5135 @@
+[
+  {
+    "created_at": "2020-12-07T12:45:06.000Z",
+    "entities": {
+      "annotations": [
+        {
+          "start": 0,
+          "end": 10,
+          "probability": 0.7063,
+          "type": "Organization",
+          "normalized_text": "AstraZeneca"
+        },
+        {
+          "start": 76,
+          "end": 80,
+          "probability": 0.9981,
+          "type": "Place",
+          "normalized_text": "China"
+        }
+      ],
+      "urls": [
+        {
+          "start": 191,
+          "end": 214,
+          "url": "https://t.co/oNojPy19Ki",
+          "expanded_url": "https://nyti.ms/36MWMto",
+          "display_url": "nyti.ms/36MWMto"
+        }
+      ]
+    },
+    "id": "1335928320597368834",
+    "public_metrics": {
+      "retweet_count": 62,
+      "reply_count": 48,
+      "like_count": 183,
+      "quote_count": 30
+    },
+    "author_id": "807095",
+    "text": "AstraZeneca has joined with a huge company to produce a Covid-19 vaccine in China, where the state has fostered and protected a pharmaceutical industry plagued by corruption and controversy. https://t.co/oNojPy19Ki"
+  },
+  {
+    "created_at": "2020-12-07T12:30:08.000Z",
+    "entities": {
+      "annotations": [
+        {
+          "start": 153,
+          "end": 158,
+          "probability": 0.7505,
+          "type": "Organization",
+          "normalized_text": "Senate"
+        },
+        {
+          "start": 208,
+          "end": 216,
+          "probability": 0.8185,
+          "type": "Organization",
+          "normalized_text": "Democrats"
+        }
+      ],
+      "urls": [
+        {
+          "start": 219,
+          "end": 242,
+          "url": "https://t.co/6zsRLO9wlc",
+          "expanded_url": "https://nyti.ms/36MVluS",
+          "display_url": "nyti.ms/36MVluS"
+        }
+      ]
+    },
+    "id": "1335924554032701441",
+    "public_metrics": {
+      "retweet_count": 136,
+      "reply_count": 216,
+      "like_count": 503,
+      "quote_count": 87
+    },
+    "author_id": "807095",
+    "text": "A doctor who is skeptical of coronavirus vaccines and promotes the malaria drug hydroxychloroquine as a Covid-19 treatment will be the lead witness at a Senate  committee on Tuesday, prompting criticism from Democrats. https://t.co/6zsRLO9wlc"
+  },
+  {
+    "created_at": "2020-12-07T05:00:06.000Z",
+    "entities": {
+      "annotations": [
+        {
+          "start": 144,
+          "end": 147,
+          "probability": 0.9407,
+          "type": "Place",
+          "normalized_text": "U.S."
+        },
+        {
+          "start": 185,
+          "end": 193,
+          "probability": 0.9857,
+          "type": "Other",
+          "normalized_text": "Christmas"
+        }
+      ],
+      "urls": [
+        {
+          "start": 256,
+          "end": 279,
+          "url": "https://t.co/XiTNP8wkuD",
+          "expanded_url": "https://nyti.ms/39HD1oR",
+          "display_url": "nyti.ms/39HD1oR"
+        }
+      ]
+    },
+    "id": "1335811300472000513",
+    "public_metrics": {
+      "retweet_count": 79,
+      "reply_count": 24,
+      "like_count": 497,
+      "quote_count": 32
+    },
+    "author_id": "807095",
+    "text": "\u201cA lot of us are old and have diabetes. Most of us have a heart problem, most of us are obese. We check every box.\u201d\n\nProfessional Santas in the U.S. were promised a vaccine in time for Christmas. Then, they got ghosted, miring their season in uncertainty. https://t.co/XiTNP8wkuD"
+  },
+  {
+    "created_at": "2020-12-07T02:20:05.000Z",
+    "entities": {
+      "annotations": [
+        {
+          "start": 0,
+          "end": 5,
+          "probability": 0.7039,
+          "type": "Organization",
+          "normalized_text": "Pfizer"
+        },
+        {
+          "start": 22,
+          "end": 29,
+          "probability": 0.3081,
+          "type": "Organization",
+          "normalized_text": "BioNTech"
+        }
+      ],
+      "urls": [
+        {
+          "start": 113,
+          "end": 136,
+          "url": "https://t.co/btnQmHlLjQ",
+          "expanded_url": "https://nyti.ms/37yOh48",
+          "display_url": "nyti.ms/37yOh48"
+        }
+      ]
+    },
+    "id": "1335771030099464192",
+    "public_metrics": {
+      "retweet_count": 188,
+      "reply_count": 20,
+      "like_count": 567,
+      "quote_count": 38
+    },
+    "author_id": "807095",
+    "text": "Pfizer partnered with BioNTech to develop and test a coronavirus vaccine known as BNT162b2. Here's how it works: https://t.co/btnQmHlLjQ"
+  },
+  {
+    "created_at": "2020-12-07T00:00:10.000Z",
+    "entities": {
+      "annotations": [
+        {
+          "start": 0,
+          "end": 6,
+          "probability": 0.4278,
+          "type": "Organization",
+          "normalized_text": "Moderna"
+        }
+      ],
+      "urls": [
+        {
+          "start": 140,
+          "end": 163,
+          "url": "https://t.co/u73bZRl3xy",
+          "expanded_url": "https://nyti.ms/36OjCAY",
+          "display_url": "nyti.ms/36OjCAY"
+        }
+      ]
+    },
+    "id": "1335735819911442434",
+    "public_metrics": {
+      "retweet_count": 105,
+      "reply_count": 14,
+      "like_count": 303,
+      "quote_count": 8
+    },
+    "author_id": "807095",
+    "text": "Moderna partnered with the National Institutes of Health to develop and test a coronavirus vaccine known as mRNA-1273. Here's how it works. https://t.co/u73bZRl3xy"
+  },
+  {
+    "created_at": "2020-12-06T17:00:10.000Z",
+    "entities": {
+      "annotations": [
+        {
+          "start": 121,
+          "end": 137,
+          "probability": 0.8766,
+          "type": "Person",
+          "normalized_text": "Dr. Moncef Slaoui"
+        }
+      ],
+      "urls": [
+        {
+          "start": 201,
+          "end": 224,
+          "url": "https://t.co/ojA8iaCR2u",
+          "expanded_url": "https://nyti.ms/3lPORzC",
+          "display_url": "nyti.ms/3lPORzC"
+        }
+      ]
+    },
+    "id": "1335630123601715204",
+    "public_metrics": {
+      "retweet_count": 50,
+      "reply_count": 31,
+      "like_count": 244,
+      "quote_count": 11
+    },
+    "author_id": "807095",
+    "text": "Residents of long-term care facilities could receive the first round of coronavirus vaccinations by the end of December, Dr. Moncef Slaoui, chief science adviser for Operation Warp Speed, said Sunday. https://t.co/ojA8iaCR2u"
+  },
+  {
+    "created_at": "2020-12-06T02:20:03.000Z",
+    "entities": {
+      "annotations": [
+        {
+          "start": 60,
+          "end": 65,
+          "probability": 0.9911,
+          "type": "Place",
+          "normalized_text": "Moscow"
+        }
+      ],
+      "urls": [
+        {
+          "start": 239,
+          "end": 262,
+          "url": "https://t.co/bJpvIZswfa",
+          "expanded_url": "https://nyti.ms/33Pk287",
+          "display_url": "nyti.ms/33Pk287"
+        }
+      ]
+    },
+    "id": "1335408634231189504",
+    "public_metrics": {
+      "retweet_count": 108,
+      "reply_count": 66,
+      "like_count": 412,
+      "quote_count": 33
+    },
+    "author_id": "807095",
+    "text": "Healthcare workers began vaccinating thousands of people in Moscow against the coronavirus on Saturday, a campaign that will expand nationally next week despite relying on a vaccine that has not been fully proven to be safe and effective. https://t.co/bJpvIZswfa"
+  },
+  {
+    "created_at": "2020-12-05T19:00:09.000Z",
+    "entities": {
+      "annotations": [
+        {
+          "start": 48,
+          "end": 49,
+          "probability": 0.941,
+          "type": "Place",
+          "normalized_text": "UK"
+        },
+        {
+          "start": 80,
+          "end": 92,
+          "probability": 0.9953,
+          "type": "Person",
+          "normalized_text": "Boris Johnson"
+        }
+      ],
+      "urls": [
+        {
+          "start": 202,
+          "end": 225,
+          "url": "https://t.co/enP1Jgf23O",
+          "expanded_url": "https://nyti.ms/2VFjME6",
+          "display_url": "nyti.ms/2VFjME6"
+        }
+      ]
+    },
+    "id": "1335297930304122880",
+    "public_metrics": {
+      "retweet_count": 70,
+      "reply_count": 69,
+      "like_count": 414,
+      "quote_count": 21
+    },
+    "author_id": "807095",
+    "text": "A successful coronavirus vaccine rollout in the UK could be the last chance for Boris Johnson\u2019s government to show competence, after botching virtually every other step of its response to the pandemic. https://t.co/enP1Jgf23O"
+  },
+  {
+    "created_at": "2020-12-05T18:40:07.000Z",
+    "entities": {
+      "annotations": [
+        {
+          "start": 73,
+          "end": 75,
+          "probability": 0.4951,
+          "type": "Organization",
+          "normalized_text": "CDC"
+        }
+      ],
+      "urls": [
+        {
+          "start": 147,
+          "end": 170,
+          "url": "https://t.co/0pdQmNc4Xk",
+          "expanded_url": "https://nyti.ms/2VJBxCi",
+          "display_url": "nyti.ms/2VJBxCi"
+        }
+      ]
+    },
+    "id": "1335292888796819457",
+    "public_metrics": {
+      "retweet_count": 84,
+      "reply_count": 205,
+      "like_count": 492,
+      "quote_count": 53
+    },
+    "author_id": "807095",
+    "text": "Should essential workers get the vaccine before most elderly people? The CDC's recommendation is expected soon in what has become a heated debate. https://t.co/0pdQmNc4Xk"
+  },
+  {
+    "created_at": "2020-12-05T17:21:41.000Z",
+    "entities": {
+      "annotations": [
+        {
+          "start": 83,
+          "end": 94,
+          "probability": 0.9967,
+          "type": "Person",
+          "normalized_text": "Heidi Larson"
+        }
+      ],
+      "urls": [
+        {
+          "start": 176,
+          "end": 199,
+          "url": "https://t.co/ablrA1lklp",
+          "expanded_url": "https://nyti.ms/2JS9Ftf",
+          "display_url": "nyti.ms/2JS9Ftf"
+        },
+        {
+          "start": 200,
+          "end": 223,
+          "url": "https://t.co/NWnYMHYLK2",
+          "expanded_url": "https://twitter.com/nytimes/status/1335273149945040900/photo/1",
+          "display_url": "pic.twitter.com/NWnYMHYLK2"
+        }
+      ]
+    },
+    "id": "1335273149945040900",
+    "public_metrics": {
+      "retweet_count": 25,
+      "reply_count": 14,
+      "like_count": 180,
+      "quote_count": 1
+    },
+    "author_id": "807095",
+    "text": "\u201cThe lessons around vaccine trust can be applied to polarization everywhere,\u201d says Heidi Larson. \u201cMy journey in navigating these debates has taught me the power of listening.\u201d https://t.co/ablrA1lklp https://t.co/NWnYMHYLK2"
+  },
+  {
+    "created_at": "2020-12-05T15:40:06.000Z",
+    "id": "1335247586203152384",
+    "public_metrics": {
+      "retweet_count": 489,
+      "reply_count": 134,
+      "like_count": 1652,
+      "quote_count": 60
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 198,
+          "end": 221,
+          "url": "https://t.co/8FR1bYjaE8",
+          "expanded_url": "https://nyti.ms/2VDH51e",
+          "display_url": "nyti.ms/2VDH51e"
+        }
+      ]
+    },
+    "author_id": "807095",
+    "text": "Is getting \"natural immunity\" from Covid-19 better than from a vaccine? The resounding answer from experts: no. \n\nIn fact, those who have recovered from the coronavirus should still get vaccinated. https://t.co/8FR1bYjaE8"
+  },
+  {
+    "created_at": "2020-12-05T11:30:07.000Z",
+    "id": "1335184672645672960",
+    "public_metrics": {
+      "retweet_count": 41,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0
+    },
+    "entities": {
+      "mentions": [
+        {
+          "start": 3,
+          "end": 16,
+          "username": "bencasselman"
+        }
+      ]
+    },
+    "author_id": "807095",
+    "text": "RT @bencasselman: The virus is raging. The recovery is faltering. A vaccine is coming. And so a growing group of politicians and policymake\u2026"
+  },
+  {
+    "created_at": "2020-12-05T07:00:08.000Z",
+    "entities": {
+      "annotations": [
+        {
+          "start": 76,
+          "end": 89,
+          "probability": 0.9962,
+          "type": "Person",
+          "normalized_text": "Boris Johnson"
+        }
+      ],
+      "mentions": [
+        {
+          "start": 3,
+          "end": 16,
+          "username": "nytimesworld"
+        }
+      ]
+    },
+    "id": "1335116732231454720",
+    "public_metrics": {
+      "retweet_count": 113,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0
+    },
+    "author_id": "807095",
+    "text": "RT @nytimesworld: A successful vaccine rollout could be the last chance for Boris  Johnson\u2019s government to show competence, after botching\u2026"
+  },
+  {
+    "created_at": "2020-12-04T21:05:07.000Z",
+    "entities": {
+      "annotations": [
+        {
+          "start": 0,
+          "end": 6,
+          "probability": 0.8336,
+          "type": "Place",
+          "normalized_text": "Bahrain"
+        },
+        {
+          "start": 146,
+          "end": 151,
+          "probability": 0.4921,
+          "type": "Organization",
+          "normalized_text": "Pfizer"
+        },
+        {
+          "start": 186,
+          "end": 192,
+          "probability": 0.9595,
+          "type": "Place",
+          "normalized_text": "Britain"
+        }
+      ],
+      "urls": [
+        {
+          "start": 254,
+          "end": 277,
+          "url": "https://t.co/bG88kyfz32",
+          "expanded_url": "https://nyti.ms/2JT0poo",
+          "display_url": "nyti.ms/2JT0poo"
+        }
+      ]
+    },
+    "id": "1334966988398092288",
+    "public_metrics": {
+      "retweet_count": 41,
+      "reply_count": 12,
+      "like_count": 184,
+      "quote_count": 7
+    },
+    "author_id": "807095",
+    "text": "Bahrain, which has one of the world\u2019s highest rates of coronavirus cases per capita, became the second country to give emergency authorization to Pfizer\u2019s coronavirus vaccine on Friday. Britain was the first country to approve the vaccine on Wednesday.  https://t.co/bG88kyfz32"
+  },
+  {
+    "created_at": "2020-12-04T19:56:09.000Z",
+    "entities": {
+      "annotations": [
+        {
+          "start": 84,
+          "end": 93,
+          "probability": 0.7532,
+          "type": "Person",
+          "normalized_text": "Mike Pence"
+        },
+        {
+          "start": 172,
+          "end": 174,
+          "probability": 0.6429,
+          "type": "Organization",
+          "normalized_text": "CDC"
+        },
+        {
+          "start": 179,
+          "end": 185,
+          "probability": 0.9909,
+          "type": "Place",
+          "normalized_text": "Atlanta"
+        },
+        {
+          "start": 188,
+          "end": 190,
+          "probability": 0.7463,
+          "type": "Organization",
+          "normalized_text": "CDC"
+        }
+      ],
+      "urls": [
+        {
+          "start": 241,
+          "end": 264,
+          "url": "https://t.co/oK0sCFb3eQ",
+          "expanded_url": "https://nyti.ms/37wDDuS",
+          "display_url": "nyti.ms/37wDDuS"
+        },
+        {
+          "start": 265,
+          "end": 288,
+          "url": "https://t.co/DnUvBQFgId",
+          "expanded_url": "https://twitter.com/nytimes/status/1334949635140497408/video/1",
+          "display_url": "pic.twitter.com/DnUvBQFgId"
+        }
+      ]
+    },
+    "id": "1334949635140497408",
+    "public_metrics": {
+      "retweet_count": 49,
+      "reply_count": 149,
+      "like_count": 225,
+      "quote_count": 32
+    },
+    "author_id": "807095",
+    "text": "As coronavirus hospitalizations and daily caseloads shatter records, Vice President Mike Pence sought to offer an upbeat assessment of the pandemic during his visit to the CDC in Atlanta. CDC officials presented a far more sobering picture. https://t.co/oK0sCFb3eQ https://t.co/DnUvBQFgId"
+  },
+  {
+    "created_at": "2020-12-04T19:20:04.000Z",
+    "id": "1334940553461592066",
+    "public_metrics": {
+      "retweet_count": 44,
+      "reply_count": 45,
+      "like_count": 315,
+      "quote_count": 13
+    },
+    "entities": {
+      "mentions": [
+        {
+          "start": 29,
+          "end": 42,
+          "username": "melindagates"
+        },
+        {
+          "start": 52,
+          "end": 60,
+          "username": "dgelles"
+        }
+      ],
+      "urls": [
+        {
+          "start": 253,
+          "end": 276,
+          "url": "https://t.co/8MAPBcK2TT",
+          "expanded_url": "https://nyti.ms/33JVxJk",
+          "display_url": "nyti.ms/33JVxJk"
+        }
+      ]
+    },
+    "author_id": "807095",
+    "text": "In a wide-ranging interview, @melindagates spoke to @dgelles about her definition of success, her coronavirus vaccine optimism and the challenges ahead. \u201cDisinformation is just too easy to spread, and that\u2019s going to cost people their lives,\" she said. https://t.co/8MAPBcK2TT"
+  },
+  {
+    "created_at": "2020-12-04T16:30:09.000Z",
+    "id": "1334897790917496832",
+    "public_metrics": {
+      "retweet_count": 66,
+      "reply_count": 24,
+      "like_count": 276,
+      "quote_count": 7
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 160,
+          "end": 183,
+          "url": "https://t.co/Ntmk2979lC",
+          "expanded_url": "https://nyti.ms/39JkubY",
+          "display_url": "nyti.ms/39JkubY"
+        }
+      ]
+    },
+    "author_id": "807095",
+    "text": "A new study in monkeys suggests that a blood test could predict the effectiveness of Covid-19 vaccines, offering a ray of hope for speeding up clinical trials. https://t.co/Ntmk2979lC"
+  },
+  {
+    "created_at": "2020-12-04T13:05:03.000Z",
+    "entities": {
+      "annotations": [
+        {
+          "start": 0,
+          "end": 7,
+          "probability": 0.9484,
+          "type": "Place",
+          "normalized_text": "New York"
+        }
+      ],
+      "urls": [
+        {
+          "start": 106,
+          "end": 129,
+          "url": "https://t.co/hj6X8XHlFC",
+          "expanded_url": "https://nyti.ms/3lA2WRO",
+          "display_url": "nyti.ms/3lA2WRO"
+        }
+      ]
+    },
+    "id": "1334846178865897472",
+    "public_metrics": {
+      "retweet_count": 59,
+      "reply_count": 41,
+      "like_count": 394,
+      "quote_count": 11
+    },
+    "author_id": "807095",
+    "text": "New York is expected to get its first coronavirus vaccine doses on Dec. 15. Here\u2019s what you need to know. https://t.co/hj6X8XHlFC"
+  },
+  {
+    "created_at": "2020-12-04T12:28:02.000Z",
+    "entities": {
+      "annotations": [
+        {
+          "start": 8,
+          "end": 19,
+          "probability": 0.81,
+          "type": "Person",
+          "normalized_text": "Nancy Pelosi"
+        },
+        {
+          "start": 25,
+          "end": 47,
+          "probability": 0.6047,
+          "type": "Person",
+          "normalized_text": "Senator Mitch McConnell"
+        },
+        {
+          "start": 92,
+          "end": 100,
+          "probability": 0.9959,
+          "type": "Person",
+          "normalized_text": "Joe Biden"
+        }
+      ],
+      "urls": [
+        {
+          "start": 184,
+          "end": 207,
+          "url": "https://t.co/JOo2CGOi0Q",
+          "expanded_url": "https://nyti.ms/3lG7iHd",
+          "display_url": "nyti.ms/3lG7iHd"
+        }
+      ]
+    },
+    "id": "1334836859986468867",
+    "public_metrics": {
+      "retweet_count": 89,
+      "reply_count": 82,
+      "like_count": 609,
+      "quote_count": 12
+    },
+    "author_id": "807095",
+    "text": "Speaker Nancy Pelosi and Senator Mitch McConnell, the majority leader, spoke on Thursday as Joe Biden\u2019s victory and vaccine breakthroughs added momentum to a push for a stimulus deal. https://t.co/JOo2CGOi0Q"
+  },
+  {
+    "created_at": "2020-12-04T11:30:13.000Z",
+    "id": "1334822309706821632",
+    "public_metrics": {
+      "retweet_count": 22,
+      "reply_count": 30,
+      "like_count": 150,
+      "quote_count": 3
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 75,
+          "end": 98,
+          "url": "https://t.co/RwzkKhP8Ar",
+          "expanded_url": "https://nyti.ms/2Vzqv2m",
+          "display_url": "nyti.ms/2Vzqv2m"
+        }
+      ]
+    },
+    "author_id": "807095",
+    "text": "Here's a look at some of the highlights worth watching from late-night TV. https://t.co/RwzkKhP8Ar"
+  },
+  {
+    "created_at": "2020-12-03T22:00:12.000Z",
+    "entities": {
+      "annotations": [
+        {
+          "start": 13,
+          "end": 16,
+          "probability": 0.8629,
+          "type": "Place",
+          "normalized_text": "U.S."
+        },
+        {
+          "start": 31,
+          "end": 42,
+          "probability": 0.9883,
+          "type": "Person",
+          "normalized_text": "Barack Obama"
+        },
+        {
+          "start": 45,
+          "end": 58,
+          "probability": 0.9743,
+          "type": "Person",
+          "normalized_text": "George W. Bush"
+        },
+        {
+          "start": 64,
+          "end": 75,
+          "probability": 0.9951,
+          "type": "Person",
+          "normalized_text": "Bill Clinton"
+        }
+      ],
+      "urls": [
+        {
+          "start": 198,
+          "end": 221,
+          "url": "https://t.co/p3HKef4wIJ",
+          "expanded_url": "https://nyti.ms/33ERONa",
+          "display_url": "nyti.ms/33ERONa"
+        },
+        {
+          "start": 222,
+          "end": 245,
+          "url": "https://t.co/ov5l7BdLjt",
+          "expanded_url": "https://twitter.com/nytimes/status/1334618465337040896/photo/1",
+          "display_url": "pic.twitter.com/ov5l7BdLjt"
+        }
+      ]
+    },
+    "id": "1334618465337040896",
+    "public_metrics": {
+      "retweet_count": 190,
+      "reply_count": 178,
+      "like_count": 1595,
+      "quote_count": 102
+    },
+    "author_id": "807095",
+    "text": "Three former U.S. presidents \u2014 Barack Obama, George W. Bush and Bill Clinton \u2014 have said they would be willing to get a vaccine for Covid-19 publicly to help ensure public confidence in its safety. https://t.co/p3HKef4wIJ https://t.co/ov5l7BdLjt"
+  },
+  {
+    "created_at": "2020-12-03T20:45:04.000Z",
+    "entities": {
+      "annotations": [
+        {
+          "start": 0,
+          "end": 13,
+          "probability": 0.3963,
+          "type": "Organization",
+          "normalized_text": "Cyberattackers"
+        }
+      ],
+      "urls": [
+        {
+          "start": 245,
+          "end": 268,
+          "url": "https://t.co/HEfe0W20sf",
+          "expanded_url": "https://nyti.ms/37vbdkR",
+          "display_url": "nyti.ms/37vbdkR"
+        }
+      ]
+    },
+    "id": "1334599555590053889",
+    "public_metrics": {
+      "retweet_count": 57,
+      "reply_count": 15,
+      "like_count": 127,
+      "quote_count": 19
+    },
+    "author_id": "807095",
+    "text": "Cyberattackers are aiming at organizations that will be distributing coronavirus vaccines around the world. It is unclear whether the goal is to steal the technology for keeping the vaccines refrigerated in transit or to sabotage the movements. https://t.co/HEfe0W20sf"
+  },
+  {
+    "created_at": "2020-12-03T19:22:02.000Z",
+    "entities": {
+      "annotations": [
+        {
+          "start": 0,
+          "end": 7,
+          "probability": 0.7243,
+          "type": "Organization",
+          "normalized_text": "Facebook"
+        }
+      ],
+      "urls": [
+        {
+          "start": 248,
+          "end": 271,
+          "url": "https://t.co/qKCrSmYK1n",
+          "expanded_url": "https://nyti.ms/3mHehkj",
+          "display_url": "nyti.ms/3mHehkj"
+        }
+      ]
+    },
+    "id": "1334578661815672833",
+    "public_metrics": {
+      "retweet_count": 59,
+      "reply_count": 74,
+      "like_count": 355,
+      "quote_count": 18
+    },
+    "author_id": "807095",
+    "text": "Facebook on Thursday said it would remove posts that contain claims about Covid-19 vaccines that have been debunked by public health experts. The social network has long been hesitant to determine what is true or false information on its platform.\nhttps://t.co/qKCrSmYK1n"
+  },
+  {
+    "created_at": "2020-12-03T18:30:09.000Z",
+    "entities": {
+      "annotations": [
+        {
+          "start": 48,
+          "end": 54,
+          "probability": 0.9696,
+          "type": "Place",
+          "normalized_text": "Britain"
+        },
+        {
+          "start": 71,
+          "end": 74,
+          "probability": 0.9527,
+          "type": "Place",
+          "normalized_text": "U.S."
+        }
+      ],
+      "urls": [
+        {
+          "start": 252,
+          "end": 275,
+          "url": "https://t.co/k7TpVpUJIi",
+          "expanded_url": "https://nyti.ms/3qA9gwq",
+          "display_url": "nyti.ms/3qA9gwq"
+        }
+      ]
+    },
+    "id": "1334565603126992901",
+    "public_metrics": {
+      "retweet_count": 33,
+      "reply_count": 47,
+      "like_count": 153,
+      "quote_count": 11
+    },
+    "author_id": "807095",
+    "text": "British and American officials sparred over how Britain had beaten the U.S. to authorize a coronavirus vaccine. Scientists bemoaned the debate over which country has a better regulatory system, saying it could undermine the public\u2019s faith in vaccines. https://t.co/k7TpVpUJIi"
+  },
+  {
+    "created_at": "2020-12-03T17:45:06.000Z",
+    "entities": {
+      "annotations": [
+        {
+          "start": 175,
+          "end": 178,
+          "probability": 0.6101,
+          "type": "Place",
+          "normalized_text": "U.S."
+        }
+      ],
+      "mentions": [
+        {
+          "start": 96,
+          "end": 112,
+          "username": "stuartathompson"
+        }
+      ],
+      "urls": [
+        {
+          "start": 236,
+          "end": 259,
+          "url": "https://t.co/TOhiQbyMWm",
+          "expanded_url": "https://nyti.ms/2JAGtaj",
+          "display_url": "nyti.ms/2JAGtaj"
+        }
+      ]
+    },
+    "id": "1334554267760332801",
+    "public_metrics": {
+      "retweet_count": 156,
+      "reply_count": 64,
+      "like_count": 334,
+      "quote_count": 135
+    },
+    "author_id": "807095",
+    "text": "In Opinion\n\nImagine the Covid-19 vaccine line was 100 people long. Where would you be standing? @stuartathompson measured the number of people who will need a vaccine in each U.S. state and county. See where you might fit in that line. https://t.co/TOhiQbyMWm"
+  },
+  {
+    "created_at": "2020-12-03T13:45:03.000Z",
+    "entities": {
+      "annotations": [
+        {
+          "start": 44,
+          "end": 45,
+          "probability": 0.9236,
+          "type": "Place",
+          "normalized_text": "NY"
+        }
+      ],
+      "mentions": [
+        {
+          "start": 3,
+          "end": 17,
+          "username": "jessemckinley"
+        },
+        {
+          "start": 68,
+          "end": 79,
+          "username": "NYGovCuomo"
+        },
+        {
+          "start": 117,
+          "end": 131,
+          "username": "JoeKGoldstein"
+        }
+      ]
+    },
+    "id": "1334493855719284736",
+    "public_metrics": {
+      "retweet_count": 33,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0
+    },
+    "author_id": "807095",
+    "text": "RT @jessemckinley: The vaccine is coming to NY, within 2 weeks, per @NYGovCuomo.\n\nBut who is getting it, and when? \n\n@JoeKGoldstein and I l\u2026"
+  },
+  {
+    "created_at": "2020-12-03T13:30:04.000Z",
+    "entities": {
+      "annotations": [
+        {
+          "start": 38,
+          "end": 40,
+          "probability": 0.959,
+          "type": "Organization",
+          "normalized_text": "IBM"
+        }
+      ],
+      "urls": [
+        {
+          "start": 167,
+          "end": 190,
+          "url": "https://t.co/CuPtAhTYAj",
+          "expanded_url": "https://nyti.ms/3gb0QXy",
+          "display_url": "nyti.ms/3gb0QXy"
+        }
+      ]
+    },
+    "id": "1334490084360548352",
+    "public_metrics": {
+      "retweet_count": 208,
+      "reply_count": 50,
+      "like_count": 375,
+      "quote_count": 58
+    },
+    "author_id": "807095",
+    "text": "A series of cyberattacks is underway, IBM says. It aims at the companies and government organizations that will be distributing coronavirus vaccines around the world. https://t.co/CuPtAhTYAj"
+  },
+  {
+    "created_at": "2020-12-02T23:54:09.000Z",
+    "entities": {
+      "annotations": [
+        {
+          "start": 48,
+          "end": 53,
+          "probability": 0.9162,
+          "type": "Person",
+          "normalized_text": "Zimmer"
+        }
+      ],
+      "urls": [
+        {
+          "start": 222,
+          "end": 245,
+          "url": "https://t.co/1DfNbaP84j",
+          "expanded_url": "http://nyti.ms/36u98qa",
+          "display_url": "nyti.ms/36u98qa"
+        },
+        {
+          "start": 246,
+          "end": 269,
+          "url": "https://t.co/Gw1v30uG3b",
+          "expanded_url": "https://twitter.com/nytimes/status/1334284750786322433/photo/1",
+          "display_url": "pic.twitter.com/Gw1v30uG3b"
+        }
+      ]
+    },
+    "id": "1334284750786322433",
+    "public_metrics": {
+      "retweet_count": 102,
+      "reply_count": 20,
+      "like_count": 282,
+      "quote_count": 16
+    },
+    "author_id": "807095",
+    "text": "\u201cFirst of all, you\u2019re going to need two shots,\u201d Zimmer explains. \u201cAfter your first shot, you\u2019re not fully vaccinated. Second of all, after your second shot it\u2019s going to take awhile for you to get maximum immunity.\u201d\n\nAnd\u2026\u00a0https://t.co/1DfNbaP84j https://t.co/Gw1v30uG3b"
+  },
+  {
+    "created_at": "2020-12-02T23:52:54.000Z",
+    "entities": {
+      "annotations": [
+        {
+          "start": 86,
+          "end": 96,
+          "probability": 0.9981,
+          "type": "Person",
+          "normalized_text": "Carl Zimmer"
+        }
+      ],
+      "urls": [
+        {
+          "start": 226,
+          "end": 249,
+          "url": "https://t.co/c74z2HFCzJ",
+          "expanded_url": "https://nyti.ms/36u98qa",
+          "display_url": "nyti.ms/36u98qa"
+        }
+      ]
+    },
+    "id": "1334284439292096513",
+    "public_metrics": {
+      "retweet_count": 167,
+      "reply_count": 45,
+      "like_count": 594,
+      "quote_count": 36
+    },
+    "author_id": "807095",
+    "text": "After you get a Covid vaccine, can you just return to normal life? Our science writer Carl Zimmer answers that question and more about what life will look like over the next few months.\n\n(The answer is no, by the way. Sorry.) https://t.co/c74z2HFCzJ"
+  },
+  {
+    "created_at": "2020-12-02T21:02:03.000Z",
+    "entities": {
+      "annotations": [
+        {
+          "start": 69,
+          "end": 74,
+          "probability": 0.9918,
+          "type": "Place",
+          "normalized_text": "Europe"
+        },
+        {
+          "start": 114,
+          "end": 120,
+          "probability": 0.9955,
+          "type": "Place",
+          "normalized_text": "Britain"
+        }
+      ],
+      "urls": [
+        {
+          "start": 133,
+          "end": 156,
+          "url": "https://t.co/IH0srvj73a",
+          "expanded_url": "https://www.nytimes.com/2020/12/02/world/europe/uk-covid-vaccine-pfizer.html?smid=tw-nytimes&smtyp=cur",
+          "display_url": "nytimes.com/2020/12/02/wor\u2026"
+        }
+      ]
+    },
+    "id": "1334241440214495234",
+    "public_metrics": {
+      "retweet_count": 10,
+      "reply_count": 4,
+      "like_count": 27,
+      "quote_count": 2
+    },
+    "author_id": "807095",
+    "text": "More answers to your questions about what this means for the rest of Europe, the logistics of vaccine delivery in Britain, and more: https://t.co/IH0srvj73a"
+  },
+  {
+    "created_at": "2020-12-02T21:02:02.000Z",
+    "entities": {
+      "annotations": [
+        {
+          "start": 36,
+          "end": 42,
+          "probability": 0.996,
+          "type": "Place",
+          "normalized_text": "Britain"
+        }
+      ],
+      "urls": [
+        {
+          "start": 74,
+          "end": 97,
+          "url": "https://t.co/IH0srvj73a",
+          "expanded_url": "https://www.nytimes.com/2020/12/02/world/europe/uk-covid-vaccine-pfizer.html?smid=tw-nytimes&smtyp=cur",
+          "display_url": "nytimes.com/2020/12/02/wor\u2026"
+        },
+        {
+          "start": 98,
+          "end": 121,
+          "url": "https://t.co/dMkAT1ULUo",
+          "expanded_url": "https://twitter.com/nytimes/status/1334241437987303427/photo/1",
+          "display_url": "pic.twitter.com/dMkAT1ULUo"
+        }
+      ]
+    },
+    "id": "1334241437987303427",
+    "public_metrics": {
+      "retweet_count": 12,
+      "reply_count": 7,
+      "like_count": 92,
+      "quote_count": 5
+    },
+    "author_id": "807095",
+    "text": "When will the first doses arrive in Britain, and who will get them first?\nhttps://t.co/IH0srvj73a https://t.co/dMkAT1ULUo"
+  },
+  {
+    "created_at": "2020-12-02T21:02:01.000Z",
+    "entities": {
+      "annotations": [
+        {
+          "start": 8,
+          "end": 14,
+          "probability": 0.967,
+          "type": "Place",
+          "normalized_text": "Britain"
+        },
+        {
+          "start": 47,
+          "end": 50,
+          "probability": 0.9323,
+          "type": "Place",
+          "normalized_text": "U.S."
+        }
+      ],
+      "urls": [
+        {
+          "start": 53,
+          "end": 76,
+          "url": "https://t.co/7bPlEo0I9j",
+          "expanded_url": "https://www.nytimes.com/2020/12/02/world/europe/uk-covid-vaccine-pfizer.html?smid=tw-nytimes&smtyp=cur",
+          "display_url": "nytimes.com/2020/12/02/wor\u2026"
+        },
+        {
+          "start": 77,
+          "end": 100,
+          "url": "https://t.co/LHorf4q8ZE",
+          "expanded_url": "https://twitter.com/nytimes/status/1334241432673062921/photo/1",
+          "display_url": "pic.twitter.com/LHorf4q8ZE"
+        }
+      ]
+    },
+    "id": "1334241432673062921",
+    "public_metrics": {
+      "retweet_count": 36,
+      "reply_count": 17,
+      "like_count": 182,
+      "quote_count": 15
+    },
+    "author_id": "807095",
+    "text": "Why did Britain authorize a vaccine before the U.S.?\nhttps://t.co/7bPlEo0I9j https://t.co/LHorf4q8ZE"
+  },
+  {
+    "created_at": "2020-12-02T21:00:07.000Z",
+    "id": "1334240957533917188",
+    "public_metrics": {
+      "retweet_count": 97,
+      "reply_count": 31,
+      "like_count": 326,
+      "quote_count": 15
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 256,
+          "end": 279,
+          "url": "https://t.co/xcCEvgzZ4G",
+          "expanded_url": "https://nyti.ms/3o9Kotk",
+          "display_url": "nyti.ms/3o9Kotk"
+        }
+      ]
+    },
+    "author_id": "807095",
+    "text": "Moderna, which says its vaccine is 94.1% effective in adults, will soon begin testing it in children ages 12 through 17. Vaccines meant for both adults and children are generally tested first in adults to help make sure they are safe for pediatric trials. https://t.co/xcCEvgzZ4G"
+  },
+  {
+    "created_at": "2020-12-02T20:45:09.000Z",
+    "entities": {
+      "annotations": [
+        {
+          "start": 111,
+          "end": 122,
+          "probability": 0.99,
+          "type": "Person",
+          "normalized_text": "Andrew Cuomo"
+        }
+      ],
+      "urls": [
+        {
+          "start": 247,
+          "end": 270,
+          "url": "https://t.co/rN8ffZip29",
+          "expanded_url": "https://nyti.ms/2L2GhB5",
+          "display_url": "nyti.ms/2L2GhB5"
+        },
+        {
+          "start": 271,
+          "end": 294,
+          "url": "https://t.co/pCw7AEMhSC",
+          "expanded_url": "https://twitter.com/nytimes/status/1334237190453420032/video/1",
+          "display_url": "pic.twitter.com/pCw7AEMhSC"
+        }
+      ]
+    },
+    "id": "1334237190453420032",
+    "public_metrics": {
+      "retweet_count": 51,
+      "reply_count": 29,
+      "like_count": 261,
+      "quote_count": 14
+    },
+    "author_id": "807095",
+    "text": "If authorized by federal regulators, vaccine doses for about 170,000 New Yorkers could arrive on Dec. 15, Gov. Andrew Cuomo said. The state will prioritize people living and working in nursing homes, and then the most at-risk health care workers. https://t.co/rN8ffZip29 https://t.co/pCw7AEMhSC"
+  },
+  {
+    "created_at": "2020-12-02T18:10:04.000Z",
+    "entities": {
+      "annotations": [
+        {
+          "start": 0,
+          "end": 5,
+          "probability": 0.9948,
+          "type": "Place",
+          "normalized_text": "Brazil"
+        }
+      ],
+      "urls": [
+        {
+          "start": 155,
+          "end": 178,
+          "url": "https://t.co/WrOLeq9km8",
+          "expanded_url": "https://nyti.ms/2KVkQlb",
+          "display_url": "nyti.ms/2KVkQlb"
+        }
+      ]
+    },
+    "id": "1334198162639233027",
+    "public_metrics": {
+      "retweet_count": 86,
+      "reply_count": 85,
+      "like_count": 748,
+      "quote_count": 34
+    },
+    "author_id": "807095",
+    "text": "Brazil will prioritize Indigenous people and the elderly when a coronavirus vaccine became available there, the country\u2019s health ministry said on Tuesday. https://t.co/WrOLeq9km8"
+  },
+  {
+    "created_at": "2020-12-02T17:15:11.000Z",
+    "entities": {
+      "annotations": [
+        {
+          "start": 25,
+          "end": 39,
+          "probability": 0.9698,
+          "type": "Person",
+          "normalized_text": "Drs. Ugur Sahin"
+        },
+        {
+          "start": 45,
+          "end": 56,
+          "probability": 0.935,
+          "type": "Person",
+          "normalized_text": "\u00d6zlem T\u00fcreci"
+        },
+        {
+          "start": 140,
+          "end": 146,
+          "probability": 0.9984,
+          "type": "Place",
+          "normalized_text": "Germany"
+        },
+        {
+          "start": 149,
+          "end": 162,
+          "probability": 0.9696,
+          "type": "Person",
+          "normalized_text": "Anna Sauerbrey"
+        }
+      ],
+      "urls": [
+        {
+          "start": 254,
+          "end": 277,
+          "url": "https://t.co/6XXzKqkSHu",
+          "expanded_url": "https://nyti.ms/36t4etx",
+          "display_url": "nyti.ms/36t4etx"
+        }
+      ]
+    },
+    "id": "1334184351161069574",
+    "public_metrics": {
+      "retweet_count": 193,
+      "reply_count": 44,
+      "like_count": 671,
+      "quote_count": 29
+    },
+    "author_id": "807095",
+    "text": "In Opinion\n\nThe story of Drs. Ugur Sahin and \u00d6zlem T\u00fcreci, who founded BioNTech, promised to challenge the resentment against immigrants in Germany, Anna Sauerbrey writes. But in heralding them, many repeated the central tenets of anti-migrant thinking. https://t.co/6XXzKqkSHu"
+  },
+  {
+    "created_at": "2020-12-02T13:45:06.000Z",
+    "entities": {
+      "annotations": [
+        {
+          "start": 72,
+          "end": 75,
+          "probability": 0.9756,
+          "type": "Place",
+          "normalized_text": "U.S."
+        }
+      ],
+      "mentions": [
+        {
+          "start": 3,
+          "end": 14,
+          "username": "nytopinion"
+        }
+      ]
+    },
+    "id": "1334131480520515584",
+    "public_metrics": {
+      "retweet_count": 111,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0
+    },
+    "author_id": "807095",
+    "text": "RT @nytopinion: The flu vaccine is cheap and readily available, but the U.S. doesn\u2019t give it to migrant children in its custody.\n\nKids are\u2026"
+  },
+  {
+    "created_at": "2020-12-02T07:21:09.000Z",
+    "entities": {
+      "annotations": [
+        {
+          "start": 15,
+          "end": 21,
+          "probability": 0.9428,
+          "type": "Place",
+          "normalized_text": "Britain"
+        },
+        {
+          "start": 53,
+          "end": 58,
+          "probability": 0.6847,
+          "type": "Organization",
+          "normalized_text": "Pfizer"
+        }
+      ],
+      "urls": [
+        {
+          "start": 165,
+          "end": 188,
+          "url": "https://t.co/0P42fbJCKS",
+          "expanded_url": "https://nyti.ms/39BPdYe",
+          "display_url": "nyti.ms/39BPdYe"
+        }
+      ]
+    },
+    "id": "1334034855437475841",
+    "public_metrics": {
+      "retweet_count": 956,
+      "reply_count": 130,
+      "like_count": 4089,
+      "quote_count": 315
+    },
+    "author_id": "807095",
+    "text": "Breaking News: Britain granted emergency approval to Pfizer\u2019s coronavirus vaccine, the first Western country to allow its health service to begin mass inoculations. https://t.co/0P42fbJCKS"
+  },
+  {
+    "created_at": "2020-12-01T23:07:07.000Z",
+    "entities": {
+      "annotations": [
+        {
+          "start": 106,
+          "end": 109,
+          "probability": 0.9761,
+          "type": "Place",
+          "normalized_text": "U.S."
+        },
+        {
+          "start": 172,
+          "end": 174,
+          "probability": 0.5398,
+          "type": "Organization",
+          "normalized_text": "CDC"
+        }
+      ],
+      "urls": [
+        {
+          "start": 182,
+          "end": 205,
+          "url": "https://t.co/Xn59qjzyBK",
+          "expanded_url": "https://nyti.ms/3luBXHl",
+          "display_url": "nyti.ms/3luBXHl"
+        }
+      ]
+    },
+    "id": "1333910529182666758",
+    "public_metrics": {
+      "retweet_count": 250,
+      "reply_count": 84,
+      "like_count": 1073,
+      "quote_count": 127
+    },
+    "author_id": "807095",
+    "text": "Breaking News: Long-term care residents and at-risk health care workers should be the first people in the U.S. to get coronavirus vaccines, a panel of experts advising the CDC said. https://t.co/Xn59qjzyBK"
+  },
+  {
+    "created_at": "2020-12-01T21:30:08.000Z",
+    "id": "1333886123496628231",
+    "public_metrics": {
+      "retweet_count": 41,
+      "reply_count": 25,
+      "like_count": 195,
+      "quote_count": 6
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 220,
+          "end": 243,
+          "url": "https://t.co/HRyiA8fMeG",
+          "expanded_url": "https://nyti.ms/2KN35o7",
+          "display_url": "nyti.ms/2KN35o7"
+        }
+      ]
+    },
+    "author_id": "807095",
+    "text": "The global race to develop a vaccine is poised to shatter records for time to market. Around the world, researchers are testing 57 vaccines in clinical trials, and nearly 100 others are being tested in animals or cells. https://t.co/HRyiA8fMeG"
+  },
+  {
+    "created_at": "2020-12-01T15:50:04.000Z",
+    "entities": {
+      "annotations": [
+        {
+          "start": 0,
+          "end": 15,
+          "probability": 0.9734,
+          "type": "Person",
+          "normalized_text": "Dr. Stephen Hahn"
+        },
+        {
+          "start": 22,
+          "end": 24,
+          "probability": 0.9058,
+          "type": "Organization",
+          "normalized_text": "FDA"
+        },
+        {
+          "start": 60,
+          "end": 70,
+          "probability": 0.9375,
+          "type": "Place",
+          "normalized_text": "White House"
+        },
+        {
+          "start": 98,
+          "end": 103,
+          "probability": 0.6784,
+          "type": "Organization",
+          "normalized_text": "Pfizer"
+        }
+      ],
+      "urls": [
+        {
+          "start": 255,
+          "end": 278,
+          "url": "https://t.co/JquvJVEsnj",
+          "expanded_url": "https://nyti.ms/39vXxIV",
+          "display_url": "nyti.ms/39vXxIV"
+        }
+      ]
+    },
+    "id": "1333800543144165376",
+    "public_metrics": {
+      "retweet_count": 70,
+      "reply_count": 69,
+      "like_count": 361,
+      "quote_count": 24
+    },
+    "author_id": "807095",
+    "text": "Dr. Stephen Hahn, the FDA commissioner, was summoned to the White House on Tuesday to explain why Pfizer\u2019s virus vaccine has yet to be cleared for emergency use. An agency spokesperson said \u201cthousands of pages of technical information\" were under review. https://t.co/JquvJVEsnj"
+  },
+  {
+    "created_at": "2020-12-01T14:28:04.000Z",
+    "entities": {
+      "annotations": [
+        {
+          "start": 32,
+          "end": 34,
+          "probability": 0.6887,
+          "type": "Organization",
+          "normalized_text": "CDC"
+        },
+        {
+          "start": 62,
+          "end": 70,
+          "probability": 0.4742,
+          "type": "Person",
+          "normalized_text": "Americans"
+        }
+      ],
+      "urls": [
+        {
+          "start": 180,
+          "end": 203,
+          "url": "https://t.co/IACpsv7twM",
+          "expanded_url": "https://nyti.ms/3fUAl8H",
+          "display_url": "nyti.ms/3fUAl8H"
+        }
+      ]
+    },
+    "id": "1333779903968374784",
+    "public_metrics": {
+      "retweet_count": 59,
+      "reply_count": 59,
+      "like_count": 273,
+      "quote_count": 27
+    },
+    "author_id": "807095",
+    "text": "A panel of experts advising the CDC is set to decide on which Americans it will recommend to get the coronavirus vaccine first, while supply is still short. Here\u2019s what to expect. https://t.co/IACpsv7twM"
+  },
+  {
+    "created_at": "2020-12-01T14:10:07.000Z",
+    "entities": {
+      "annotations": [
+        {
+          "start": 0,
+          "end": 5,
+          "probability": 0.8186,
+          "type": "Organization",
+          "normalized_text": "Pfizer"
+        },
+        {
+          "start": 11,
+          "end": 18,
+          "probability": 0.5913,
+          "type": "Organization",
+          "normalized_text": "BioNTech"
+        }
+      ],
+      "urls": [
+        {
+          "start": 172,
+          "end": 195,
+          "url": "https://t.co/CZnrh2ngS9",
+          "expanded_url": "https://nyti.ms/39JerEn",
+          "display_url": "nyti.ms/39JerEn"
+        }
+      ]
+    },
+    "id": "1333775389089521669",
+    "public_metrics": {
+      "retweet_count": 126,
+      "reply_count": 28,
+      "like_count": 555,
+      "quote_count": 24
+    },
+    "author_id": "807095",
+    "text": "Pfizer and BioNTech have submitted their final application to the European health authorities for approval of their Covid-19 vaccine, which could come as early as Dec. 29. https://t.co/CZnrh2ngS9"
+  },
+  {
+    "created_at": "2020-12-01T05:20:05.000Z",
+    "entities": {
+      "annotations": [
+        {
+          "start": 119,
+          "end": 155,
+          "probability": 0.7188,
+          "type": "Organization",
+          "normalized_text": "International Federation of Red Cross"
+        }
+      ],
+      "urls": [
+        {
+          "start": 241,
+          "end": 264,
+          "url": "https://t.co/rDdMuMVBLj",
+          "expanded_url": "https://nyti.ms/33rGW5i",
+          "display_url": "nyti.ms/33rGW5i"
+        }
+      ]
+    },
+    "id": "1333642001112309761",
+    "public_metrics": {
+      "retweet_count": 85,
+      "reply_count": 38,
+      "like_count": 310,
+      "quote_count": 20
+    },
+    "author_id": "807095",
+    "text": "Misinformation and mistrust could hinder efforts to distribute a coronavirus vaccine around the world, the head of the International Federation of Red Cross warned on Monday, even as countries scramble to secure doses for their populations. https://t.co/rDdMuMVBLj"
+  },
+  {
+    "created_at": "2020-12-01T04:00:11.000Z",
+    "entities": {
+      "annotations": [
+        {
+          "start": 117,
+          "end": 120,
+          "probability": 0.9469,
+          "type": "Place",
+          "normalized_text": "U.S."
+        },
+        {
+          "start": 171,
+          "end": 175,
+          "probability": 0.537,
+          "type": "Place",
+          "normalized_text": "Covid"
+        }
+      ],
+      "urls": [
+        {
+          "start": 255,
+          "end": 278,
+          "url": "https://t.co/LGx9yYSHFc",
+          "expanded_url": "https://nyti.ms/39tZPbN",
+          "display_url": "nyti.ms/39tZPbN"
+        }
+      ]
+    },
+    "id": "1333621894965288967",
+    "public_metrics": {
+      "retweet_count": 68,
+      "reply_count": 56,
+      "like_count": 270,
+      "quote_count": 28
+    },
+    "author_id": "807095",
+    "text": "Incarcerated people are not ranked as a high priority for receiving the coronavirus vaccine, even though some of the U.S.\u2019s largest outbreaks have occurred in prisons and Covid-19 mortality rates among prisoners are higher than in the general population. https://t.co/LGx9yYSHFc"
+  },
+  {
+    "created_at": "2020-11-30T21:11:57.000Z",
+    "entities": {
+      "annotations": [
+        {
+          "start": 88,
+          "end": 91,
+          "probability": 0.9817,
+          "type": "Place",
+          "normalized_text": "U.S."
+        }
+      ],
+      "urls": [
+        {
+          "start": 125,
+          "end": 148,
+          "url": "https://t.co/jTyoeReOGa",
+          "expanded_url": "https://www.nytimes.com/2020/10/12/health/coronavirus-pandemic-vaccine-optimism.html?smid=tw-nytimes&smtyp=cur",
+          "display_url": "nytimes.com/2020/10/12/hea\u2026"
+        }
+      ]
+    },
+    "id": "1333519156180774912",
+    "public_metrics": {
+      "retweet_count": 32,
+      "reply_count": 7,
+      "like_count": 174,
+      "quote_count": 3
+    },
+    "author_id": "807095",
+    "text": "In mid-October, experts offered a dose of cautious optimism, saying the epidemic in the U.S. might end sooner than expected. https://t.co/jTyoeReOGa"
+  },
+  {
+    "created_at": "2020-11-30T19:50:05.000Z",
+    "entities": {
+      "annotations": [
+        {
+          "start": 0,
+          "end": 14,
+          "probability": 0.5133,
+          "type": "Organization",
+          "normalized_text": "Moderna\u2019s stock"
+        },
+        {
+          "start": 128,
+          "end": 130,
+          "probability": 0.7644,
+          "type": "Organization",
+          "normalized_text": "FDA"
+        }
+      ],
+      "urls": [
+        {
+          "start": 251,
+          "end": 274,
+          "url": "https://t.co/hoO5uHC8Cj",
+          "expanded_url": "https://nyti.ms/3o9SjXE",
+          "display_url": "nyti.ms/3o9SjXE"
+        }
+      ]
+    },
+    "id": "1333498553898033152",
+    "public_metrics": {
+      "retweet_count": 56,
+      "reply_count": 26,
+      "like_count": 240,
+      "quote_count": 12
+    },
+    "author_id": "807095",
+    "text": "Moderna\u2019s stock has more than doubled this month, and surged 15% on Monday, after the company said it would apply for emergency FDA approval for its coronavirus vaccine. The first shots could be given as early as Dec. 21, if authorization is granted. https://t.co/hoO5uHC8Cj"
+  },
+  {
+    "id": "1335917038351618055",
+    "created_at": "2020-12-07T12:00:16.000Z",
+    "text": "How the US hopes to avoid bottlenecks in much-needed vaccine supplies\u00a0  https://t.co/mrwF0iNanl",
+    "entities": {
+      "urls": [
+        {
+          "start": 72,
+          "end": 95,
+          "url": "https://t.co/mrwF0iNanl",
+          "expanded_url": "https://www.vox.com/recode/22151473/vaccine-covid-19-pfizer-glass-syringes-needles-freezers?utm_campaign=vox&utm_content=chorus&utm_medium=social&utm_source=twitter",
+          "display_url": "vox.com/recode/2215147\u2026"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 8,
+          "end": 9,
+          "probability": 0.9193,
+          "type": "Place",
+          "normalized_text": "US"
+        }
+      ]
+    },
+    "author_id": "2347049341",
+    "public_metrics": {
+      "retweet_count": 9,
+      "reply_count": 2,
+      "like_count": 24,
+      "quote_count": 2
+    }
+  },
+  {
+    "id": "1334967749672656898",
+    "created_at": "2020-12-04T21:08:08.000Z",
+    "text": "3/3 Earlier this week, Moderna reported more results on its Covid-19 mRNA #vaccine.\n\nNew research finds that the vaccine appears to protect against severe disease, not just asymptomatic or mild cases.\n\nModerna is now seeking FDA approval for emergency use.\nhttps://t.co/Q0PAEqmgA9",
+    "entities": {
+      "urls": [
+        {
+          "start": 257,
+          "end": 280,
+          "url": "https://t.co/Q0PAEqmgA9",
+          "expanded_url": "https://www.vox.com/2020/11/30/21726327/moderna-covid-19-vaccine-results",
+          "display_url": "vox.com/2020/11/30/217\u2026"
+        }
+      ],
+      "hashtags": [
+        {
+          "start": 74,
+          "end": 82,
+          "tag": "vaccine"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 225,
+          "end": 227,
+          "probability": 0.7489,
+          "type": "Organization",
+          "normalized_text": "FDA"
+        }
+      ]
+    },
+    "author_id": "2347049341",
+    "public_metrics": {
+      "retweet_count": 5,
+      "reply_count": 0,
+      "like_count": 17,
+      "quote_count": 0
+    }
+  },
+  {
+    "id": "1334967748712083456",
+    "created_at": "2020-12-04T21:08:08.000Z",
+    "text": "2/ The UK is the first country to approve the Pfizer/BioNTech vaccine and the first government approval of a vaccine backed by a clinical trial.\n\nSome countries like Russia and China began administering their vaccines before completing large-scale trials. https://t.co/J4HmDwg0SX",
+    "entities": {
+      "urls": [
+        {
+          "start": 256,
+          "end": 279,
+          "url": "https://t.co/J4HmDwg0SX",
+          "expanded_url": "https://www.vox.com/2020/12/2/21983642/uk-first-approves-pfizer-vaccine-biontech-covid-19",
+          "display_url": "vox.com/2020/12/2/2198\u2026"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 7,
+          "end": 8,
+          "probability": 0.8571,
+          "type": "Place",
+          "normalized_text": "UK"
+        },
+        {
+          "start": 46,
+          "end": 51,
+          "probability": 0.3847,
+          "type": "Organization",
+          "normalized_text": "Pfizer"
+        },
+        {
+          "start": 166,
+          "end": 171,
+          "probability": 0.9946,
+          "type": "Place",
+          "normalized_text": "Russia"
+        },
+        {
+          "start": 177,
+          "end": 181,
+          "probability": 0.9886,
+          "type": "Place",
+          "normalized_text": "China"
+        }
+      ]
+    },
+    "author_id": "2347049341",
+    "public_metrics": {
+      "retweet_count": 4,
+      "reply_count": 1,
+      "like_count": 8,
+      "quote_count": 0
+    }
+  },
+  {
+    "id": "1334967747642601475",
+    "created_at": "2020-12-04T21:08:08.000Z",
+    "text": "1/ This week in #Covid19 vaccine news:\n\nOn Wednesday, the UK granted temporary authorization for emergency use of Pfizer/BioNTech's vaccine to adults age 16 and older.\n\nThe first 800,000 doses are slated to be offered next week.\nhttps://t.co/J4HmDwg0SX",
+    "entities": {
+      "urls": [
+        {
+          "start": 229,
+          "end": 252,
+          "url": "https://t.co/J4HmDwg0SX",
+          "expanded_url": "https://www.vox.com/2020/12/2/21983642/uk-first-approves-pfizer-vaccine-biontech-covid-19",
+          "display_url": "vox.com/2020/12/2/2198\u2026"
+        }
+      ],
+      "hashtags": [
+        {
+          "start": 16,
+          "end": 24,
+          "tag": "Covid19"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 58,
+          "end": 59,
+          "probability": 0.9338,
+          "type": "Place",
+          "normalized_text": "UK"
+        }
+      ]
+    },
+    "author_id": "2347049341",
+    "public_metrics": {
+      "retweet_count": 6,
+      "reply_count": 1,
+      "like_count": 15,
+      "quote_count": 0
+    }
+  },
+  {
+    "id": "1334237176683524101",
+    "created_at": "2020-12-02T20:45:06.000Z",
+    "text": "The Advisory Committee on Immunization Practices met to advise on which Americans should get the Covid-19 vaccine first.\n\nThey voted to prioritize health care personnel and staff and residents of long-term care facilities.\nhttps://t.co/19XVvQlIyi",
+    "entities": {
+      "urls": [
+        {
+          "start": 223,
+          "end": 246,
+          "url": "https://t.co/19XVvQlIyi",
+          "expanded_url": "https://trib.al/OnAqSfj",
+          "display_url": "trib.al/OnAqSfj",
+          "images": [
+            {
+              "url": "https://pbs.twimg.com/news_img/1334156165824081920/VF8ksjQQ?format=jpg&name=orig",
+              "width": 1200,
+              "height": 600
+            },
+            {
+              "url": "https://pbs.twimg.com/news_img/1334156165824081920/VF8ksjQQ?format=jpg&name=150x150",
+              "width": 150,
+              "height": 150
+            }
+          ],
+          "status": 200,
+          "title": "Who will get the Covid-19 vaccine first? A CDC advisory panel just weighed in.",
+          "description": "Health workers and people in long-term care facilities take priority but experts said the advice wasn\u2019t specific enough.",
+          "unwound_url": "https://www.vox.com/2020/12/2/21754854/covid-19-vaccine-cdc-advisory-recommendation?utm_campaign=vox.social&utm_medium=social&utm_source=twitter&utm_content=voxdotcom"
+        }
+      ]
+    },
+    "author_id": "2347049341",
+    "public_metrics": {
+      "retweet_count": 5,
+      "reply_count": 2,
+      "like_count": 28,
+      "quote_count": 0
+    }
+  },
+  {
+    "id": "1334176780865900544",
+    "created_at": "2020-12-02T16:45:07.000Z",
+    "text": "RT @juliaoftoronto: ACIP, the panel advising @CDC on how vaccines should be distributed, said health workers and people in long-term care f\u2026",
+    "author_id": "2347049341",
+    "public_metrics": {
+      "retweet_count": 5,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0
+    },
+    "entities": {
+      "mentions": [
+        {
+          "start": 3,
+          "end": 18,
+          "username": "juliaoftoronto"
+        },
+        {
+          "start": 45,
+          "end": 49,
+          "username": "cdc"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1334166371698139138",
+    "created_at": "2020-12-02T16:03:45.000Z",
+    "text": "The US is waiting on emergency approval for two Covid-19 vaccines:\n\nPfizer and BioNTech and Moderna have both applied for Emergency Use Authorization from the FDA.\n\nIf granted, these approvals would mark the fastest vaccine development timeline ever: https://t.co/pRG61IDaW7",
+    "entities": {
+      "urls": [
+        {
+          "start": 251,
+          "end": 274,
+          "url": "https://t.co/pRG61IDaW7",
+          "expanded_url": "https://www.vox.com/2020/12/2/21983642/uk-approves-pfizer-vaccine-biontech-covid-19",
+          "display_url": "vox.com/2020/12/2/2198\u2026"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 4,
+          "end": 5,
+          "probability": 0.9067,
+          "type": "Place",
+          "normalized_text": "US"
+        },
+        {
+          "start": 79,
+          "end": 86,
+          "probability": 0.4193,
+          "type": "Organization",
+          "normalized_text": "BioNTech"
+        },
+        {
+          "start": 92,
+          "end": 98,
+          "probability": 0.4099,
+          "type": "Organization",
+          "normalized_text": "Moderna"
+        },
+        {
+          "start": 159,
+          "end": 161,
+          "probability": 0.661,
+          "type": "Organization",
+          "normalized_text": "FDA"
+        }
+      ]
+    },
+    "author_id": "2347049341",
+    "public_metrics": {
+      "retweet_count": 5,
+      "reply_count": 1,
+      "like_count": 23,
+      "quote_count": 1
+    }
+  },
+  {
+    "id": "1334166370381074432",
+    "created_at": "2020-12-02T16:03:44.000Z",
+    "text": "This marks the first government approval of a vaccine backed by a clinical trial.\n\n(Russia and China began administering vaccines before completing large-scale trials.)\n\nIt\u2019s also the fastest a vaccine has ever gained approval, albeit on a temporary basis. https://t.co/pRG61IDaW7",
+    "entities": {
+      "urls": [
+        {
+          "start": 257,
+          "end": 280,
+          "url": "https://t.co/pRG61IDaW7",
+          "expanded_url": "https://www.vox.com/2020/12/2/21983642/uk-approves-pfizer-vaccine-biontech-covid-19",
+          "display_url": "vox.com/2020/12/2/2198\u2026"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 84,
+          "end": 89,
+          "probability": 0.9837,
+          "type": "Place",
+          "normalized_text": "Russia"
+        },
+        {
+          "start": 95,
+          "end": 99,
+          "probability": 0.9794,
+          "type": "Place",
+          "normalized_text": "China"
+        }
+      ]
+    },
+    "author_id": "2347049341",
+    "public_metrics": {
+      "retweet_count": 7,
+      "reply_count": 2,
+      "like_count": 28,
+      "quote_count": 0
+    }
+  },
+  {
+    "id": "1334163958916378625",
+    "created_at": "2020-12-02T15:54:10.000Z",
+    "text": "The UK has granted temporary authorization for emergency use of the Pfizer and BioNTech Covid-19 vaccine to adults aged 16 and older.\n\nThe first 800,000 doses of the two-dose vaccine are slated to be offered in the country next week. https://t.co/v2WARBZW89",
+    "entities": {
+      "urls": [
+        {
+          "start": 234,
+          "end": 257,
+          "url": "https://t.co/v2WARBZW89",
+          "expanded_url": "https://trib.al/dWZ8Qee",
+          "display_url": "trib.al/dWZ8Qee",
+          "images": [
+            {
+              "url": "https://pbs.twimg.com/news_img/1334161744730742784/xTMVZzJk?format=jpg&name=orig",
+              "width": 1200,
+              "height": 600
+            },
+            {
+              "url": "https://pbs.twimg.com/news_img/1334161744730742784/xTMVZzJk?format=jpg&name=150x150",
+              "width": 150,
+              "height": 150
+            }
+          ],
+          "status": 200,
+          "title": "The UK is now the first country to grant emergency approval to Pfizer and BioNTech\u2019s Covid-19 vaccine",
+          "description": "The first doses may begin rolling out next week.",
+          "unwound_url": "https://www.vox.com/2020/12/2/21983642/uk-approves-pfizer-vaccine-biontech-covid-19?utm_medium=social&utm_source=twitter&utm_content=voxdotcom&utm_campaign=vox.social"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 4,
+          "end": 5,
+          "probability": 0.7312,
+          "type": "Place",
+          "normalized_text": "UK"
+        },
+        {
+          "start": 68,
+          "end": 73,
+          "probability": 0.6039,
+          "type": "Organization",
+          "normalized_text": "Pfizer"
+        }
+      ]
+    },
+    "author_id": "2347049341",
+    "public_metrics": {
+      "retweet_count": 18,
+      "reply_count": 4,
+      "like_count": 68,
+      "quote_count": 4
+    }
+  },
+  {
+    "id": "1334161732974088194",
+    "created_at": "2020-12-02T15:45:19.000Z",
+    "text": "The UK has now granted temporary authorization for emergency use to the Covid-19 vaccine developed by Pfizer and BioNTech. \n\nThe country says its highest priority for vaccination is older adults in long-term care homes. https://t.co/9VDJAUzRiZ",
+    "entities": {
+      "urls": [
+        {
+          "start": 220,
+          "end": 243,
+          "url": "https://t.co/9VDJAUzRiZ",
+          "expanded_url": "https://www.vox.com/2020/12/2/21983642/uk-approves-pfizer-vaccine-biontech-covid-19?utm_campaign=vox&utm_content=chorus&utm_medium=social&utm_source=twitter",
+          "display_url": "vox.com/2020/12/2/2198\u2026"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 4,
+          "end": 5,
+          "probability": 0.7843,
+          "type": "Place",
+          "normalized_text": "UK"
+        },
+        {
+          "start": 102,
+          "end": 107,
+          "probability": 0.5371,
+          "type": "Organization",
+          "normalized_text": "Pfizer"
+        }
+      ]
+    },
+    "author_id": "2347049341",
+    "public_metrics": {
+      "retweet_count": 19,
+      "reply_count": 0,
+      "like_count": 44,
+      "quote_count": 0
+    }
+  },
+  {
+    "id": "1333549128283009024",
+    "created_at": "2020-11-30T23:11:02.000Z",
+    "text": "If the Moderna Covid-19 vaccine is approved in the US, distribution could start as early as December: https://t.co/USYC0WHv3P",
+    "entities": {
+      "urls": [
+        {
+          "start": 102,
+          "end": 125,
+          "url": "https://t.co/USYC0WHv3P",
+          "expanded_url": "https://trib.al/Hyvqjjg",
+          "display_url": "trib.al/Hyvqjjg"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 51,
+          "end": 52,
+          "probability": 0.9162,
+          "type": "Place",
+          "normalized_text": "US"
+        }
+      ]
+    },
+    "author_id": "2347049341",
+    "public_metrics": {
+      "retweet_count": 17,
+      "reply_count": 4,
+      "like_count": 49,
+      "quote_count": 4
+    }
+  },
+  {
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 27,
+      "reply_count": 63,
+      "like_count": 191,
+      "quote_count": 5
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 242,
+          "end": 265,
+          "url": "https://t.co/nEL4C48Pdq",
+          "expanded_url": "https://cnn.it/3lWDSoa",
+          "display_url": "cnn.it/3lWDSoa"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 54,
+          "end": 60,
+          "probability": 0.9573,
+          "type": "Place",
+          "normalized_text": "Georgia"
+        },
+        {
+          "start": 74,
+          "end": 88,
+          "probability": 0.3465,
+          "type": "Organization",
+          "normalized_text": "Republican Sen."
+        },
+        {
+          "start": 90,
+          "end": 103,
+          "probability": 0.7186,
+          "type": "Person",
+          "normalized_text": "Kelly Loeffler"
+        },
+        {
+          "start": 142,
+          "end": 156,
+          "probability": 0.9836,
+          "type": "Person",
+          "normalized_text": "Raphael Warnock"
+        }
+      ]
+    },
+    "created_at": "2020-12-07T15:40:12.000Z",
+    "id": "1335972384684314626",
+    "text": "During a debate ahead of a pivotal runoff election in Georgia next month, Republican Sen. Kelly Loeffler and her Democratic opponent the Rev. Raphael Warnock both said they would take a coronavirus vaccine. Here are some other key takeaways. https://t.co/nEL4C48Pdq"
+  },
+  {
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 102,
+      "reply_count": 73,
+      "like_count": 616,
+      "quote_count": 26
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 146,
+          "end": 169,
+          "url": "https://t.co/DyDdelOZzf",
+          "expanded_url": "https://cnn.it/2Il9sy8",
+          "display_url": "cnn.it/2Il9sy8"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 69,
+          "end": 82,
+          "probability": 0.6231,
+          "type": "Place",
+          "normalized_text": "United Kingdom"
+        }
+      ]
+    },
+    "created_at": "2020-12-07T11:15:05.000Z",
+    "id": "1335905667379556352",
+    "text": "Vaccinations are set to begin on Tuesday, less than a week after the United Kingdom became the first Western nation to approve a Covid-19 vaccine https://t.co/DyDdelOZzf"
+  },
+  {
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 207,
+      "reply_count": 210,
+      "like_count": 2290,
+      "quote_count": 71
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 231,
+          "end": 254,
+          "url": "https://t.co/5SxdOoBNsI",
+          "expanded_url": "https://cnn.it/3qyMzZs",
+          "display_url": "cnn.it/3qyMzZs"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 18,
+          "end": 29,
+          "probability": 0.5197,
+          "type": "Person",
+          "normalized_text": "Barack Obama"
+        },
+        {
+          "start": 32,
+          "end": 45,
+          "probability": 0.979,
+          "type": "Person",
+          "normalized_text": "George W. Bush"
+        },
+        {
+          "start": 51,
+          "end": 62,
+          "probability": 0.9935,
+          "type": "Person",
+          "normalized_text": "Bill Clinton"
+        },
+        {
+          "start": 184,
+          "end": 214,
+          "probability": 0.5918,
+          "type": "Organization",
+          "normalized_text": "US Food and Drug Administration"
+        }
+      ]
+    },
+    "created_at": "2020-12-07T07:30:05.000Z",
+    "id": "1335849042866278402",
+    "text": "Former Presidents Barack Obama, George W. Bush and Bill Clinton are volunteering to get their Covid-19 vaccines on camera to promote public confidence in the vaccine's safety once the US Food and Drug Administration authorizes one https://t.co/5SxdOoBNsI"
+  },
+  {
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 78,
+      "reply_count": 89,
+      "like_count": 965,
+      "quote_count": 21
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 209,
+          "end": 232,
+          "url": "https://t.co/LTsBN2aSF0",
+          "expanded_url": "https://cnn.it/3oxmjN0",
+          "display_url": "cnn.it/3oxmjN0"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 0,
+          "end": 12,
+          "probability": 0.8778,
+          "type": "Person",
+          "normalized_text": "Moncef Slaoui"
+        },
+        {
+          "start": 31,
+          "end": 32,
+          "probability": 0.8571,
+          "type": "Place",
+          "normalized_text": "US"
+        },
+        {
+          "start": 117,
+          "end": 125,
+          "probability": 0.9828,
+          "type": "Person",
+          "normalized_text": "Joe Biden"
+        },
+        {
+          "start": 145,
+          "end": 153,
+          "probability": 0.5267,
+          "type": "Person",
+          "normalized_text": "Americans"
+        }
+      ]
+    },
+    "created_at": "2020-12-07T03:00:13.000Z",
+    "id": "1335781128863698948",
+    "text": "Moncef Slaoui, the head of the US government's effort to develop a vaccine against Covid-19, praised President-elect Joe Biden's plan to ask all Americans to wear masks to curb the spread of the coronavirus. \nhttps://t.co/LTsBN2aSF0"
+  },
+  {
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 99,
+      "reply_count": 82,
+      "like_count": 752,
+      "quote_count": 19
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 224,
+          "end": 247,
+          "url": "https://t.co/7d0NiuBppE",
+          "expanded_url": "https://cnn.it/39LVuk6",
+          "display_url": "cnn.it/39LVuk6"
+        }
+      ],
+      "mentions": [
+        {
+          "start": 123,
+          "end": 134,
+          "username": "CNNOpinion"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 7,
+          "end": 21,
+          "probability": 0.6799,
+          "type": "Person",
+          "normalized_text": "Presidents Bush"
+        },
+        {
+          "start": 24,
+          "end": 30,
+          "probability": 0.9969,
+          "type": "Person",
+          "normalized_text": "Clinton"
+        },
+        {
+          "start": 36,
+          "end": 40,
+          "probability": 0.9989,
+          "type": "Person",
+          "normalized_text": "Obama"
+        },
+        {
+          "start": 98,
+          "end": 108,
+          "probability": 0.9395,
+          "type": "Person",
+          "normalized_text": "David Perry"
+        },
+        {
+          "start": 175,
+          "end": 187,
+          "probability": 0.9968,
+          "type": "Person",
+          "normalized_text": "Elvis Presley"
+        }
+      ]
+    },
+    "created_at": "2020-12-07T02:01:05.000Z",
+    "id": "1335766247288561666",
+    "text": "Former Presidents Bush, Clinton and Obama have all said they'll get a Covid-19 vaccine publicly.\n\nDavid Perry, writing for @CNNOpinion, reflects on a crucial 1956 moment when Elvis Presley got a polio vaccine on television. https://t.co/7d0NiuBppE"
+  },
+  {
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 148,
+      "reply_count": 137,
+      "like_count": 957,
+      "quote_count": 22
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 178,
+          "end": 201,
+          "url": "https://t.co/Y0ObEgvoJY",
+          "expanded_url": "https://cnn.it/3mJClTE",
+          "display_url": "cnn.it/3mJClTE"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 159,
+          "end": 174,
+          "probability": 0.913,
+          "type": "Person",
+          "normalized_text": "Dr. Sanjay Gupta"
+        }
+      ]
+    },
+    "created_at": "2020-12-06T15:45:04.000Z",
+    "id": "1335611222549536770",
+    "text": "\"I can only hope that this country's self-preservation instinct kicks in soon, and long enough, to get as many of us over the finish line as possible,\" writes Dr. Sanjay Gupta.\n\nhttps://t.co/Y0ObEgvoJY"
+  },
+  {
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 63,
+      "reply_count": 73,
+      "like_count": 303,
+      "quote_count": 9
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 118,
+          "end": 141,
+          "url": "https://t.co/OXwGEH6HxO",
+          "expanded_url": "https://cnn.it/36MjmCh",
+          "display_url": "cnn.it/36MjmCh"
+        }
+      ]
+    },
+    "created_at": "2020-12-06T07:31:01.000Z",
+    "id": "1335486891693658114",
+    "text": "The vote to recommend long-term care residents be among the first to receive Covid-19 vaccinations was not unanimous.\nhttps://t.co/OXwGEH6HxO"
+  },
+  {
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 190,
+      "reply_count": 148,
+      "like_count": 1489,
+      "quote_count": 38
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 224,
+          "end": 247,
+          "url": "https://t.co/mLqdLtVTCF",
+          "expanded_url": "https://cnn.it/36LE9pO",
+          "display_url": "cnn.it/36LE9pO"
+        }
+      ],
+      "mentions": [
+        {
+          "start": 123,
+          "end": 134,
+          "username": "CNNOpinion"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 7,
+          "end": 21,
+          "probability": 0.6799,
+          "type": "Person",
+          "normalized_text": "Presidents Bush"
+        },
+        {
+          "start": 24,
+          "end": 30,
+          "probability": 0.9969,
+          "type": "Person",
+          "normalized_text": "Clinton"
+        },
+        {
+          "start": 36,
+          "end": 40,
+          "probability": 0.9989,
+          "type": "Person",
+          "normalized_text": "Obama"
+        },
+        {
+          "start": 98,
+          "end": 108,
+          "probability": 0.9395,
+          "type": "Person",
+          "normalized_text": "David Perry"
+        },
+        {
+          "start": 175,
+          "end": 187,
+          "probability": 0.9968,
+          "type": "Person",
+          "normalized_text": "Elvis Presley"
+        }
+      ]
+    },
+    "created_at": "2020-12-06T02:01:03.000Z",
+    "id": "1335403853009850369",
+    "text": "Former Presidents Bush, Clinton and Obama have all said they'll get a Covid-19 vaccine publicly.\n\nDavid Perry, writing for @CNNOpinion, reflects on a crucial 1956 moment when Elvis Presley got a polio vaccine on television. https://t.co/mLqdLtVTCF"
+  },
+  {
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 110,
+      "reply_count": 91,
+      "like_count": 997,
+      "quote_count": 15
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 238,
+          "end": 261,
+          "url": "https://t.co/Api2RJkrRS",
+          "expanded_url": "https://cnn.it/3mMmN1F",
+          "display_url": "cnn.it/3mMmN1F"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 96,
+          "end": 110,
+          "probability": 0.9938,
+          "type": "Person",
+          "normalized_text": "Susan Froehlich"
+        }
+      ]
+    },
+    "created_at": "2020-12-06T01:15:04.000Z",
+    "id": "1335392278844764161",
+    "text": "Four hours of body aches cured by a common pain reliever.\nThat's the extent of the side effects Susan Froehlich endured after taking two shots of an experimental Moderna Covid-19 vaccine. And she would \"absolutely\" do it again if needed. https://t.co/Api2RJkrRS"
+  },
+  {
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 141,
+      "reply_count": 105,
+      "like_count": 457,
+      "quote_count": 30
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 164,
+          "end": 187,
+          "url": "https://t.co/Vl4UxBoUXo",
+          "expanded_url": "https://cnn.it/39LynGv",
+          "display_url": "cnn.it/39LynGv"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 140,
+          "end": 141,
+          "probability": 0.9078,
+          "type": "Place",
+          "normalized_text": "US"
+        }
+      ]
+    },
+    "created_at": "2020-12-05T22:14:02.000Z",
+    "id": "1335346721296162817",
+    "text": "The first shipments of coronavirus vaccine won't cover even the small number of people designated to be in the first group to be immunized, US states are learning. https://t.co/Vl4UxBoUXo"
+  },
+  {
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 34,
+      "reply_count": 46,
+      "like_count": 183,
+      "quote_count": 7
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 118,
+          "end": 141,
+          "url": "https://t.co/UyW2JpPgtm",
+          "expanded_url": "https://cnn.it/2VGG9cn",
+          "display_url": "cnn.it/2VGG9cn"
+        }
+      ]
+    },
+    "created_at": "2020-12-05T20:00:16.000Z",
+    "id": "1335313057954848774",
+    "text": "The vote to recommend long-term care residents be among the first to receive Covid-19 vaccinations was not unanimous.\nhttps://t.co/UyW2JpPgtm"
+  },
+  {
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 87,
+      "reply_count": 117,
+      "like_count": 370,
+      "quote_count": 18
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 69,
+          "end": 92,
+          "url": "https://t.co/zWoThX0SGB",
+          "expanded_url": "https://cnn.it/3lPHb0m",
+          "display_url": "cnn.it/3lPHb0m"
+        },
+        {
+          "start": 93,
+          "end": 116,
+          "url": "https://t.co/Du5wCTnX7L",
+          "expanded_url": "https://twitter.com/CNN/status/1335303157274931200/video/1",
+          "display_url": "pic.twitter.com/Du5wCTnX7L"
+        }
+      ],
+      "mentions": [
+        {
+          "start": 6,
+          "end": 20,
+          "username": "drsanjaygupta"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 0,
+          "end": 2,
+          "probability": 0.9848,
+          "type": "Organization",
+          "normalized_text": "CNN"
+        }
+      ]
+    },
+    "created_at": "2020-12-05T19:20:56.000Z",
+    "id": "1335303157274931200",
+    "text": "CNN\u2019s @drsanjaygupta fact-checks some common Covid-19 vaccine myths. https://t.co/zWoThX0SGB https://t.co/Du5wCTnX7L"
+  },
+  {
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 37,
+      "reply_count": 57,
+      "like_count": 286,
+      "quote_count": 9
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 182,
+          "end": 205,
+          "url": "https://t.co/g2jU7aTCvM",
+          "expanded_url": "https://cnn.it/3os8iAl",
+          "display_url": "cnn.it/3os8iAl"
+        },
+        {
+          "start": 206,
+          "end": 229,
+          "url": "https://t.co/sgf8794g8o",
+          "expanded_url": "https://twitter.com/CNN/status/1335235579303387136/video/1",
+          "display_url": "pic.twitter.com/sgf8794g8o"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 0,
+          "end": 21,
+          "probability": 0.9313,
+          "type": "Person",
+          "normalized_text": "Dr. Anthony Mazzarelli"
+        },
+        {
+          "start": 48,
+          "end": 76,
+          "probability": 0.674,
+          "type": "Organization",
+          "normalized_text": "Cooper University Health Care"
+        }
+      ]
+    },
+    "created_at": "2020-12-05T14:52:24.000Z",
+    "id": "1335235579303387136",
+    "text": "Dr. Anthony Mazzarelli, co-president and CEO of Cooper University Health Care, says that health care workers will be \u201cinfluencers\u201d to the wider population to get a Covid-19 vaccine. https://t.co/g2jU7aTCvM https://t.co/sgf8794g8o"
+  },
+  {
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 61,
+      "reply_count": 105,
+      "like_count": 260,
+      "quote_count": 7
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 192,
+          "end": 215,
+          "url": "https://t.co/jV2MmqrCj1",
+          "expanded_url": "https://cnn.it/3qtj4Il",
+          "display_url": "cnn.it/3qtj4Il"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 2,
+          "end": 4,
+          "probability": 0.9843,
+          "type": "Organization",
+          "normalized_text": "CNN"
+        }
+      ]
+    },
+    "created_at": "2020-12-05T13:44:09.000Z",
+    "id": "1335218403204796423",
+    "text": "A CNN analysis of the state breakdowns of what they plan to receive shows that all will fall short of what they would need to fully vaccinate health care workers and long-term care residents. https://t.co/jV2MmqrCj1"
+  },
+  {
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 389,
+      "reply_count": 467,
+      "like_count": 5058,
+      "quote_count": 161
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 231,
+          "end": 254,
+          "url": "https://t.co/HsXhrPUQKc",
+          "expanded_url": "https://cnn.it/2IdG3Wy",
+          "display_url": "cnn.it/2IdG3Wy"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 18,
+          "end": 29,
+          "probability": 0.5197,
+          "type": "Person",
+          "normalized_text": "Barack Obama"
+        },
+        {
+          "start": 32,
+          "end": 45,
+          "probability": 0.979,
+          "type": "Person",
+          "normalized_text": "George W. Bush"
+        },
+        {
+          "start": 51,
+          "end": 62,
+          "probability": 0.9935,
+          "type": "Person",
+          "normalized_text": "Bill Clinton"
+        },
+        {
+          "start": 184,
+          "end": 214,
+          "probability": 0.5918,
+          "type": "Organization",
+          "normalized_text": "US Food and Drug Administration"
+        }
+      ]
+    },
+    "created_at": "2020-12-05T13:01:05.000Z",
+    "id": "1335207564653584387",
+    "text": "Former Presidents Barack Obama, George W. Bush and Bill Clinton are volunteering to get their Covid-19 vaccines on camera to promote public confidence in the vaccine's safety once the US Food and Drug Administration authorizes one https://t.co/HsXhrPUQKc"
+  },
+  {
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 62,
+      "reply_count": 111,
+      "like_count": 388,
+      "quote_count": 22
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 257,
+          "end": 280,
+          "url": "https://t.co/O5luzLcrPK",
+          "expanded_url": "https://cnn.it/2VEC1JV",
+          "display_url": "cnn.it/2VEC1JV",
+          "images": [
+            {
+              "url": "https://pbs.twimg.com/news_img/1334304231138893825/K9luNa1I?format=jpg&name=orig",
+              "width": 1100,
+              "height": 619
+            },
+            {
+              "url": "https://pbs.twimg.com/news_img/1334304231138893825/K9luNa1I?format=jpg&name=150x150",
+              "width": 150,
+              "height": 150
+            }
+          ],
+          "status": 200,
+          "title": "Vaccination cards will be issued to everyone getting Covid-19 vaccine, health officials say",
+          "description": "The cards will be sent out as part of vaccination kits from Operation Warp Speed, according to a photo caption accompanying the image.",
+          "unwound_url": "https://www.cnn.com/2020/12/02/health/covid-19-vaccination-kit-record-card/index.html?utm_source=twCNN&utm_term=image&utm_content=2020-12-05T07%3A01%3A07&utm_medium=social"
+        },
+        {
+          "start": 281,
+          "end": 304,
+          "url": "https://t.co/WKmh06lrYL",
+          "expanded_url": "https://twitter.com/CNN/status/1335116983935885316/photo/1",
+          "display_url": "pic.twitter.com/WKmh06lrYL"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 120,
+          "end": 137,
+          "probability": 0.4623,
+          "type": "Person",
+          "normalized_text": "Gen. Gustave Perna"
+        }
+      ]
+    },
+    "created_at": "2020-12-05T07:01:08.000Z",
+    "id": "1335116983935885316",
+    "text": "Operation Warp Speed has 100 million vaccine kits ready to go if and when distribution of a coronavirus vaccine starts, Gen. Gustave Perna, Warp Speed\u2019s chief operating officer, said last month. They include a written vaccination card that looks like this. https://t.co/O5luzLcrPK https://t.co/WKmh06lrYL"
+  },
+  {
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 61,
+      "reply_count": 49,
+      "like_count": 256,
+      "quote_count": 13
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 210,
+          "end": 233,
+          "url": "https://t.co/MDlUYEAhub",
+          "expanded_url": "https://cnn.it/2JDzhtR",
+          "display_url": "cnn.it/2JDzhtR"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 0,
+          "end": 24,
+          "probability": 0.4794,
+          "type": "Organization",
+          "normalized_text": "The Department of Defense"
+        },
+        {
+          "start": 171,
+          "end": 173,
+          "probability": 0.5463,
+          "type": "Organization",
+          "normalized_text": "DOD"
+        },
+        {
+          "start": 206,
+          "end": 208,
+          "probability": 0.988,
+          "type": "Organization",
+          "normalized_text": "CNN"
+        }
+      ]
+    },
+    "created_at": "2020-12-05T04:01:06.000Z",
+    "id": "1335071674392342528",
+    "text": "The Department of Defense is set to receive the coronavirus vaccine directly from the companies that manufacture it once it is approved for use, and will administer it to DOD personnel, a US official tells CNN https://t.co/MDlUYEAhub"
+  },
+  {
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 66,
+      "reply_count": 141,
+      "like_count": 472,
+      "quote_count": 23
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 207,
+          "end": 230,
+          "url": "https://t.co/IjpCgIDmz4",
+          "expanded_url": "https://cnn.it/2LaLCX1",
+          "display_url": "cnn.it/2LaLCX1"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 16,
+          "end": 24,
+          "probability": 0.9869,
+          "type": "Person",
+          "normalized_text": "Joe Biden"
+        },
+        {
+          "start": 35,
+          "end": 39,
+          "probability": 0.949,
+          "type": "Person",
+          "normalized_text": "Trump"
+        },
+        {
+          "start": 156,
+          "end": 160,
+          "probability": 0.9969,
+          "type": "Person",
+          "normalized_text": "Biden"
+        }
+      ]
+    },
+    "created_at": "2020-12-04T22:45:00.000Z",
+    "id": "1334992126850064384",
+    "text": "President-elect Joe Biden said the Trump administration had shared information with his transition team about distributing a vaccine to various states, but Biden said his team had not seen a \"detailed plan\" https://t.co/IjpCgIDmz4"
+  },
+  {
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 69,
+      "reply_count": 78,
+      "like_count": 320,
+      "quote_count": 17
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 254,
+          "end": 277,
+          "url": "https://t.co/hPU2SQxg5H",
+          "expanded_url": "https://cnn.it/2L98yWF",
+          "display_url": "cnn.it/2L98yWF"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 0,
+          "end": 42,
+          "probability": 0.322,
+          "type": "Organization",
+          "normalized_text": "The Department of Health and Human Services"
+        }
+      ]
+    },
+    "created_at": "2020-12-04T20:41:02.000Z",
+    "id": "1334960927825911808",
+    "text": "The Department of Health and Human Services plans to spend $250 million on a national education campaign to promote the vaccine in the coming weeks. The ads, which will begin as early as next week, will be featured on digital and social media platforms. https://t.co/hPU2SQxg5H"
+  },
+  {
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 205,
+      "reply_count": 198,
+      "like_count": 2208,
+      "quote_count": 111
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 231,
+          "end": 254,
+          "url": "https://t.co/JPE2V2k80X",
+          "expanded_url": "https://cnn.it/2IdiPA3",
+          "display_url": "cnn.it/2IdiPA3"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 18,
+          "end": 29,
+          "probability": 0.5197,
+          "type": "Person",
+          "normalized_text": "Barack Obama"
+        },
+        {
+          "start": 32,
+          "end": 45,
+          "probability": 0.979,
+          "type": "Person",
+          "normalized_text": "George W. Bush"
+        },
+        {
+          "start": 51,
+          "end": 62,
+          "probability": 0.9935,
+          "type": "Person",
+          "normalized_text": "Bill Clinton"
+        },
+        {
+          "start": 184,
+          "end": 214,
+          "probability": 0.5918,
+          "type": "Organization",
+          "normalized_text": "US Food and Drug Administration"
+        }
+      ]
+    },
+    "created_at": "2020-12-04T16:15:05.000Z",
+    "id": "1334894001074417664",
+    "text": "Former Presidents Barack Obama, George W. Bush and Bill Clinton are volunteering to get their Covid-19 vaccines on camera to promote public confidence in the vaccine's safety once the US Food and Drug Administration authorizes one https://t.co/JPE2V2k80X"
+  },
+  {
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 53,
+      "reply_count": 117,
+      "like_count": 325,
+      "quote_count": 14
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 242,
+          "end": 265,
+          "url": "https://t.co/lbesvJt44A",
+          "expanded_url": "https://cnn.it/3mIGQOq",
+          "display_url": "cnn.it/3mIGQOq"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 0,
+          "end": 16,
+          "probability": 0.8692,
+          "type": "Person",
+          "normalized_text": "Dr. Anthony Fauci"
+        },
+        {
+          "start": 97,
+          "end": 98,
+          "probability": 0.9737,
+          "type": "Place",
+          "normalized_text": "US"
+        },
+        {
+          "start": 104,
+          "end": 105,
+          "probability": 0.9518,
+          "type": "Place",
+          "normalized_text": "UK"
+        },
+        {
+          "start": 220,
+          "end": 224,
+          "probability": 0.4183,
+          "type": "Person",
+          "normalized_text": "Fauci"
+        }
+      ]
+    },
+    "created_at": "2020-12-04T15:13:20.000Z",
+    "id": "1334878461673017344",
+    "text": "Dr. Anthony Fauci\u2019s comments Wednesday were the opening salvo in a verbal jousting match between US and UK officials that experts said risked undermining public confidence in the safety of vaccines. By Thursday evening, Fauci had apologized. https://t.co/lbesvJt44A"
+  },
+  {
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 40,
+      "reply_count": 113,
+      "like_count": 369,
+      "quote_count": 19
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 240,
+          "end": 263,
+          "url": "https://t.co/kFrQ0RlBy7",
+          "expanded_url": "https://cnn.it/3qt6Tv9",
+          "display_url": "cnn.it/3qt6Tv9"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 0,
+          "end": 16,
+          "probability": 0.92,
+          "type": "Person",
+          "normalized_text": "Dr. Anthony Fauci"
+        },
+        {
+          "start": 106,
+          "end": 111,
+          "probability": 0.3978,
+          "type": "Organization",
+          "normalized_text": "Pfizer"
+        },
+        {
+          "start": 215,
+          "end": 216,
+          "probability": 0.9839,
+          "type": "Place",
+          "normalized_text": "UK"
+        },
+        {
+          "start": 235,
+          "end": 237,
+          "probability": 0.6898,
+          "type": "Organization",
+          "normalized_text": "BBC"
+        }
+      ]
+    },
+    "created_at": "2020-12-04T13:30:05.000Z",
+    "id": "1334852475405406211",
+    "text": "Dr. Anthony Fauci has apologized for his apparent criticism of British regulators who have authorized the Pfizer vaccine.\n\n\"I do have great faith in both the scientific community and the regulatory community at the UK,\" Fauci told the BBC. https://t.co/kFrQ0RlBy7"
+  },
+  {
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 161,
+      "reply_count": 136,
+      "like_count": 407,
+      "quote_count": 43
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 219,
+          "end": 242,
+          "url": "https://t.co/du79FsZneG",
+          "expanded_url": "https://cnn.it/3lBRx3L",
+          "display_url": "cnn.it/3lBRx3L"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 15,
+          "end": 38,
+          "probability": 0.7128,
+          "type": "Organization",
+          "normalized_text": "University of Washington"
+        }
+      ]
+    },
+    "created_at": "2020-12-04T12:30:12.000Z",
+    "id": "1334837404964941826",
+    "text": "An influential University of Washington model projects that nearly 539,000 Americans could die from coronavirus by April 1. The data suggests that even a rapid vaccine rollout won't reduce the number of deaths by much. https://t.co/du79FsZneG"
+  },
+  {
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 354,
+      "reply_count": 210,
+      "like_count": 4145,
+      "quote_count": 125
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 231,
+          "end": 254,
+          "url": "https://t.co/kvsArqwYgC",
+          "expanded_url": "https://cnn.it/36C1z0K",
+          "display_url": "cnn.it/36C1z0K"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 18,
+          "end": 29,
+          "probability": 0.5197,
+          "type": "Person",
+          "normalized_text": "Barack Obama"
+        },
+        {
+          "start": 32,
+          "end": 45,
+          "probability": 0.979,
+          "type": "Person",
+          "normalized_text": "George W. Bush"
+        },
+        {
+          "start": 51,
+          "end": 62,
+          "probability": 0.9935,
+          "type": "Person",
+          "normalized_text": "Bill Clinton"
+        },
+        {
+          "start": 184,
+          "end": 214,
+          "probability": 0.5918,
+          "type": "Organization",
+          "normalized_text": "US Food and Drug Administration"
+        }
+      ]
+    },
+    "created_at": "2020-12-04T07:31:05.000Z",
+    "id": "1334762131158347776",
+    "text": "Former Presidents Barack Obama, George W. Bush and Bill Clinton are volunteering to get their Covid-19 vaccines on camera to promote public confidence in the vaccine's safety once the US Food and Drug Administration authorizes one https://t.co/kvsArqwYgC"
+  },
+  {
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 226,
+      "reply_count": 365,
+      "like_count": 1053,
+      "quote_count": 184
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 256,
+          "end": 279,
+          "url": "https://t.co/2cxL2yEvwl",
+          "expanded_url": "https://cnn.it/39DkHgI",
+          "display_url": "cnn.it/39DkHgI"
+        },
+        {
+          "start": 280,
+          "end": 303,
+          "url": "https://t.co/UqCTOoVldZ",
+          "expanded_url": "https://twitter.com/CNN/status/1334705509073612801/photo/1",
+          "display_url": "pic.twitter.com/UqCTOoVldZ"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 202,
+          "end": 216,
+          "probability": 0.9497,
+          "type": "Person",
+          "normalized_text": "Dr. Kelly Moore"
+        }
+      ]
+    },
+    "created_at": "2020-12-04T03:46:05.000Z",
+    "id": "1334705509073612801",
+    "text": "Here\u2019s the card you\u2019ll get when you eventually get the Covid-19 vaccine.\n\nEveryone will get a card \"they can put in their wallet that will tell them what they had and when their next dose is due,\" says Dr. Kelly Moore of the Immunization Action Coalition. https://t.co/2cxL2yEvwl https://t.co/UqCTOoVldZ"
+  },
+  {
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 134,
+      "reply_count": 91,
+      "like_count": 766,
+      "quote_count": 32
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 224,
+          "end": 247,
+          "url": "https://t.co/6AZyphG35Q",
+          "expanded_url": "https://cnn.it/36DzvKd",
+          "display_url": "cnn.it/36DzvKd"
+        }
+      ],
+      "mentions": [
+        {
+          "start": 123,
+          "end": 134,
+          "username": "CNNOpinion"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 7,
+          "end": 21,
+          "probability": 0.6799,
+          "type": "Person",
+          "normalized_text": "Presidents Bush"
+        },
+        {
+          "start": 24,
+          "end": 30,
+          "probability": 0.9969,
+          "type": "Person",
+          "normalized_text": "Clinton"
+        },
+        {
+          "start": 36,
+          "end": 40,
+          "probability": 0.9989,
+          "type": "Person",
+          "normalized_text": "Obama"
+        },
+        {
+          "start": 98,
+          "end": 108,
+          "probability": 0.9395,
+          "type": "Person",
+          "normalized_text": "David Perry"
+        },
+        {
+          "start": 175,
+          "end": 187,
+          "probability": 0.9968,
+          "type": "Person",
+          "normalized_text": "Elvis Presley"
+        }
+      ]
+    },
+    "created_at": "2020-12-03T22:17:32.000Z",
+    "id": "1334622825609572353",
+    "text": "Former Presidents Bush, Clinton and Obama have all said they'll get a Covid-19 vaccine publicly.\n\nDavid Perry, writing for @CNNOpinion, reflects on a crucial 1956 moment when Elvis Presley got a polio vaccine on television. https://t.co/6AZyphG35Q"
+  },
+  {
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 184,
+      "reply_count": 350,
+      "like_count": 786,
+      "quote_count": 236
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 256,
+          "end": 279,
+          "url": "https://t.co/tmg4z4GlBQ",
+          "expanded_url": "https://cnn.it/36zEXxR",
+          "display_url": "cnn.it/36zEXxR"
+        },
+        {
+          "start": 280,
+          "end": 303,
+          "url": "https://t.co/NfuTfgSXGV",
+          "expanded_url": "https://twitter.com/CNN/status/1334575649659506689/photo/1",
+          "display_url": "pic.twitter.com/NfuTfgSXGV"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 202,
+          "end": 216,
+          "probability": 0.9497,
+          "type": "Person",
+          "normalized_text": "Dr. Kelly Moore"
+        }
+      ]
+    },
+    "created_at": "2020-12-03T19:10:04.000Z",
+    "id": "1334575649659506689",
+    "text": "Here\u2019s the card you\u2019ll get when you eventually get the Covid-19 vaccine.\n\nEveryone will get a card \"they can put in their wallet that will tell them what they had and when their next dose is due,\" says Dr. Kelly Moore of the Immunization Action Coalition. https://t.co/tmg4z4GlBQ https://t.co/NfuTfgSXGV"
+  },
+  {
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 397,
+      "reply_count": 401,
+      "like_count": 4061,
+      "quote_count": 278
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 231,
+          "end": 254,
+          "url": "https://t.co/1Vq6AlXMhy",
+          "expanded_url": "https://cnn.it/2Vxk6Vt",
+          "display_url": "cnn.it/2Vxk6Vt"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 18,
+          "end": 29,
+          "probability": 0.5197,
+          "type": "Person",
+          "normalized_text": "Barack Obama"
+        },
+        {
+          "start": 32,
+          "end": 45,
+          "probability": 0.979,
+          "type": "Person",
+          "normalized_text": "George W. Bush"
+        },
+        {
+          "start": 51,
+          "end": 62,
+          "probability": 0.9935,
+          "type": "Person",
+          "normalized_text": "Bill Clinton"
+        },
+        {
+          "start": 184,
+          "end": 214,
+          "probability": 0.5918,
+          "type": "Organization",
+          "normalized_text": "US Food and Drug Administration"
+        }
+      ]
+    },
+    "created_at": "2020-12-03T17:10:03.000Z",
+    "id": "1334545443997569025",
+    "text": "Former Presidents Barack Obama, George W. Bush and Bill Clinton are volunteering to get their Covid-19 vaccines on camera to promote public confidence in the vaccine's safety once the US Food and Drug Administration authorizes one https://t.co/1Vq6AlXMhy"
+  },
+  {
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 130,
+      "reply_count": 59,
+      "like_count": 391,
+      "quote_count": 26
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 219,
+          "end": 242,
+          "url": "https://t.co/pI47PeHavT",
+          "expanded_url": "https://cnn.it/3luViYU",
+          "display_url": "cnn.it/3luViYU"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 0,
+          "end": 6,
+          "probability": 0.6174,
+          "type": "Organization",
+          "normalized_text": "Hackers"
+        },
+        {
+          "start": 137,
+          "end": 167,
+          "probability": 0.8505,
+          "type": "Organization",
+          "normalized_text": "Department of Homeland Security"
+        },
+        {
+          "start": 173,
+          "end": 175,
+          "probability": 0.618,
+          "type": "Organization",
+          "normalized_text": "IBM"
+        }
+      ]
+    },
+    "created_at": "2020-12-03T14:52:46.000Z",
+    "id": "1334510895641354242",
+    "text": "Hackers are targeting key actors in the coronavirus vaccine supply chain as distribution gets underway, according to new warnings by the Department of Homeland Security and IBM, which discovered the malicious activity. https://t.co/pI47PeHavT"
+  },
+  {
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 1492,
+      "reply_count": 9280,
+      "like_count": 4226,
+      "quote_count": 6333
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 256,
+          "end": 279,
+          "url": "https://t.co/pLj8YnH02T",
+          "expanded_url": "https://cnn.it/2JzMXGe",
+          "display_url": "cnn.it/2JzMXGe"
+        },
+        {
+          "start": 280,
+          "end": 303,
+          "url": "https://t.co/66CIDc246T",
+          "expanded_url": "https://twitter.com/CNN/status/1334494592482283520/photo/1",
+          "display_url": "pic.twitter.com/66CIDc246T"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 202,
+          "end": 216,
+          "probability": 0.9497,
+          "type": "Person",
+          "normalized_text": "Dr. Kelly Moore"
+        }
+      ]
+    },
+    "created_at": "2020-12-03T13:47:59.000Z",
+    "id": "1334494592482283520",
+    "text": "Here\u2019s the card you\u2019ll get when you eventually get the Covid-19 vaccine.\n\nEveryone will get a card \"they can put in their wallet that will tell them what they had and when their next dose is due,\" says Dr. Kelly Moore of the Immunization Action Coalition. https://t.co/pLj8YnH02T https://t.co/66CIDc246T"
+  },
+  {
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 135,
+      "reply_count": 66,
+      "like_count": 405,
+      "quote_count": 27
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 80,
+          "end": 103,
+          "url": "https://t.co/nDTtrofPxH",
+          "expanded_url": "https://cnn.it/39BLj1v",
+          "display_url": "cnn.it/39BLj1v"
+        },
+        {
+          "start": 104,
+          "end": 127,
+          "url": "https://t.co/UcfdreMSvt",
+          "expanded_url": "https://twitter.com/CNN/status/1334471192506351616/video/1",
+          "display_url": "pic.twitter.com/UcfdreMSvt"
+        }
+      ],
+      "mentions": [
+        {
+          "start": 56,
+          "end": 70,
+          "username": "drsanjaygupta"
+        }
+      ]
+    },
+    "created_at": "2020-12-03T12:15:00.000Z",
+    "id": "1334471192506351616",
+    "text": "Here\u2019s what it feels like to get a coronavirus vaccine. @drsanjaygupta reports. https://t.co/nDTtrofPxH https://t.co/UcfdreMSvt"
+  },
+  {
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 86,
+      "reply_count": 69,
+      "like_count": 334,
+      "quote_count": 14
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 67,
+          "end": 90,
+          "url": "https://t.co/QCmhl7AE3g",
+          "expanded_url": "https://cnn.it/33AZno3",
+          "display_url": "cnn.it/33AZno3"
+        }
+      ]
+    },
+    "created_at": "2020-12-03T12:03:08.000Z",
+    "id": "1334468207340621824",
+    "text": "Here's what it's like to get one of the new mRNA Covid-19 vaccines https://t.co/QCmhl7AE3g"
+  },
+  {
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 153,
+      "reply_count": 264,
+      "like_count": 1044,
+      "quote_count": 47
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 250,
+          "end": 273,
+          "url": "https://t.co/i8imS05wUV",
+          "expanded_url": "https://cnn.it/3mvlHqN",
+          "display_url": "cnn.it/3mvlHqN",
+          "images": [
+            {
+              "url": "https://pbs.twimg.com/news_img/1334376587249266688/KGtwN-tu?format=jpg&name=orig",
+              "width": 1100,
+              "height": 619
+            },
+            {
+              "url": "https://pbs.twimg.com/news_img/1334376587249266688/KGtwN-tu?format=jpg&name=150x150",
+              "width": 150,
+              "height": 150
+            }
+          ],
+          "status": 200,
+          "title": "Analysis: Ex-Presidents fill leadership vacuum as Trump ignores worsening pandemic",
+          "description": "This is what presidential leadership looks like. As President Donald Trump ignores America's worst-ever daily Covid-19 recorded death toll and the nation slips deeper into a tragic winter, three of his predecessors are volunteering to bare their arms on camera to build confidence in the vaccines that could finally end the pandemic.",
+          "unwound_url": "https://www.cnn.com/2020/12/03/politics/trump-coronavirus-vaccine/index.html"
+        }
+      ],
+      "mentions": [
+        {
+          "start": 237,
+          "end": 249,
+          "username": "StCollinson"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 13,
+          "end": 17,
+          "probability": 0.9982,
+          "type": "Person",
+          "normalized_text": "Trump"
+        },
+        {
+          "start": 27,
+          "end": 33,
+          "probability": 0.9916,
+          "type": "Place",
+          "normalized_text": "America"
+        }
+      ]
+    },
+    "created_at": "2020-12-03T11:00:05.000Z",
+    "id": "1334452339168718850",
+    "text": "Analysis: As Trump ignores America's slide into a tragic winter, three of his predecessors are offering to bare their arms on camera to build confidence in vaccines that could end the pandemic. That is what leadership looks like, writes @stcollinson https://t.co/i8imS05wUV"
+  },
+  {
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 1453,
+      "reply_count": 1014,
+      "like_count": 12869,
+      "quote_count": 1088
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 206,
+          "end": 229,
+          "url": "https://t.co/soJcv9eKUA",
+          "expanded_url": "https://cnn.it/3oaYgUa",
+          "display_url": "cnn.it/3oaYgUa"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 7,
+          "end": 8,
+          "probability": 0.3876,
+          "type": "Place",
+          "normalized_text": "US"
+        },
+        {
+          "start": 21,
+          "end": 32,
+          "probability": 0.7219,
+          "type": "Person",
+          "normalized_text": "Barack Obama"
+        },
+        {
+          "start": 35,
+          "end": 48,
+          "probability": 0.979,
+          "type": "Person",
+          "normalized_text": "George W. Bush"
+        },
+        {
+          "start": 54,
+          "end": 65,
+          "probability": 0.992,
+          "type": "Person",
+          "normalized_text": "Bill Clinton"
+        },
+        {
+          "start": 187,
+          "end": 189,
+          "probability": 0.7495,
+          "type": "Organization",
+          "normalized_text": "FDA"
+        }
+      ]
+    },
+    "created_at": "2020-12-03T09:31:05.000Z",
+    "id": "1334429942927470594",
+    "text": "Former US Presidents Barack Obama, George W. Bush and Bill Clinton are volunteering to get their Covid-19 vaccines on camera to promote public confidence in the vaccine's safety once the FDA authorizes one https://t.co/soJcv9eKUA"
+  },
+  {
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 119,
+      "reply_count": 74,
+      "like_count": 699,
+      "quote_count": 36
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 127,
+          "end": 150,
+          "url": "https://t.co/TBpHjIxhLt",
+          "expanded_url": "https://cnn.it/2VIjcG1",
+          "display_url": "cnn.it/2VIjcG1"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 4,
+          "end": 5,
+          "probability": 0.831,
+          "type": "Place",
+          "normalized_text": "UK"
+        },
+        {
+          "start": 52,
+          "end": 57,
+          "probability": 0.5714,
+          "type": "Organization",
+          "normalized_text": "Pfizer"
+        }
+      ]
+    },
+    "created_at": "2020-12-03T06:31:06.000Z",
+    "id": "1334384650102464518",
+    "text": "The UK is the first country in the world to approve Pfizer's coronavirus vaccine, and plans to begin distributing it next week https://t.co/TBpHjIxhLt"
+  },
+  {
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 1934,
+      "reply_count": 1224,
+      "like_count": 19793,
+      "quote_count": 833
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 231,
+          "end": 254,
+          "url": "https://t.co/wjhlGoJOVj",
+          "expanded_url": "https://cnn.it/37xUi0W",
+          "display_url": "cnn.it/37xUi0W"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 18,
+          "end": 29,
+          "probability": 0.5197,
+          "type": "Person",
+          "normalized_text": "Barack Obama"
+        },
+        {
+          "start": 32,
+          "end": 45,
+          "probability": 0.979,
+          "type": "Person",
+          "normalized_text": "George W. Bush"
+        },
+        {
+          "start": 51,
+          "end": 62,
+          "probability": 0.9935,
+          "type": "Person",
+          "normalized_text": "Bill Clinton"
+        },
+        {
+          "start": 184,
+          "end": 214,
+          "probability": 0.5918,
+          "type": "Organization",
+          "normalized_text": "US Food and Drug Administration"
+        }
+      ]
+    },
+    "created_at": "2020-12-03T05:31:04.000Z",
+    "id": "1334369540940193792",
+    "text": "Former Presidents Barack Obama, George W. Bush and Bill Clinton are volunteering to get their Covid-19 vaccines on camera to promote public confidence in the vaccine's safety once the US Food and Drug Administration authorizes one https://t.co/wjhlGoJOVj"
+  },
+  {
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 264,
+      "reply_count": 329,
+      "like_count": 3705,
+      "quote_count": 102
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 184,
+          "end": 207,
+          "url": "https://t.co/ztwOGJ2tf2",
+          "expanded_url": "https://cnn.it/2I6zpl2",
+          "display_url": "cnn.it/2I6zpl2"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 7,
+          "end": 28,
+          "probability": 0.6266,
+          "type": "Person",
+          "normalized_text": "President Barack Obama"
+        }
+      ]
+    },
+    "created_at": "2020-12-02T22:56:07.000Z",
+    "id": "1334270148698640384",
+    "text": "Former President Barack Obama said he \"absolutely\" plans on getting a Covid-19 vaccine when it's available and added that he may end up taking it on video to promote public confidence https://t.co/ztwOGJ2tf2"
+  },
+  {
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 73,
+      "reply_count": 53,
+      "like_count": 356,
+      "quote_count": 16
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 235,
+          "end": 258,
+          "url": "https://t.co/0nD5aqDWP8",
+          "expanded_url": "https://cnn.it/2I2qKzY",
+          "display_url": "cnn.it/2I2qKzY"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 4,
+          "end": 9,
+          "probability": 0.5838,
+          "type": "Organization",
+          "normalized_text": "Pfizer"
+        },
+        {
+          "start": 11,
+          "end": 18,
+          "probability": 0.4659,
+          "type": "Organization",
+          "normalized_text": "BioNTech"
+        },
+        {
+          "start": 208,
+          "end": 209,
+          "probability": 0.8637,
+          "type": "Place",
+          "normalized_text": "UK"
+        }
+      ]
+    },
+    "created_at": "2020-12-02T21:38:41.000Z",
+    "id": "1334250663321202696",
+    "text": "The Pfizer/BioNTech vaccine has been granted emergency authorization by British regulators, and the first doses are expected to be rolled out from early next week.\n\nHere's what you need to know about how the UK authorized the vaccine. https://t.co/0nD5aqDWP8"
+  },
+  {
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 83,
+      "reply_count": 119,
+      "like_count": 427,
+      "quote_count": 23
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 121,
+          "end": 144,
+          "url": "https://t.co/ryHtLdaQho",
+          "expanded_url": "https://cnn.it/33DwEPI",
+          "display_url": "cnn.it/33DwEPI"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 18,
+          "end": 31,
+          "probability": 0.5413,
+          "type": "Person",
+          "normalized_text": "Vladimir Putin"
+        }
+      ]
+    },
+    "created_at": "2020-12-02T18:40:10.000Z",
+    "id": "1334205736922988544",
+    "text": "Russian President Vladimir Putin has ordered his government to start large-scale vaccinations against Covid-19 next week https://t.co/ryHtLdaQho"
+  },
+  {
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 185,
+      "reply_count": 75,
+      "like_count": 842,
+      "quote_count": 122
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 127,
+          "end": 150,
+          "url": "https://t.co/aLgZcYu6YG",
+          "expanded_url": "https://cnn.it/3qmhuYY",
+          "display_url": "cnn.it/3qmhuYY"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 4,
+          "end": 5,
+          "probability": 0.831,
+          "type": "Place",
+          "normalized_text": "UK"
+        },
+        {
+          "start": 52,
+          "end": 57,
+          "probability": 0.5714,
+          "type": "Organization",
+          "normalized_text": "Pfizer"
+        }
+      ]
+    },
+    "created_at": "2020-12-02T16:40:06.000Z",
+    "id": "1334175519458414593",
+    "text": "The UK is the first country in the world to approve Pfizer's coronavirus vaccine, and plans to begin distributing it next week https://t.co/aLgZcYu6YG"
+  },
+  {
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 612,
+      "reply_count": 116,
+      "like_count": 2856,
+      "quote_count": 256
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 137,
+          "end": 160,
+          "url": "https://t.co/czGBNubKb8",
+          "expanded_url": "https://cnn.it/37qlvCW",
+          "display_url": "cnn.it/37qlvCW"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 14,
+          "end": 15,
+          "probability": 0.8214,
+          "type": "Place",
+          "normalized_text": "UK"
+        },
+        {
+          "start": 62,
+          "end": 67,
+          "probability": 0.5766,
+          "type": "Organization",
+          "normalized_text": "Pfizer"
+        }
+      ]
+    },
+    "created_at": "2020-12-02T07:48:46.000Z",
+    "id": "1334041805223063552",
+    "text": "BREAKING: The UK is the first country in the world to approve Pfizer's coronavirus vaccine, and plans to begin distributing it next week https://t.co/czGBNubKb8"
+  },
+  {
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 1207,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0
+    },
+    "created_at": "2020-12-02T07:47:34.000Z",
+    "id": "1334041502209757184",
+    "entities": {
+      "mentions": [
+        {
+          "start": 3,
+          "end": 8,
+          "username": "cnni"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 24,
+          "end": 25,
+          "probability": 0.856,
+          "type": "Place",
+          "normalized_text": "UK"
+        },
+        {
+          "start": 72,
+          "end": 77,
+          "probability": 0.5087,
+          "type": "Organization",
+          "normalized_text": "Pfizer"
+        }
+      ]
+    },
+    "text": "RT @cnni: BREAKING: The UK is the first country in the world to approve Pfizer's coronavirus vaccine, and plans to begin distributing it ne\u2026"
+  },
+  {
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 83,
+      "reply_count": 234,
+      "like_count": 365,
+      "quote_count": 81
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 257,
+          "end": 280,
+          "url": "https://t.co/Nwc3XytX3B",
+          "expanded_url": "https://cnn.it/2Jqxp7O",
+          "display_url": "cnn.it/2Jqxp7O"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 22,
+          "end": 26,
+          "probability": 0.9839,
+          "type": "Place",
+          "normalized_text": "China"
+        }
+      ]
+    },
+    "created_at": "2020-12-02T06:31:08.000Z",
+    "id": "1334022267655909376",
+    "text": "In the coming months, China will be sending hundreds of millions of doses of Covid-19 vaccines to countries that have conducted last-stage trials for its leading candidates. And a growing list of developing countries have also been promised priority access https://t.co/Nwc3XytX3B"
+  },
+  {
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 110,
+      "reply_count": 87,
+      "like_count": 574,
+      "quote_count": 40
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 148,
+          "end": 171,
+          "url": "https://t.co/8bw2qngzBH",
+          "expanded_url": "https://cnn.it/3oiVtrR",
+          "display_url": "cnn.it/3oiVtrR"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 23,
+          "end": 28,
+          "probability": 0.6016,
+          "type": "Organization",
+          "normalized_text": "Pfizer"
+        },
+        {
+          "start": 144,
+          "end": 146,
+          "probability": 0.9907,
+          "type": "Organization",
+          "normalized_text": "CNN"
+        }
+      ]
+    },
+    "created_at": "2020-12-02T03:46:05.000Z",
+    "id": "1333980733677965312",
+    "text": "The first shipments of Pfizer's coronavirus vaccine will be delivered on December 15, according to an Operation Warp Speed document obtained by CNN https://t.co/8bw2qngzBH"
+  },
+  {
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 60,
+      "reply_count": 75,
+      "like_count": 407,
+      "quote_count": 18
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 222,
+          "end": 245,
+          "url": "https://t.co/z8ncU39ENo",
+          "expanded_url": "http://cnn.it/3mvdz9Q",
+          "display_url": "cnn.it/3mvdz9Q"
+        },
+        {
+          "start": 246,
+          "end": 269,
+          "url": "https://t.co/lfOKPUYZjs",
+          "expanded_url": "https://twitter.com/CNN/status/1333968127646789633/video/1",
+          "display_url": "pic.twitter.com/lfOKPUYZjs"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 0,
+          "end": 15,
+          "probability": 0.9283,
+          "type": "Person",
+          "normalized_text": "Dr. Robert Atmar"
+        },
+        {
+          "start": 44,
+          "end": 48,
+          "probability": 0.372,
+          "type": "Organization",
+          "normalized_text": "Covid"
+        }
+      ]
+    },
+    "created_at": "2020-12-02T02:56:00.000Z",
+    "id": "1333968127646789633",
+    "text": "Dr. Robert Atmar, a CDC vaccine adviser for Covid-19, says \u201cessential workers\u201d like \u201cteachers, people in law enforcement, firefighters\u201d may follow health care workers and long-term care facility residents for the vaccine. https://t.co/z8ncU39ENo https://t.co/lfOKPUYZjs"
+  },
+  {
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 55,
+      "reply_count": 91,
+      "like_count": 264,
+      "quote_count": 12
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 254,
+          "end": 277,
+          "url": "https://t.co/rIwgSPaXao",
+          "expanded_url": "https://cnn.it/3oiF5aP",
+          "display_url": "cnn.it/3oiF5aP"
+        }
+      ],
+      "mentions": [
+        {
+          "start": 244,
+          "end": 253,
+          "username": "kyurieff"
+        }
+      ]
+    },
+    "created_at": "2020-12-02T01:14:43.000Z",
+    "id": "1333942640539209728",
+    "text": "With Covid-19 vaccines potentially making their way to some Americans soon, tech companies will face their biggest test on this front yet. After years of struggling to combat vaccine misinformation, the stakes couldn't be higher. | Analysis by @kyurieff https://t.co/rIwgSPaXao"
+  },
+  {
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 107,
+      "reply_count": 92,
+      "like_count": 458,
+      "quote_count": 37
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 132,
+          "end": 155,
+          "url": "https://t.co/j8v4gTgNJX",
+          "expanded_url": "https://cnn.it/2Jq1Cnu",
+          "display_url": "cnn.it/2Jq1Cnu"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 23,
+          "end": 28,
+          "probability": 0.6,
+          "type": "Organization",
+          "normalized_text": "Pfizer"
+        }
+      ]
+    },
+    "created_at": "2020-12-02T01:05:21.000Z",
+    "id": "1333940283596222467",
+    "text": "The first shipments of Pfizer\u2019s coronavirus vaccine will be delivered on December 15, according to an Operation Warp Speed document https://t.co/j8v4gTgNJX"
+  },
+  {
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 174,
+      "reply_count": 132,
+      "like_count": 1050,
+      "quote_count": 65
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 151,
+          "end": 174,
+          "url": "https://t.co/kJAaEsvW1J",
+          "expanded_url": "https://cnn.it/2JoJMkE",
+          "display_url": "cnn.it/2JoJMkE"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 9,
+          "end": 11,
+          "probability": 0.6423,
+          "type": "Organization",
+          "normalized_text": "CDC"
+        },
+        {
+          "start": 76,
+          "end": 80,
+          "probability": 0.5269,
+          "type": "Organization",
+          "normalized_text": "Covid"
+        }
+      ]
+    },
+    "created_at": "2020-12-01T22:49:53.000Z",
+    "id": "1333906190041047042",
+    "text": "JUST IN: CDC advisers are recommending the first group to be vaccinated for Covid-19 be health care workers and residents of long-term care facilities https://t.co/kJAaEsvW1J"
+  },
+  {
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 23,
+      "reply_count": 27,
+      "like_count": 181,
+      "quote_count": 8
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 101,
+          "end": 124,
+          "url": "https://t.co/vdvlcFYGuC",
+          "expanded_url": "https://cnn.it/39tWY2x",
+          "display_url": "cnn.it/39tWY2x"
+        }
+      ]
+    },
+    "created_at": "2020-12-01T21:05:12.000Z",
+    "id": "1333879848922718212",
+    "text": "Oil prices are showing signs of life, rebounding from their unprecedented dip below zero this spring https://t.co/vdvlcFYGuC"
+  },
+  {
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 71,
+      "reply_count": 106,
+      "like_count": 362,
+      "quote_count": 44
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 163,
+          "end": 186,
+          "url": "https://t.co/nR6PGuZ44V",
+          "expanded_url": "https://cnn.it/39uVuF1",
+          "display_url": "cnn.it/39uVuF1"
+        }
+      ]
+    },
+    "created_at": "2020-12-01T17:50:02.000Z",
+    "id": "1333830732209414147",
+    "text": "Two Covid-19 vaccines are expected to be ready by the end of the month. But there won't be enough vaccines to go around, and tough decisions will have to be made. https://t.co/nR6PGuZ44V"
+  },
+  {
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 62,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0
+    },
+    "created_at": "2020-12-01T14:23:41.000Z",
+    "id": "1333778803110383618",
+    "entities": {
+      "mentions": [
+        {
+          "start": 3,
+          "end": 10,
+          "username": "NewDay"
+        },
+        {
+          "start": 13,
+          "end": 27,
+          "username": "drsanjaygupta"
+        }
+      ]
+    },
+    "text": "RT @NewDay: .@drsanjaygupta answers your coronavirus vaccine questions:\n\n- Will people get the option to choose the vaccine they want to ta\u2026"
+  },
+  {
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 61,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0
+    },
+    "created_at": "2020-12-01T12:01:01.000Z",
+    "id": "1333742898710450176",
+    "entities": {
+      "mentions": [
+        {
+          "start": 3,
+          "end": 10,
+          "username": "NewDay"
+        },
+        {
+          "start": 16,
+          "end": 27,
+          "username": "PeterHotez"
+        }
+      ]
+    },
+    "text": "RT @NewDay: Dr. @PeterHotez answers some questions about the Covid-19 vaccine:\n\n- Do you need both doses for the vaccine to be effective?\u2026"
+  },
+  {
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 64,
+      "reply_count": 110,
+      "like_count": 214,
+      "quote_count": 21
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 257,
+          "end": 280,
+          "url": "https://t.co/JgF56f1woj",
+          "expanded_url": "https://cnn.it/36qfVRL",
+          "display_url": "cnn.it/36qfVRL"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 0,
+          "end": 10,
+          "probability": 0.642,
+          "type": "Place",
+          "normalized_text": "White House"
+        },
+        {
+          "start": 27,
+          "end": 38,
+          "probability": 0.8715,
+          "type": "Person",
+          "normalized_text": "Mark Meadows"
+        },
+        {
+          "start": 66,
+          "end": 68,
+          "probability": 0.9518,
+          "type": "Organization",
+          "normalized_text": "FDA"
+        },
+        {
+          "start": 83,
+          "end": 94,
+          "probability": 0.9887,
+          "type": "Person",
+          "normalized_text": "Stephen Hahn"
+        },
+        {
+          "start": 111,
+          "end": 125,
+          "probability": 0.6788,
+          "type": "Person",
+          "normalized_text": "President Trump"
+        },
+        {
+          "start": 206,
+          "end": 211,
+          "probability": 0.4967,
+          "type": "Organization",
+          "normalized_text": "Pfizer"
+        }
+      ]
+    },
+    "created_at": "2020-12-01T11:53:04.000Z",
+    "id": "1333740896538517504",
+    "text": "White House chief of staff Mark Meadows is scheduled to meet with FDA Commissioner Stephen Hahn on Tuesday, as President Trump has privately demanded to know why the agency hasn't granted emergency use for Pfizer's coronavirus vaccine yet, two sources say. https://t.co/JgF56f1woj"
+  },
+  {
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 88,
+      "reply_count": 60,
+      "like_count": 364,
+      "quote_count": 29
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 225,
+          "end": 248,
+          "url": "https://t.co/CGSS69bES6",
+          "expanded_url": "https://cnn.it/37qtJe3",
+          "display_url": "cnn.it/37qtJe3"
+        }
+      ]
+    },
+    "created_at": "2020-12-01T09:45:05.000Z",
+    "id": "1333708689799319555",
+    "text": "\u201cA hundred percent of Americans that want the vaccine will have had the vaccine by that point in time.\u201d\n\nAll Americans who want to be vaccinated against Covid-19 will be by June, according to an Operation Warp Speed official https://t.co/CGSS69bES6"
+  },
+  {
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 47,
+      "reply_count": 28,
+      "like_count": 251,
+      "quote_count": 9
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 115,
+          "end": 138,
+          "url": "https://t.co/Pojk4SjSN3",
+          "expanded_url": "https://cnn.it/3ms5Toy",
+          "display_url": "cnn.it/3ms5Toy"
+        }
+      ]
+    },
+    "created_at": "2020-12-01T07:01:03.000Z",
+    "id": "1333667408381349890",
+    "text": "Here are answers to some of your most pressing Covid-19 vaccine questions as we get closer to having one available https://t.co/Pojk4SjSN3"
+  },
+  {
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 72,
+      "reply_count": 35,
+      "like_count": 454,
+      "quote_count": 8
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 124,
+          "end": 147,
+          "url": "https://t.co/UiWUV78VOD",
+          "expanded_url": "https://cnn.it/33tGPGA",
+          "display_url": "cnn.it/33tGPGA"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 23,
+          "end": 29,
+          "probability": 0.5338,
+          "type": "Organization",
+          "normalized_text": "Moderna"
+        },
+        {
+          "start": 50,
+          "end": 80,
+          "probability": 0.3264,
+          "type": "Organization",
+          "normalized_text": "US Food and Drug Administration"
+        }
+      ]
+    },
+    "created_at": "2020-12-01T02:58:40.000Z",
+    "id": "1333606411515949057",
+    "text": "Pharmaceutical company Moderna has applied to the US Food and Drug Administration for authorization of its Covid-19 vaccine https://t.co/UiWUV78VOD"
+  },
+  {
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 90,
+      "reply_count": 67,
+      "like_count": 434,
+      "quote_count": 19
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 152,
+          "end": 175,
+          "url": "https://t.co/4hwz6lW03D",
+          "expanded_url": "https://cnn.it/3mp9gg1",
+          "display_url": "cnn.it/3mp9gg1",
+          "images": [
+            {
+              "url": "https://pbs.twimg.com/news_img/1333564733795000320/tCR_6sY2?format=jpg&name=orig",
+              "width": 1100,
+              "height": 619
+            },
+            {
+              "url": "https://pbs.twimg.com/news_img/1333564733795000320/tCR_6sY2?format=jpg&name=150x150",
+              "width": 150,
+              "height": 150
+            }
+          ],
+          "status": 200,
+          "title": "When can I get a coronavirus vaccine?",
+          "description": "When can people plan on getting a coronavirus vaccine? For most people, the answer is: Not soon.",
+          "unwound_url": "https://www.cnn.com/2020/11/30/health/covid-vaccine-questions-when/index.html?utm_medium=social&utm_content=2020-12-01T02%3A46%3A06&utm_source=twCNN&utm_term=link"
+        }
+      ]
+    },
+    "created_at": "2020-12-01T02:46:07.000Z",
+    "id": "1333603253485965313",
+    "text": "Millions of health care workers may be able to get immunized before the end of the year, but most people will have to wait longer. Here's what to know. https://t.co/4hwz6lW03D"
+  },
+  {
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 69,
+      "reply_count": 76,
+      "like_count": 240,
+      "quote_count": 27
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 254,
+          "end": 277,
+          "url": "https://t.co/umrdTwThbp",
+          "expanded_url": "https://cnn.it/3fTcFBB",
+          "display_url": "cnn.it/3fTcFBB"
+        }
+      ]
+    },
+    "created_at": "2020-12-01T00:51:10.000Z",
+    "id": "1333574324536696832",
+    "text": "Federal government officials are promising coronavirus vaccines soon, but healthy adults under 65 and children may well have to wait until late spring or even the summer.\n\nHere's a look at what to expect from the coming coronavirus vaccination campaign. https://t.co/umrdTwThbp"
+  },
+  {
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 86,
+      "reply_count": 25,
+      "like_count": 371,
+      "quote_count": 6
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 209,
+          "end": 232,
+          "url": "https://t.co/MEM0zj6Fkf",
+          "expanded_url": "https://cnn.it/2I02lew",
+          "display_url": "cnn.it/2I02lew"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 0,
+          "end": 5,
+          "probability": 0.8919,
+          "type": "Organization",
+          "normalized_text": "Pfizer"
+        },
+        {
+          "start": 163,
+          "end": 164,
+          "probability": 0.5573,
+          "type": "Place",
+          "normalized_text": "US"
+        }
+      ]
+    },
+    "created_at": "2020-12-01T00:10:15.000Z",
+    "id": "1333564026647928834",
+    "text": "Pfizer has sent states storage boxes for its Covid-19 vaccine so that health care workers can become accustomed to using them, according to a spokesperson for the US Centers for Disease Control and Prevention https://t.co/MEM0zj6Fkf"
+  },
+  {
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 63,
+      "reply_count": 32,
+      "like_count": 388,
+      "quote_count": 6
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 100,
+          "end": 123,
+          "url": "https://t.co/TXwiCF1AnX",
+          "expanded_url": "https://cnn.it/3fQws4q",
+          "display_url": "cnn.it/3fQws4q",
+          "images": [
+            {
+              "url": "https://pbs.twimg.com/news_img/1333558756291072006/kzfXadch?format=jpg&name=orig",
+              "width": 1600,
+              "height": 1081
+            },
+            {
+              "url": "https://pbs.twimg.com/news_img/1333558756291072006/kzfXadch?format=jpg&name=150x150",
+              "width": 150,
+              "height": 150
+            }
+          ],
+          "status": 200,
+          "title": "Moderna confirms it filed for FDA emergency authorization for its coronavirus vaccine",
+          "description": "Vaccine maker Moderna says it has filed for emergency use authorization for its coronavirus vaccine.",
+          "unwound_url": "https://www.cnn.com/world/live-news/coronavirus-pandemic-11-30-20-intl/h_b525697d7f2e1ddef7c10da0476b385a?utm_source=twCNN&utm_term=link&utm_content=2020-11-30T23%3A49%3A15&utm_medium=social"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 14,
+          "end": 20,
+          "probability": 0.3507,
+          "type": "Organization",
+          "normalized_text": "Moderna"
+        }
+      ]
+    },
+    "created_at": "2020-11-30T23:49:15.000Z",
+    "id": "1333558744362455044",
+    "text": "Vaccine maker Moderna says it has filed for emergency use authorization for its coronavirus vaccine https://t.co/TXwiCF1AnX"
+  },
+  {
+    "author_id": "759251",
+    "public_metrics": {
+      "retweet_count": 40,
+      "reply_count": 27,
+      "like_count": 172,
+      "quote_count": 6
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 155,
+          "end": 178,
+          "url": "https://t.co/GZOe3lcxdw",
+          "expanded_url": "https://cnn.it/2KP25zP",
+          "display_url": "cnn.it/2KP25zP"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 28,
+          "end": 33,
+          "probability": 0.6407,
+          "type": "Organization",
+          "normalized_text": "Pfizer"
+        }
+      ]
+    },
+    "created_at": "2020-11-30T23:45:11.000Z",
+    "id": "1333557721363341324",
+    "text": "The large shipment sizes of Pfizer\u2019s Covid-19 vaccine will complicate an already complex distribution process for small and rural communities, experts say https://t.co/GZOe3lcxdw"
+  },
+  {
+    "text": "Biden urges taking coronavirus vaccine, wearing masks but says they shouldn\u2019t be mandatory https://t.co/VegSXU6F8w",
+    "entities": {
+      "annotations": [
+        {
+          "start": 0,
+          "end": 4,
+          "probability": 0.9877,
+          "type": "Person",
+          "normalized_text": "Biden"
+        }
+      ],
+      "urls": [
+        {
+          "start": 91,
+          "end": 114,
+          "url": "https://t.co/VegSXU6F8w",
+          "expanded_url": "https://fxn.ws/2VCL2TI",
+          "display_url": "fxn.ws/2VCL2TI"
+        }
+      ]
+    },
+    "public_metrics": {
+      "retweet_count": 84,
+      "reply_count": 842,
+      "like_count": 648,
+      "quote_count": 60
+    },
+    "created_at": "2020-12-04T22:52:19.000Z",
+    "id": "1334993969562980353",
+    "author_id": "1367531"
+  },
+  {
+    "text": "Moderna reveals how long coronavirus immunity will last with their vaccine\nhttps://t.co/4Tt5yCP34n",
+    "public_metrics": {
+      "retweet_count": 55,
+      "reply_count": 115,
+      "like_count": 188,
+      "quote_count": 40
+    },
+    "created_at": "2020-12-04T16:51:56.000Z",
+    "entities": {
+      "urls": [
+        {
+          "start": 75,
+          "end": 98,
+          "url": "https://t.co/4Tt5yCP34n",
+          "expanded_url": "https://www.foxnews.com/health/moderna-coronavirus-vaccine-immunity-3-months",
+          "display_url": "foxnews.com/health/moderna\u2026"
+        }
+      ]
+    },
+    "id": "1334903273162203137",
+    "author_id": "1367531"
+  },
+  {
+    "text": "'Black Panther' star under fire for controversial vaccine tweet, deletes post\nhttps://t.co/FKbrKNARW3",
+    "entities": {
+      "annotations": [
+        {
+          "start": 1,
+          "end": 13,
+          "probability": 0.7058,
+          "type": "Other",
+          "normalized_text": "Black Panther"
+        }
+      ],
+      "urls": [
+        {
+          "start": 78,
+          "end": 101,
+          "url": "https://t.co/FKbrKNARW3",
+          "expanded_url": "https://www.foxnews.com/entertainment/letitia-wright-criticized-anti-vaxxer-tweet",
+          "display_url": "foxnews.com/entertainment/\u2026"
+        }
+      ]
+    },
+    "public_metrics": {
+      "retweet_count": 48,
+      "reply_count": 104,
+      "like_count": 198,
+      "quote_count": 18
+    },
+    "created_at": "2020-12-04T14:57:52.000Z",
+    "id": "1334874567848960000",
+    "author_id": "1367531"
+  },
+  {
+    "text": "CDC director OKs coronavirus vaccine plan for health care workers, long-term care residents\nhttps://t.co/Bl23vSnF8q",
+    "entities": {
+      "annotations": [
+        {
+          "start": 0,
+          "end": 2,
+          "probability": 0.7107,
+          "type": "Organization",
+          "normalized_text": "CDC"
+        }
+      ],
+      "urls": [
+        {
+          "start": 92,
+          "end": 115,
+          "url": "https://t.co/Bl23vSnF8q",
+          "expanded_url": "https://www.foxnews.com/health/redfield-oks-coronavirus-vaccine-plan-cdc",
+          "display_url": "foxnews.com/health/redfiel\u2026",
+          "images": [
+            {
+              "url": "https://pbs.twimg.com/news_img/1334843793086935040/V8fQ9bCA?format=jpg&name=orig",
+              "width": 1024,
+              "height": 512
+            },
+            {
+              "url": "https://pbs.twimg.com/news_img/1334843793086935040/V8fQ9bCA?format=jpg&name=150x150",
+              "width": 150,
+              "height": 150
+            }
+          ],
+          "status": 200,
+          "title": "CDC director OKs coronavirus vaccine plan for health care workers, long-term care residents",
+          "description": "Dr. Robert Redfield, director of the Centers for Disease Control and Prevention (CDC), has upheld a vote by a panel of independent experts that health care workers and residents of long-term care facilities should be the first to receive the long-awaited coronavirus vaccine.\u00a0",
+          "unwound_url": "https://www.foxnews.com/health/redfield-oks-coronavirus-vaccine-plan-cdc"
+        }
+      ]
+    },
+    "public_metrics": {
+      "retweet_count": 64,
+      "reply_count": 59,
+      "like_count": 378,
+      "quote_count": 9
+    },
+    "created_at": "2020-12-04T14:07:48.000Z",
+    "id": "1334861969409658880",
+    "author_id": "1367531"
+  },
+  {
+    "text": "Coronavirus vaccine should go to health care workers, long term care facilities first, CDC panel recommends https://t.co/u01XbxFr0A",
+    "entities": {
+      "annotations": [
+        {
+          "start": 87,
+          "end": 89,
+          "probability": 0.4513,
+          "type": "Organization",
+          "normalized_text": "CDC"
+        }
+      ],
+      "urls": [
+        {
+          "start": 108,
+          "end": 131,
+          "url": "https://t.co/u01XbxFr0A",
+          "expanded_url": "https://fxn.ws/37p5Cwt",
+          "display_url": "fxn.ws/37p5Cwt"
+        }
+      ]
+    },
+    "public_metrics": {
+      "retweet_count": 50,
+      "reply_count": 91,
+      "like_count": 375,
+      "quote_count": 25
+    },
+    "created_at": "2020-12-01T22:58:31.000Z",
+    "id": "1333908366054322182",
+    "author_id": "1367531"
+  },
+  {
+    "text": "FDA chief summoned to White House for COVID vaccine briefing\nhttps://t.co/yLNsjs3Hre",
+    "entities": {
+      "annotations": [
+        {
+          "start": 0,
+          "end": 2,
+          "probability": 0.9394,
+          "type": "Organization",
+          "normalized_text": "FDA"
+        },
+        {
+          "start": 22,
+          "end": 32,
+          "probability": 0.9092,
+          "type": "Place",
+          "normalized_text": "White House"
+        }
+      ],
+      "urls": [
+        {
+          "start": 61,
+          "end": 84,
+          "url": "https://t.co/yLNsjs3Hre",
+          "expanded_url": "https://www.foxnews.com/health/fda-commissioner-summoned-white-house-coronavirus-vaccine-briefing",
+          "display_url": "foxnews.com/health/fda-com\u2026"
+        }
+      ]
+    },
+    "public_metrics": {
+      "retweet_count": 47,
+      "reply_count": 59,
+      "like_count": 249,
+      "quote_count": 10
+    },
+    "created_at": "2020-12-01T15:46:49.000Z",
+    "id": "1333799724017618951",
+    "author_id": "1367531"
+  },
+  {
+    "entities": {
+      "hashtags": [
+        {
+          "start": 89,
+          "end": 94,
+          "tag": "OANN"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 0,
+          "end": 3,
+          "probability": 0.8881,
+          "type": "Place",
+          "normalized_text": "U.S."
+        }
+      ],
+      "urls": [
+        {
+          "start": 65,
+          "end": 88,
+          "url": "https://t.co/zx6o5cIZBb",
+          "expanded_url": "https://www.oann.com/u-s-healthcare-workers-prepare-for-potential-covid-19-vaccine/",
+          "display_url": "oann.com/u-s-healthcare\u2026",
+          "images": [
+            {
+              "url": "https://pbs.twimg.com/news_img/1335383966514221056/bTJP4ion?format=jpg&name=orig",
+              "width": 655,
+              "height": 437
+            },
+            {
+              "url": "https://pbs.twimg.com/news_img/1335383966514221056/bTJP4ion?format=jpg&name=150x150",
+              "width": 150,
+              "height": 150
+            }
+          ],
+          "status": 200,
+          "title": "U.S. healthcare workers prepare for potential COVID-19 vaccine | One A",
+          "description": "As federal officials ramp up efforts to make a coronavirus vaccine available to the public, state health departments are starting to prepare hospitals for the first shipments of the vaccine.",
+          "unwound_url": "https://www.oann.com/u-s-healthcare-workers-prepare-for-potential-covid-19-vaccine/"
+        }
+      ]
+    },
+    "text": "U.S. healthcare workers prepare for potential COVID-19 vaccine - https://t.co/zx6o5cIZBb #OANN",
+    "public_metrics": {
+      "retweet_count": 125,
+      "reply_count": 74,
+      "like_count": 759,
+      "quote_count": 16
+    },
+    "created_at": "2020-12-06T00:54:03.000Z",
+    "id": "1335386992570351617",
+    "author_id": "1209936918"
+  },
+  {
+    "entities": {
+      "hashtags": [
+        {
+          "start": 92,
+          "end": 97,
+          "tag": "OANN"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 0,
+          "end": 5,
+          "probability": 0.947,
+          "type": "Place",
+          "normalized_text": "Israel"
+        },
+        {
+          "start": 23,
+          "end": 29,
+          "probability": 0.4645,
+          "type": "Organization",
+          "normalized_text": "Moderna"
+        }
+      ],
+      "urls": [
+        {
+          "start": 68,
+          "end": 91,
+          "url": "https://t.co/JEwkjqBwPO",
+          "expanded_url": "https://www.oann.com/israel-signs-deal-with-moderna-to-triple-vaccine-doses-to-country/",
+          "display_url": "oann.com/israel-signs-d\u2026"
+        }
+      ]
+    },
+    "text": "Israel signs deal with Moderna to triple vaccine doses to country - https://t.co/JEwkjqBwPO #OANN",
+    "public_metrics": {
+      "retweet_count": 138,
+      "reply_count": 39,
+      "like_count": 671,
+      "quote_count": 22
+    },
+    "created_at": "2020-12-04T17:53:30.000Z",
+    "id": "1334918765889298432",
+    "author_id": "1209936918"
+  },
+  {
+    "entities": {
+      "hashtags": [
+        {
+          "start": 79,
+          "end": 84,
+          "tag": "OANN"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 0,
+          "end": 2,
+          "probability": 0.4735,
+          "type": "Place",
+          "normalized_text": "Fla"
+        }
+      ],
+      "urls": [
+        {
+          "start": 55,
+          "end": 78,
+          "url": "https://t.co/oZLU6JB7uL",
+          "expanded_url": "https://www.oann.com/fla-governor-provides-plan-for-vaccine-distribution/",
+          "display_url": "oann.com/fla-governor-p\u2026",
+          "images": [
+            {
+              "url": "https://pbs.twimg.com/news_img/1334568252467372033/ROxjEhrm?format=jpg&name=orig",
+              "width": 687,
+              "height": 437
+            },
+            {
+              "url": "https://pbs.twimg.com/news_img/1334568252467372033/ROxjEhrm?format=jpg&name=150x150",
+              "width": 150,
+              "height": 150
+            }
+          ],
+          "status": 200,
+          "title": "Fla. governor provides plan for vaccine distribution | One America New",
+          "description": "Florida Gov. Ron DeSantis recently gave an update on his plans for vaccine distribution. He released a video message Wednesday in which he laid out his plans to distribute the first batch of coronavir",
+          "unwound_url": "https://www.oann.com/fla-governor-provides-plan-for-vaccine-distribution/"
+        },
+        {
+          "start": 85,
+          "end": 108,
+          "url": "https://t.co/eb2M80uzHL",
+          "expanded_url": "https://twitter.com/OANN/status/1334568252219957248/photo/1",
+          "display_url": "pic.twitter.com/eb2M80uzHL"
+        }
+      ]
+    },
+    "text": "Fla. governor provides plan for vaccine distribution - https://t.co/oZLU6JB7uL #OANN https://t.co/eb2M80uzHL",
+    "public_metrics": {
+      "retweet_count": 122,
+      "reply_count": 61,
+      "like_count": 815,
+      "quote_count": 10
+    },
+    "created_at": "2020-12-03T18:40:41.000Z",
+    "id": "1334568252219957248",
+    "author_id": "1209936918"
+  },
+  {
+    "entities": {
+      "hashtags": [
+        {
+          "start": 91,
+          "end": 96,
+          "tag": "OANN"
+        }
+      ],
+      "urls": [
+        {
+          "start": 67,
+          "end": 90,
+          "url": "https://t.co/sykBSrSd8J",
+          "expanded_url": "https://www.oann.com/federal-investigators-warn-of-counterfeit-covid-19-vaccine-fraud/",
+          "display_url": "oann.com/federal-invest\u2026"
+        }
+      ]
+    },
+    "text": "Federal Investigators warn of counterfeit COVID-19 vaccine fraud - https://t.co/sykBSrSd8J #OANN",
+    "public_metrics": {
+      "retweet_count": 374,
+      "reply_count": 71,
+      "like_count": 877,
+      "quote_count": 36
+    },
+    "created_at": "2020-12-02T17:28:25.000Z",
+    "id": "1334187681102741504",
+    "author_id": "1209936918"
+  },
+  {
+    "entities": {
+      "hashtags": [
+        {
+          "start": 124,
+          "end": 129,
+          "tag": "OANN"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 0,
+          "end": 14,
+          "probability": 0.5056,
+          "type": "Person",
+          "normalized_text": "President Trump"
+        },
+        {
+          "start": 87,
+          "end": 89,
+          "probability": 0.6502,
+          "type": "Organization",
+          "normalized_text": "FDA"
+        }
+      ],
+      "urls": [
+        {
+          "start": 100,
+          "end": 123,
+          "url": "https://t.co/TUYtuyNi2B",
+          "expanded_url": "https://www.oann.com/president-trump-praises-operation-warp-speed-as-modernas-vaccine-candidate-heads-into-fda-review/",
+          "display_url": "oann.com/president-trum\u2026",
+          "images": [
+            {
+              "url": "https://pbs.twimg.com/news_img/1333795404354187267/N-bzYfav?format=jpg&name=orig",
+              "width": 643,
+              "height": 437
+            },
+            {
+              "url": "https://pbs.twimg.com/news_img/1333795404354187267/N-bzYfav?format=jpg&name=150x150",
+              "width": 150,
+              "height": 150
+            }
+          ],
+          "status": 200,
+          "title": "President Trump praises Operation Warp Speed as Moderna's vaccine",
+          "description": "Lt. Gen. Paul Ostrowski of Operation Warp Speed said 100 percent of Americans will have the opportunity to take a COVID-19 vaccine by June of 2021. He made those remarks Monday while speaking to repor",
+          "unwound_url": "https://www.oann.com/president-trump-praises-operation-warp-speed-as-modernas-vaccine-candidate-heads-into-fda-review/"
+        },
+        {
+          "start": 130,
+          "end": 153,
+          "url": "https://t.co/KCalOzbC4b",
+          "expanded_url": "https://twitter.com/OANN/status/1333795404052275201/photo/1",
+          "display_url": "pic.twitter.com/KCalOzbC4b"
+        }
+      ]
+    },
+    "text": "President Trump praises Operation Warp Speed as Moderna\u2019s vaccine candidate heads into FDA review - https://t.co/TUYtuyNi2B #OANN https://t.co/KCalOzbC4b",
+    "public_metrics": {
+      "retweet_count": 163,
+      "reply_count": 67,
+      "like_count": 1164,
+      "quote_count": 8
+    },
+    "created_at": "2020-12-01T15:29:39.000Z",
+    "id": "1333795404052275201",
+    "author_id": "1209936918"
+  }
+]

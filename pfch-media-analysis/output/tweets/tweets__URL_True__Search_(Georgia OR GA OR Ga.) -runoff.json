@@ -1,0 +1,2442 @@
+[
+  {
+    "id": "1335964598768459781",
+    "created_at": "2020-12-07T15:09:16.000Z",
+    "text": "Breaking News: Georgia officials said they would recertify the state\u2019s election results after a second recount confirmed Joe Biden\u2019s victory there. https://t.co/H3ZlAzE0l9",
+    "entities": {
+      "urls": [
+        {
+          "start": 148,
+          "end": 171,
+          "url": "https://t.co/H3ZlAzE0l9",
+          "expanded_url": "https://nyti.ms/33SfI8e",
+          "display_url": "nyti.ms/33SfI8e"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 15,
+          "end": 21,
+          "probability": 0.4155,
+          "type": "Place",
+          "normalized_text": "Georgia"
+        },
+        {
+          "start": 121,
+          "end": 129,
+          "probability": 0.9976,
+          "type": "Person",
+          "normalized_text": "Joe Biden"
+        }
+      ]
+    },
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 426,
+      "reply_count": 230,
+      "like_count": 3498,
+      "quote_count": 185
+    }
+  },
+  {
+    "id": "1335958522941628423",
+    "created_at": "2020-12-07T14:45:07.000Z",
+    "text": "Officials in Georgia warn that President Trump\u2019s baseless allegations surrounding his loss in the state could hurt the GOP in the Senate runoffs, which will determine which party has control of the Senate. https://t.co/p0BVruTMpo",
+    "entities": {
+      "urls": [
+        {
+          "start": 206,
+          "end": 229,
+          "url": "https://t.co/p0BVruTMpo",
+          "expanded_url": "https://nyti.ms/33R995X",
+          "display_url": "nyti.ms/33R995X"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 13,
+          "end": 19,
+          "probability": 0.993,
+          "type": "Place",
+          "normalized_text": "Georgia"
+        },
+        {
+          "start": 31,
+          "end": 45,
+          "probability": 0.8446,
+          "type": "Person",
+          "normalized_text": "President Trump"
+        },
+        {
+          "start": 119,
+          "end": 121,
+          "probability": 0.9509,
+          "type": "Organization",
+          "normalized_text": "GOP"
+        },
+        {
+          "start": 198,
+          "end": 203,
+          "probability": 0.69,
+          "type": "Organization",
+          "normalized_text": "Senate"
+        }
+      ]
+    },
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 59,
+      "reply_count": 136,
+      "like_count": 440,
+      "quote_count": 31
+    }
+  },
+  {
+    "id": "1335947224350662658",
+    "created_at": "2020-12-07T14:00:13.000Z",
+    "text": "Senator Kelly Loeffler, a Georgia Republican, declined to say that President Trump had lost the election, arguing that the president had \u201cevery legal recourse available\u201d to pursue his baseless assertion that the vote in Georgia was rigged against him. https://t.co/u6UwevohHS",
+    "entities": {
+      "urls": [
+        {
+          "start": 252,
+          "end": 275,
+          "url": "https://t.co/u6UwevohHS",
+          "expanded_url": "https://nyti.ms/37E1zN3",
+          "display_url": "nyti.ms/37E1zN3"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 8,
+          "end": 21,
+          "probability": 0.5995,
+          "type": "Person",
+          "normalized_text": "Kelly Loeffler"
+        },
+        {
+          "start": 26,
+          "end": 43,
+          "probability": 0.5405,
+          "type": "Organization",
+          "normalized_text": "Georgia Republican"
+        },
+        {
+          "start": 67,
+          "end": 81,
+          "probability": 0.8422,
+          "type": "Person",
+          "normalized_text": "President Trump"
+        },
+        {
+          "start": 220,
+          "end": 226,
+          "probability": 0.9641,
+          "type": "Place",
+          "normalized_text": "Georgia"
+        }
+      ]
+    },
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 50,
+      "reply_count": 98,
+      "like_count": 245,
+      "quote_count": 22
+    }
+  },
+  {
+    "id": "1335943423870767105",
+    "created_at": "2020-12-07T13:45:07.000Z",
+    "text": "Why one Republican election official in Georgia is speaking out against President Trump\u2019s baseless claims of voting fraud. Listen to today's episode of The Daily. https://t.co/RuECDQjn6N",
+    "entities": {
+      "urls": [
+        {
+          "start": 163,
+          "end": 186,
+          "url": "https://t.co/RuECDQjn6N",
+          "expanded_url": "https://nyti.ms/36QtABS",
+          "display_url": "nyti.ms/36QtABS"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 8,
+          "end": 17,
+          "probability": 0.6497,
+          "type": "Organization",
+          "normalized_text": "Republican"
+        },
+        {
+          "start": 40,
+          "end": 46,
+          "probability": 0.9934,
+          "type": "Place",
+          "normalized_text": "Georgia"
+        },
+        {
+          "start": 72,
+          "end": 86,
+          "probability": 0.7838,
+          "type": "Person",
+          "normalized_text": "President Trump"
+        },
+        {
+          "start": 152,
+          "end": 160,
+          "probability": 0.7978,
+          "type": "Other",
+          "normalized_text": "The Daily"
+        }
+      ]
+    },
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 102,
+      "reply_count": 91,
+      "like_count": 663,
+      "quote_count": 18
+    }
+  },
+  {
+    "id": "1335690502545559552",
+    "created_at": "2020-12-06T21:00:06.000Z",
+    "text": "Masks were scarce at President Trump's rally in Georgia on Saturday, where he only briefly mentioned the raging pandemic. https://t.co/rsJwt1mtE5",
+    "entities": {
+      "urls": [
+        {
+          "start": 122,
+          "end": 145,
+          "url": "https://t.co/rsJwt1mtE5",
+          "expanded_url": "https://nyti.ms/33PhKG7",
+          "display_url": "nyti.ms/33PhKG7",
+          "images": [
+            {
+              "url": "https://pbs.twimg.com/news_img/1335690512293105674/Z3rxIaHi?format=jpg&name=orig",
+              "width": 3000,
+              "height": 1688
+            },
+            {
+              "url": "https://pbs.twimg.com/news_img/1335690512293105674/Z3rxIaHi?format=jpg&name=150x150",
+              "width": 150,
+              "height": 150
+            }
+          ],
+          "status": 200,
+          "title": "Masks are scarce at Trump\u2019s rally in Georgia despite a surge in cases.",
+          "description": "Official says a vaccine could reach the general population by May or June, but Biden has sounded a considerably more skeptical note. A once-infamous waste site in New Jersey will become a Covid memorial, and the pandemic may be creating a sales bump for Christmas trees. A nursing home in Redmond, Wash., in October. Widespread vaccination of the elderly could begin in days, an administration official said. Credit... Grant Hindsley for The New York Times Trump administration officials on Sunday laid out an",
+          "unwound_url": "https://www.nytimes.com/live/2020/12/06/world/covid-19-coronavirus/masks-are-scarce-at-trumps-rally-in-georgia-despite-a-surge-in-cases?smid=tw-nytimes&smtyp=cur"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 21,
+          "end": 35,
+          "probability": 0.8998,
+          "type": "Person",
+          "normalized_text": "President Trump"
+        },
+        {
+          "start": 48,
+          "end": 54,
+          "probability": 0.9927,
+          "type": "Place",
+          "normalized_text": "Georgia"
+        }
+      ]
+    },
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 85,
+      "reply_count": 192,
+      "like_count": 409,
+      "quote_count": 59
+    }
+  },
+  {
+    "id": "1335061339778191369",
+    "created_at": "2020-12-05T03:20:02.000Z",
+    "text": "RT @shearm: A frenetic day in Georgia as the state becomes the center of the political universe. An ex-president, a vice president and a cu\u2026",
+    "entities": {
+      "annotations": [
+        {
+          "start": 30,
+          "end": 36,
+          "probability": 0.9966,
+          "type": "Place",
+          "normalized_text": "Georgia"
+        }
+      ],
+      "mentions": [
+        {
+          "start": 3,
+          "end": 10,
+          "username": "shearm"
+        }
+      ]
+    },
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 25,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0
+    }
+  },
+  {
+    "id": "1334663755783954437",
+    "created_at": "2020-12-04T01:00:10.000Z",
+    "text": "When Georgia turned blue for Joe Biden, it validated the political vision of a group of Black women who have led a decades-long organizing effort in the state. But those women tell a more complicated story about their relationship with national Democrats. \nhttps://t.co/P9VB9Kcs4T",
+    "entities": {
+      "urls": [
+        {
+          "start": 257,
+          "end": 280,
+          "url": "https://t.co/P9VB9Kcs4T",
+          "expanded_url": "https://nyti.ms/33Hukr3",
+          "display_url": "nyti.ms/33Hukr3",
+          "images": [
+            {
+              "url": "https://pbs.twimg.com/news_img/1334658937258455040/Le27pgsF?format=jpg&name=orig",
+              "width": 3000,
+              "height": 1688
+            },
+            {
+              "url": "https://pbs.twimg.com/news_img/1334658937258455040/Le27pgsF?format=jpg&name=150x150",
+              "width": 150,
+              "height": 150
+            }
+          ],
+          "status": 200,
+          "title": "Georgia Was a Big Win for Democrats. Black Women Did the Groundwork.",
+          "description": "Before the Democratic Party invested in Georgia, or President Trump and Joe Biden saw it as a battleground, Black political organizers devoted years of hard work to turning out voters.",
+          "unwound_url": "https://www.nytimes.com/2020/12/03/us/politics/georgia-democrats-black-women.html?smid=tw-nytimes&smtyp=cur"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 5,
+          "end": 11,
+          "probability": 0.7003,
+          "type": "Place",
+          "normalized_text": "Georgia"
+        },
+        {
+          "start": 29,
+          "end": 37,
+          "probability": 0.9973,
+          "type": "Person",
+          "normalized_text": "Joe Biden"
+        },
+        {
+          "start": 245,
+          "end": 253,
+          "probability": 0.6507,
+          "type": "Organization",
+          "normalized_text": "Democrats"
+        }
+      ]
+    },
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 76,
+      "reply_count": 50,
+      "like_count": 564,
+      "quote_count": 8
+    }
+  },
+  {
+    "id": "1334627305507975169",
+    "created_at": "2020-12-03T22:35:20.000Z",
+    "text": "RT @AsteadWesley: New: Black women laid the organizing groundwork that flipped GA. But the story also includes years of their vision doubte\u2026",
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 420,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0
+    },
+    "entities": {
+      "mentions": [
+        {
+          "start": 3,
+          "end": 16,
+          "username": "AsteadWesley"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1334182314771877891",
+    "created_at": "2020-12-02T17:07:06.000Z",
+    "text": "\u201cOur investigators have seen no widespread fraud,\u201d said Georgia\u2019s secretary of state, as a second recount wrapped up on Wednesday. \u201cIt looks like Vice President Biden will be carrying Georgia, and he is our president-elect,\u201d he said. https://t.co/6ktk7RlbYx",
+    "entities": {
+      "urls": [
+        {
+          "start": 234,
+          "end": 257,
+          "url": "https://t.co/6ktk7RlbYx",
+          "expanded_url": "https://nyti.ms/2JFUHGl",
+          "display_url": "nyti.ms/2JFUHGl"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 56,
+          "end": 62,
+          "probability": 0.775,
+          "type": "Place",
+          "normalized_text": "Georgia"
+        },
+        {
+          "start": 146,
+          "end": 165,
+          "probability": 0.6721,
+          "type": "Person",
+          "normalized_text": "Vice President Biden"
+        },
+        {
+          "start": 184,
+          "end": 190,
+          "probability": 0.9745,
+          "type": "Place",
+          "normalized_text": "Georgia"
+        }
+      ]
+    },
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 102,
+      "reply_count": 78,
+      "like_count": 774,
+      "quote_count": 17
+    }
+  },
+  {
+    "id": "1333995576183099394",
+    "created_at": "2020-12-02T04:45:04.000Z",
+    "text": "A top Georgia election official condemned President Trump and other Republican leaders for not speaking out against the violent threats directed at election workers. \u201cIt has to stop,\u201d he said.\nhttps://t.co/uFJe7Yrfg4",
+    "entities": {
+      "urls": [
+        {
+          "start": 193,
+          "end": 216,
+          "url": "https://t.co/uFJe7Yrfg4",
+          "expanded_url": "https://nyti.ms/3mweDKn",
+          "display_url": "nyti.ms/3mweDKn"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 6,
+          "end": 12,
+          "probability": 0.7187,
+          "type": "Place",
+          "normalized_text": "Georgia"
+        },
+        {
+          "start": 42,
+          "end": 56,
+          "probability": 0.8428,
+          "type": "Person",
+          "normalized_text": "President Trump"
+        },
+        {
+          "start": 68,
+          "end": 77,
+          "probability": 0.5663,
+          "type": "Organization",
+          "normalized_text": "Republican"
+        }
+      ]
+    },
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 1538,
+      "reply_count": 575,
+      "like_count": 11547,
+      "quote_count": 306
+    }
+  },
+  {
+    "id": "1333961627234865157",
+    "created_at": "2020-12-02T02:30:10.000Z",
+    "text": "Gabriel Sterling, a Georgia elections official, condemned President Trump and other Republican leaders for not speaking out against the violent threats and harassment directed at election workers.\nhttps://t.co/Qu9Qc7zV2y https://t.co/NkUsbpVkuQ",
+    "entities": {
+      "urls": [
+        {
+          "start": 197,
+          "end": 220,
+          "url": "https://t.co/Qu9Qc7zV2y",
+          "expanded_url": "https://nyti.ms/2Vtb4Zu",
+          "display_url": "nyti.ms/2Vtb4Zu"
+        },
+        {
+          "start": 221,
+          "end": 244,
+          "url": "https://t.co/NkUsbpVkuQ",
+          "expanded_url": "https://twitter.com/nytimes/status/1333961627234865157/video/1",
+          "display_url": "pic.twitter.com/NkUsbpVkuQ"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 0,
+          "end": 15,
+          "probability": 0.9871,
+          "type": "Person",
+          "normalized_text": "Gabriel Sterling"
+        },
+        {
+          "start": 20,
+          "end": 26,
+          "probability": 0.3757,
+          "type": "Place",
+          "normalized_text": "Georgia"
+        },
+        {
+          "start": 58,
+          "end": 72,
+          "probability": 0.8273,
+          "type": "Person",
+          "normalized_text": "President Trump"
+        },
+        {
+          "start": 84,
+          "end": 93,
+          "probability": 0.6516,
+          "type": "Organization",
+          "normalized_text": "Republican"
+        }
+      ]
+    },
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 739,
+      "reply_count": 293,
+      "like_count": 5019,
+      "quote_count": 221
+    }
+  },
+  {
+    "id": "1333892159062335492",
+    "created_at": "2020-12-01T21:54:07.000Z",
+    "text": "Breaking News: \u201cSomeone\u2019s going to get killed.\u201d A Republican official in Georgia urged President Trump to condemn threats and harassment directed at election workers. https://t.co/JplGjsNmqA",
+    "entities": {
+      "urls": [
+        {
+          "start": 167,
+          "end": 190,
+          "url": "https://t.co/JplGjsNmqA",
+          "expanded_url": "https://nyti.ms/2Jz4gXI",
+          "display_url": "nyti.ms/2Jz4gXI"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 73,
+          "end": 79,
+          "probability": 0.9945,
+          "type": "Place",
+          "normalized_text": "Georgia"
+        },
+        {
+          "start": 87,
+          "end": 101,
+          "probability": 0.7498,
+          "type": "Person",
+          "normalized_text": "President Trump"
+        }
+      ]
+    },
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 367,
+      "reply_count": 173,
+      "like_count": 1746,
+      "quote_count": 91
+    }
+  },
+  {
+    "id": "1333819419060023297",
+    "created_at": "2020-12-01T17:05:05.000Z",
+    "text": "RT @melbournecoal: NEW: Progressive groups including Sunrise have launched furious efforts in Georgia ahead of the 2 Senate runoffs, reflec\u2026",
+    "entities": {
+      "annotations": [
+        {
+          "start": 53,
+          "end": 59,
+          "probability": 0.4834,
+          "type": "Place",
+          "normalized_text": "Sunrise"
+        },
+        {
+          "start": 94,
+          "end": 100,
+          "probability": 0.9962,
+          "type": "Place",
+          "normalized_text": "Georgia"
+        }
+      ],
+      "mentions": [
+        {
+          "start": 3,
+          "end": 17,
+          "username": "melbournecoal"
+        }
+      ]
+    },
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 48,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0
+    }
+  },
+  {
+    "id": "1333815650259771396",
+    "created_at": "2020-12-01T16:50:06.000Z",
+    "text": "The two Democrats running for Senate seats in Georgia don\u2019t share the far-reaching policy goals of their party\u2019s left flank. But that hasn\u2019t stopped the Sunrise Movement, the activist climate group, from mobilizing for them. https://t.co/0NlnMFwj6G",
+    "entities": {
+      "urls": [
+        {
+          "start": 225,
+          "end": 248,
+          "url": "https://t.co/0NlnMFwj6G",
+          "expanded_url": "https://nyti.ms/37m6rGh",
+          "display_url": "nyti.ms/37m6rGh"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 8,
+          "end": 16,
+          "probability": 0.9021,
+          "type": "Organization",
+          "normalized_text": "Democrats"
+        },
+        {
+          "start": 30,
+          "end": 35,
+          "probability": 0.6498,
+          "type": "Organization",
+          "normalized_text": "Senate"
+        },
+        {
+          "start": 46,
+          "end": 52,
+          "probability": 0.9936,
+          "type": "Place",
+          "normalized_text": "Georgia"
+        }
+      ]
+    },
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 48,
+      "reply_count": 30,
+      "like_count": 355,
+      "quote_count": 7
+    }
+  },
+  {
+    "id": "1333596707158945793",
+    "created_at": "2020-12-01T02:20:06.000Z",
+    "text": "RT @llerer: Republicans are rattled by Trump's attacks in Georgia. \u201cYou can\u2019t say the system is rigged but elect these two senators,\" says\u2026",
+    "entities": {
+      "annotations": [
+        {
+          "start": 12,
+          "end": 22,
+          "probability": 0.8251,
+          "type": "Organization",
+          "normalized_text": "Republicans"
+        },
+        {
+          "start": 39,
+          "end": 43,
+          "probability": 0.9986,
+          "type": "Person",
+          "normalized_text": "Trump"
+        },
+        {
+          "start": 58,
+          "end": 64,
+          "probability": 0.9958,
+          "type": "Place",
+          "normalized_text": "Georgia"
+        }
+      ],
+      "mentions": [
+        {
+          "start": 3,
+          "end": 10,
+          "username": "llerer"
+        }
+      ]
+    },
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 68,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0
+    }
+  },
+  {
+    "id": "1333511141683847177",
+    "created_at": "2020-11-30T20:40:06.000Z",
+    "text": "No, Gov. Brian Kemp of Georgia does not have the authority to \u201coverrule\u201d the Republican secretary of state, as President Trump implausibly suggested on Twitter. https://t.co/ld6qFLLbLp https://t.co/29YcNp88JT",
+    "entities": {
+      "urls": [
+        {
+          "start": 161,
+          "end": 184,
+          "url": "https://t.co/ld6qFLLbLp",
+          "expanded_url": "https://nyti.ms/2Jvoh1c",
+          "display_url": "nyti.ms/2Jvoh1c",
+          "images": [
+            {
+              "url": "https://pbs.twimg.com/news_img/1333511145311916042/eZOdk4FG?format=jpg&name=orig",
+              "width": 3000,
+              "height": 1689
+            },
+            {
+              "url": "https://pbs.twimg.com/news_img/1333511145311916042/eZOdk4FG?format=jpg&name=150x150",
+              "width": 150,
+              "height": 150
+            }
+          ],
+          "status": 200,
+          "title": "No, Georgia\u2019s governor cannot \u2018overrule\u2019 its secretary of state on voting.",
+          "description": "The law prohibits the governor from interfering in elections.",
+          "unwound_url": "https://www.nytimes.com/2020/11/30/technology/no-georgias-governor-cannot-overrule-its-secretary-of-state-on-voting.html?smtyp=cur&smid=tw-nytimes"
+        },
+        {
+          "start": 185,
+          "end": 208,
+          "url": "https://t.co/29YcNp88JT",
+          "expanded_url": "https://twitter.com/nytimes/status/1333511141683847177/photo/1",
+          "display_url": "pic.twitter.com/29YcNp88JT"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 9,
+          "end": 18,
+          "probability": 0.9865,
+          "type": "Person",
+          "normalized_text": "Brian Kemp"
+        },
+        {
+          "start": 23,
+          "end": 29,
+          "probability": 0.757,
+          "type": "Place",
+          "normalized_text": "Georgia"
+        },
+        {
+          "start": 77,
+          "end": 86,
+          "probability": 0.5824,
+          "type": "Organization",
+          "normalized_text": "Republican"
+        },
+        {
+          "start": 111,
+          "end": 125,
+          "probability": 0.8104,
+          "type": "Person",
+          "normalized_text": "President Trump"
+        },
+        {
+          "start": 152,
+          "end": 158,
+          "probability": 0.5657,
+          "type": "Organization",
+          "normalized_text": "Twitter"
+        }
+      ]
+    },
+    "author_id": "807095",
+    "public_metrics": {
+      "retweet_count": 186,
+      "reply_count": 69,
+      "like_count": 1216,
+      "quote_count": 31
+    }
+  },
+  {
+    "created_at": "2020-12-07T13:30:07.000Z",
+    "entities": {
+      "annotations": [
+        {
+          "start": 0,
+          "end": 8,
+          "probability": 0.875,
+          "type": "Organization",
+          "normalized_text": "Democrats"
+        },
+        {
+          "start": 39,
+          "end": 45,
+          "probability": 0.983,
+          "type": "Place",
+          "normalized_text": "Georgia"
+        }
+      ],
+      "urls": [
+        {
+          "start": 87,
+          "end": 110,
+          "url": "https://t.co/OSdny2Sp0I",
+          "expanded_url": "https://www.vox.com/21755028/democrats-ossoff-warnock-georgia-runoffs-explained?utm_campaign=vox&utm_content=chorus&utm_medium=social&utm_source=twitter",
+          "display_url": "vox.com/21755028/democ\u2026"
+        }
+      ]
+    },
+    "id": "1335939648405843974",
+    "public_metrics": {
+      "retweet_count": 5,
+      "reply_count": 2,
+      "like_count": 37,
+      "quote_count": 0
+    },
+    "author_id": "2347049341",
+    "text": "Democrats\u2019 uphill battle to victory in Georgia rests on a diverse coalition of voters. https://t.co/OSdny2Sp0I"
+  },
+  {
+    "created_at": "2020-12-07T13:05:06.000Z",
+    "entities": {
+      "annotations": [
+        {
+          "start": 40,
+          "end": 53,
+          "probability": 0.934,
+          "type": "Organization",
+          "normalized_text": "Georgia Senate"
+        }
+      ],
+      "urls": [
+        {
+          "start": 137,
+          "end": 160,
+          "url": "https://t.co/TKjcRATV2S",
+          "expanded_url": "https://trib.al/qfqlMz7",
+          "display_url": "trib.al/qfqlMz7"
+        }
+      ]
+    },
+    "id": "1335933353606995972",
+    "public_metrics": {
+      "retweet_count": 35,
+      "reply_count": 3,
+      "like_count": 56,
+      "quote_count": 3
+    },
+    "author_id": "2347049341",
+    "text": "The voter registration deadline for the Georgia Senate runoffs is TODAY, December 7. Check your county registrar's office for more info.\nhttps://t.co/TKjcRATV2S"
+  },
+  {
+    "created_at": "2020-12-06T03:07:09.000Z",
+    "entities": {
+      "annotations": [
+        {
+          "start": 0,
+          "end": 4,
+          "probability": 0.993,
+          "type": "Person",
+          "normalized_text": "Trump"
+        },
+        {
+          "start": 8,
+          "end": 14,
+          "probability": 0.5441,
+          "type": "Place",
+          "normalized_text": "Georgia"
+        },
+        {
+          "start": 46,
+          "end": 53,
+          "probability": 0.7401,
+          "type": "Person",
+          "normalized_text": "Loeffler"
+        },
+        {
+          "start": 59,
+          "end": 64,
+          "probability": 0.7192,
+          "type": "Person",
+          "normalized_text": "Perdue"
+        }
+      ],
+      "urls": [
+        {
+          "start": 109,
+          "end": 132,
+          "url": "https://t.co/KgyeJOIZZl",
+          "expanded_url": "https://www.vox.com/2020/12/5/22156585/trump-valdosta-georgia-rally-loeffler-perdue-grievances?utm_campaign=vox&utm_content=chorus&utm_medium=social&utm_source=twitter",
+          "display_url": "vox.com/2020/12/5/2215\u2026"
+        }
+      ]
+    },
+    "id": "1335420485010657281",
+    "public_metrics": {
+      "retweet_count": 353,
+      "reply_count": 313,
+      "like_count": 1828,
+      "quote_count": 130
+    },
+    "author_id": "2347049341",
+    "text": "Trump\u2019s Georgia rally was supposed to pump up Loeffler and Perdue. It ended up being festival of grievances. https://t.co/KgyeJOIZZl"
+  },
+  {
+    "created_at": "2020-12-05T20:30:06.000Z",
+    "entities": {
+      "annotations": [
+        {
+          "start": 0,
+          "end": 6,
+          "probability": 0.9568,
+          "type": "Place",
+          "normalized_text": "Georgia"
+        },
+        {
+          "start": 80,
+          "end": 84,
+          "probability": 0.9946,
+          "type": "Person",
+          "normalized_text": "Biden"
+        },
+        {
+          "start": 146,
+          "end": 150,
+          "probability": 0.9959,
+          "type": "Person",
+          "normalized_text": "Trump"
+        }
+      ],
+      "urls": [
+        {
+          "start": 226,
+          "end": 249,
+          "url": "https://t.co/ndgaeSiFsU",
+          "expanded_url": "https://www.vox.com/2020/12/5/22155858/georgia-election-lawsuit-trump-recount?utm_campaign=vox&utm_content=chorus&utm_medium=social&utm_source=twitter",
+          "display_url": "vox.com/2020/12/5/2215\u2026",
+          "images": [
+            {
+              "url": "https://pbs.twimg.com/news_img/1335320572419575814/_qRBDDkq?format=jpg&name=orig",
+              "width": 1200,
+              "height": 600
+            },
+            {
+              "url": "https://pbs.twimg.com/news_img/1335320572419575814/_qRBDDkq?format=jpg&name=150x150",
+              "width": 150,
+              "height": 150
+            }
+          ],
+          "status": 200,
+          "title": "Trump\u2019s legal team advances yet another far-fetched lawsuit in Georgia",
+          "description": "The lawsuit calls for a do-over of the election in Georgia despite no evidence of malfeasance or fraud.",
+          "unwound_url": "https://www.vox.com/2020/12/5/22155858/georgia-election-lawsuit-trump-recount?utm_campaign=vox&utm_content=chorus&utm_medium=social&utm_source=twitter"
+        }
+      ]
+    },
+    "id": "1335320565234741249",
+    "public_metrics": {
+      "retweet_count": 12,
+      "reply_count": 14,
+      "like_count": 41,
+      "quote_count": 3
+    },
+    "author_id": "2347049341",
+    "text": "Georgia is in the midst of its third tally of votes, and there is no indication Biden is at risk of losing his margin of victory. \n\nNevertheless, Trump\u2019s campaign has filed a new lawsuit falsely claiming irregularities there. https://t.co/ndgaeSiFsU"
+  },
+  {
+    "created_at": "2020-12-05T18:01:47.000Z",
+    "entities": {
+      "annotations": [
+        {
+          "start": 0,
+          "end": 6,
+          "probability": 0.745,
+          "type": "Place",
+          "normalized_text": "Georgia"
+        },
+        {
+          "start": 124,
+          "end": 132,
+          "probability": 0.8937,
+          "type": "Organization",
+          "normalized_text": "Democrats"
+        },
+        {
+          "start": 136,
+          "end": 141,
+          "probability": 0.4921,
+          "type": "Organization",
+          "normalized_text": "Senate"
+        }
+      ],
+      "urls": [
+        {
+          "start": 153,
+          "end": 176,
+          "url": "https://t.co/XZkvsJXvwl",
+          "expanded_url": "https://trib.al/08vH4fQ",
+          "display_url": "trib.al/08vH4fQ"
+        }
+      ]
+    },
+    "id": "1335283240563847168",
+    "public_metrics": {
+      "retweet_count": 8,
+      "reply_count": 6,
+      "like_count": 55,
+      "quote_count": 3
+    },
+    "author_id": "2347049341",
+    "text": "Georgia went blue in the 2020 presidential election for the first time in nearly 30 years. Could it flip again and give the Democrats a Senate majority? https://t.co/XZkvsJXvwl"
+  },
+  {
+    "created_at": "2020-12-03T18:40:05.000Z",
+    "entities": {
+      "annotations": [
+        {
+          "start": 6,
+          "end": 12,
+          "probability": 0.9019,
+          "type": "Place",
+          "normalized_text": "Georgia"
+        },
+        {
+          "start": 30,
+          "end": 39,
+          "probability": 0.8298,
+          "type": "Organization",
+          "normalized_text": "Republican"
+        },
+        {
+          "start": 81,
+          "end": 83,
+          "probability": 0.9323,
+          "type": "Organization",
+          "normalized_text": "GOP"
+        },
+        {
+          "start": 100,
+          "end": 105,
+          "probability": 0.5468,
+          "type": "Organization",
+          "normalized_text": "Senate"
+        }
+      ],
+      "urls": [
+        {
+          "start": 108,
+          "end": 131,
+          "url": "https://t.co/WZNaoMggby",
+          "expanded_url": "https://www.vox.com/2020/12/3/22150384/georgia-poll-trump-warnock-ossoff-loeffler-purdue-boycott-senate-runoffs?utm_campaign=vox&utm_content=chorus&utm_medium=social&utm_source=twitter",
+          "display_url": "vox.com/2020/12/3/2215\u2026"
+        }
+      ]
+    },
+    "id": "1334568104806977536",
+    "public_metrics": {
+      "retweet_count": 21,
+      "reply_count": 11,
+      "like_count": 162,
+      "quote_count": 9
+    },
+    "author_id": "2347049341",
+    "text": "A new Georgia poll shows that Republican lies about \u201cvoter fraud\u201d could cost the GOP control of the Senate. https://t.co/WZNaoMggby"
+  },
+  {
+    "created_at": "2020-12-02T13:41:33.000Z",
+    "entities": {
+      "annotations": [
+        {
+          "start": 12,
+          "end": 20,
+          "probability": 0.9966,
+          "type": "Person",
+          "normalized_text": "Joe Biden"
+        },
+        {
+          "start": 68,
+          "end": 74,
+          "probability": 0.7463,
+          "type": "Place",
+          "normalized_text": "Georgia"
+        }
+      ],
+      "urls": [
+        {
+          "start": 109,
+          "end": 132,
+          "url": "https://t.co/Kp775JiHGc",
+          "expanded_url": "https://trib.al/Ncl6afa",
+          "display_url": "trib.al/Ncl6afa"
+        }
+      ]
+    },
+    "id": "1334130588123623428",
+    "public_metrics": {
+      "retweet_count": 5,
+      "reply_count": 4,
+      "like_count": 47,
+      "quote_count": 3
+    },
+    "author_id": "2347049341",
+    "text": "The fate of Joe Biden\u2019s presidential agenda will be decided by what Georgia voters do in the next few weeks: https://t.co/Kp775JiHGc"
+  },
+  {
+    "created_at": "2020-12-01T12:51:25.000Z",
+    "entities": {
+      "annotations": [
+        {
+          "start": 0,
+          "end": 6,
+          "probability": 0.745,
+          "type": "Place",
+          "normalized_text": "Georgia"
+        },
+        {
+          "start": 124,
+          "end": 132,
+          "probability": 0.8937,
+          "type": "Organization",
+          "normalized_text": "Democrats"
+        },
+        {
+          "start": 136,
+          "end": 141,
+          "probability": 0.4921,
+          "type": "Organization",
+          "normalized_text": "Senate"
+        }
+      ],
+      "urls": [
+        {
+          "start": 153,
+          "end": 176,
+          "url": "https://t.co/eO5PygZpce",
+          "expanded_url": "https://trib.al/g8T4jww",
+          "display_url": "trib.al/g8T4jww"
+        }
+      ]
+    },
+    "id": "1333755582541688832",
+    "public_metrics": {
+      "retweet_count": 16,
+      "reply_count": 5,
+      "like_count": 88,
+      "quote_count": 3
+    },
+    "author_id": "2347049341",
+    "text": "Georgia went blue in the 2020 presidential election for the first time in nearly 30 years. Could it flip again and give the Democrats a Senate majority? https://t.co/eO5PygZpce"
+  },
+  {
+    "created_at": "2020-11-30T21:15:09.000Z",
+    "entities": {
+      "annotations": [
+        {
+          "start": 17,
+          "end": 21,
+          "probability": 0.9958,
+          "type": "Person",
+          "normalized_text": "Biden"
+        },
+        {
+          "start": 51,
+          "end": 55,
+          "probability": 0.9995,
+          "type": "Person",
+          "normalized_text": "Trump"
+        }
+      ],
+      "mentions": [
+        {
+          "start": 3,
+          "end": 15,
+          "username": "ella_nilsen"
+        }
+      ]
+    },
+    "id": "1333519962225389570",
+    "public_metrics": {
+      "retweet_count": 11,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0
+    },
+    "author_id": "2347049341",
+    "text": "RT @ella_nilsen: Biden may be president-elect, but Trump is still the big political factor for both R's and D's in the GA Senate runoffs.\u2026"
+  },
+  {
+    "text": "Georgia is set to recertify its presidential election results, which will again find Joe Biden as the winner following three counts of ballots, Secretary of State Brad Raffensperger says. News of the recertification is yet another blow to President Trump. https://t.co/NkAZvU8gIV",
+    "entities": {
+      "annotations": [
+        {
+          "start": 0,
+          "end": 6,
+          "probability": 0.6832,
+          "type": "Place",
+          "normalized_text": "Georgia"
+        },
+        {
+          "start": 85,
+          "end": 93,
+          "probability": 0.998,
+          "type": "Person",
+          "normalized_text": "Joe Biden"
+        },
+        {
+          "start": 163,
+          "end": 180,
+          "probability": 0.7665,
+          "type": "Person",
+          "normalized_text": "Brad Raffensperger"
+        },
+        {
+          "start": 239,
+          "end": 253,
+          "probability": 0.6899,
+          "type": "Person",
+          "normalized_text": "President Trump"
+        }
+      ],
+      "urls": [
+        {
+          "start": 256,
+          "end": 279,
+          "url": "https://t.co/NkAZvU8gIV",
+          "expanded_url": "https://cnn.it/3oAh0wD",
+          "display_url": "cnn.it/3oAh0wD"
+        }
+      ]
+    },
+    "public_metrics": {
+      "retweet_count": 117,
+      "reply_count": 132,
+      "like_count": 1086,
+      "quote_count": 58
+    },
+    "created_at": "2020-12-07T17:24:54.000Z",
+    "id": "1335998735680212993",
+    "author_id": "759251"
+  },
+  {
+    "text": "In a Georgia Senate debate, GOP Sen. Loeffler didn't explicitly say that she believes the presidential election was rigged \u2014 as Trump has falsely claimed \u2014 but did say \"there were issues\" as her Democratic opponent the Rev. Warnock criticized her rhetoric. https://t.co/AtrkwEfSbt",
+    "entities": {
+      "annotations": [
+        {
+          "start": 5,
+          "end": 18,
+          "probability": 0.6544,
+          "type": "Organization",
+          "normalized_text": "Georgia Senate"
+        },
+        {
+          "start": 28,
+          "end": 30,
+          "probability": 0.7828,
+          "type": "Organization",
+          "normalized_text": "GOP"
+        },
+        {
+          "start": 32,
+          "end": 44,
+          "probability": 0.7887,
+          "type": "Person",
+          "normalized_text": "Sen. Loeffler"
+        },
+        {
+          "start": 128,
+          "end": 132,
+          "probability": 0.9996,
+          "type": "Person",
+          "normalized_text": "Trump"
+        },
+        {
+          "start": 224,
+          "end": 230,
+          "probability": 0.4521,
+          "type": "Person",
+          "normalized_text": "Warnock"
+        }
+      ],
+      "urls": [
+        {
+          "start": 257,
+          "end": 280,
+          "url": "https://t.co/AtrkwEfSbt",
+          "expanded_url": "https://cnn.it/37GXNlX",
+          "display_url": "cnn.it/37GXNlX"
+        }
+      ]
+    },
+    "public_metrics": {
+      "retweet_count": 54,
+      "reply_count": 147,
+      "like_count": 367,
+      "quote_count": 13
+    },
+    "created_at": "2020-12-07T14:58:00.000Z",
+    "id": "1335961766644359168",
+    "author_id": "759251"
+  },
+  {
+    "text": "President Trump on Saturday called Georgia Gov. Brian Kemp, pushing him to convince state legislators to overturn President-elect Joe Biden's win in the state. https://t.co/H2WoPtfMpL",
+    "entities": {
+      "annotations": [
+        {
+          "start": 0,
+          "end": 14,
+          "probability": 0.6546,
+          "type": "Person",
+          "normalized_text": "President Trump"
+        },
+        {
+          "start": 35,
+          "end": 45,
+          "probability": 0.5347,
+          "type": "Organization",
+          "normalized_text": "Georgia Gov"
+        },
+        {
+          "start": 48,
+          "end": 57,
+          "probability": 0.9962,
+          "type": "Person",
+          "normalized_text": "Brian Kemp"
+        },
+        {
+          "start": 130,
+          "end": 138,
+          "probability": 0.9802,
+          "type": "Person",
+          "normalized_text": "Joe Biden"
+        }
+      ],
+      "urls": [
+        {
+          "start": 160,
+          "end": 183,
+          "url": "https://t.co/H2WoPtfMpL",
+          "expanded_url": "https://cnn.it/2IfIDeH",
+          "display_url": "cnn.it/2IfIDeH"
+        }
+      ]
+    },
+    "public_metrics": {
+      "retweet_count": 229,
+      "reply_count": 693,
+      "like_count": 972,
+      "quote_count": 149
+    },
+    "created_at": "2020-12-05T23:31:05.000Z",
+    "id": "1335366109705478147",
+    "author_id": "759251"
+  },
+  {
+    "text": "President Trump on Saturday called Georgia Gov. Brian Kemp, pushing him to convince state legislators to overturn President-elect Joe Biden's win in the state. https://t.co/u5kf7lxR6V",
+    "entities": {
+      "annotations": [
+        {
+          "start": 0,
+          "end": 14,
+          "probability": 0.6546,
+          "type": "Person",
+          "normalized_text": "President Trump"
+        },
+        {
+          "start": 35,
+          "end": 45,
+          "probability": 0.5347,
+          "type": "Organization",
+          "normalized_text": "Georgia Gov"
+        },
+        {
+          "start": 48,
+          "end": 57,
+          "probability": 0.9962,
+          "type": "Person",
+          "normalized_text": "Brian Kemp"
+        },
+        {
+          "start": 130,
+          "end": 138,
+          "probability": 0.9802,
+          "type": "Person",
+          "normalized_text": "Joe Biden"
+        }
+      ],
+      "urls": [
+        {
+          "start": 160,
+          "end": 183,
+          "url": "https://t.co/u5kf7lxR6V",
+          "expanded_url": "https://cnn.it/33MqQDw",
+          "display_url": "cnn.it/33MqQDw"
+        }
+      ]
+    },
+    "public_metrics": {
+      "retweet_count": 811,
+      "reply_count": 1817,
+      "like_count": 2851,
+      "quote_count": 599
+    },
+    "created_at": "2020-12-05T20:21:21.000Z",
+    "id": "1335318364672110595",
+    "author_id": "759251"
+  },
+  {
+    "text": "Republicans are relying on an enthusiastic base in places like Haralson County, Georgia, to vote for incumbent Republican Sens. Kelly Loeffler and David Perdue in the runoffs, driven by the popularity of President Trump https://t.co/TycoEZv7Vw",
+    "entities": {
+      "annotations": [
+        {
+          "start": 0,
+          "end": 10,
+          "probability": 0.8534,
+          "type": "Organization",
+          "normalized_text": "Republicans"
+        },
+        {
+          "start": 63,
+          "end": 77,
+          "probability": 0.9344,
+          "type": "Place",
+          "normalized_text": "Haralson County"
+        },
+        {
+          "start": 80,
+          "end": 86,
+          "probability": 0.7855,
+          "type": "Place",
+          "normalized_text": "Georgia"
+        },
+        {
+          "start": 128,
+          "end": 141,
+          "probability": 0.9958,
+          "type": "Person",
+          "normalized_text": "Kelly Loeffler"
+        },
+        {
+          "start": 147,
+          "end": 158,
+          "probability": 0.972,
+          "type": "Person",
+          "normalized_text": "David Perdue"
+        },
+        {
+          "start": 204,
+          "end": 218,
+          "probability": 0.9188,
+          "type": "Person",
+          "normalized_text": "President Trump"
+        }
+      ],
+      "urls": [
+        {
+          "start": 220,
+          "end": 243,
+          "url": "https://t.co/TycoEZv7Vw",
+          "expanded_url": "https://cnn.it/2JPQIY9",
+          "display_url": "cnn.it/2JPQIY9",
+          "images": [
+            {
+              "url": "https://pbs.twimg.com/news_img/1335017676935053319/Mjy-5iyk?format=jpg&name=orig",
+              "width": 1100,
+              "height": 619
+            },
+            {
+              "url": "https://pbs.twimg.com/news_img/1335017676935053319/Mjy-5iyk?format=jpg&name=150x150",
+              "width": 150,
+              "height": 150
+            }
+          ],
+          "status": 200,
+          "title": "Some Trump supporters in this Georgia county say the election system is 'rigged.' That could hurt Republicans in January",
+          "description": "Sixty miles west of Atlanta, Haralson County sits a world away from Georgia's largest and booming metro area. Here, in the small towns that sit in the foothills of the Appalachian mountains, Republican roots run generations deep. In November, the county voted for Donald Trump over Joe Biden, 87% to 13% -- making it one of the most Republican-leaning areas in the state.",
+          "unwound_url": "https://www.cnn.com/2020/12/04/politics/georgia-county-trump-supporters/index.html?utm_content=2020-12-05T00%3A49%3A25&utm_source=twCNN&utm_term=link&utm_medium=social"
+        }
+      ]
+    },
+    "public_metrics": {
+      "retweet_count": 27,
+      "reply_count": 81,
+      "like_count": 121,
+      "quote_count": 9
+    },
+    "created_at": "2020-12-05T00:49:25.000Z",
+    "id": "1335023437941772288",
+    "author_id": "759251"
+  },
+  {
+    "text": "RT @TheLeadCNN: According to two sources, during a recent phone call, Trump blasted Georgia Republican Gov. Brian Kemp as a \"moron\" and \"nu\u2026",
+    "entities": {
+      "mentions": [
+        {
+          "start": 3,
+          "end": 14,
+          "username": "TheLeadCNN"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 70,
+          "end": 74,
+          "probability": 0.9993,
+          "type": "Person",
+          "normalized_text": "Trump"
+        },
+        {
+          "start": 84,
+          "end": 105,
+          "probability": 0.6108,
+          "type": "Organization",
+          "normalized_text": "Georgia Republican Gov"
+        },
+        {
+          "start": 108,
+          "end": 117,
+          "probability": 0.9936,
+          "type": "Person",
+          "normalized_text": "Brian Kemp"
+        }
+      ]
+    },
+    "public_metrics": {
+      "retweet_count": 422,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0
+    },
+    "created_at": "2020-12-04T22:48:03.000Z",
+    "id": "1334992894420164608",
+    "author_id": "759251"
+  },
+  {
+    "text": "Trump's Georgia visit Saturday comes as he has spent the last several weeks consumed by his own election loss while attacking party officials in the state, casting doubt on its voting process and questioning one of the lawmakers he's urging voters to elect https://t.co/AmB5dM31jH",
+    "entities": {
+      "annotations": [
+        {
+          "start": 0,
+          "end": 4,
+          "probability": 0.9942,
+          "type": "Person",
+          "normalized_text": "Trump"
+        },
+        {
+          "start": 8,
+          "end": 14,
+          "probability": 0.7341,
+          "type": "Place",
+          "normalized_text": "Georgia"
+        }
+      ],
+      "urls": [
+        {
+          "start": 257,
+          "end": 280,
+          "url": "https://t.co/AmB5dM31jH",
+          "expanded_url": "https://cnn.it/37DB3mO",
+          "display_url": "cnn.it/37DB3mO",
+          "images": [
+            {
+              "url": "https://pbs.twimg.com/news_img/1334980308702093313/HTp32rlS?format=jpg&name=orig",
+              "width": 1100,
+              "height": 619
+            },
+            {
+              "url": "https://pbs.twimg.com/news_img/1334980308702093313/HTp32rlS?format=jpg&name=150x150",
+              "width": 150,
+              "height": 150
+            }
+          ],
+          "status": 200,
+          "title": "Trump's criticism of GOP Senate candidates has Republicans worried ahead of rally",
+          "description": "President Donald Trump heads to Georgia on Saturday to campaign for two Republican senators one month ahead of a critical runoff that will determine which party controls the Senate. But Trump's visit comes as he has spent the last several weeks consumed by his own election loss while attacking party officials in the state, casting doubt on its voting process and questioning one of the lawmakers he's urging voters to elect.",
+          "unwound_url": "https://www.cnn.com/2020/12/04/politics/trump-georgia-senate/index.html?utm_medium=social&utm_content=2020-12-04T22%3A34%3A26&utm_term=link&utm_source=twCNN"
+        }
+      ]
+    },
+    "public_metrics": {
+      "retweet_count": 56,
+      "reply_count": 195,
+      "like_count": 250,
+      "quote_count": 27
+    },
+    "created_at": "2020-12-04T22:34:26.000Z",
+    "id": "1334989469020278787",
+    "author_id": "759251"
+  },
+  {
+    "text": "Lin-Manuel Miranda and Pearl Jam are teaming up to host a virtual fundraiser ahead of January's Senate runoffs in Georgia. https://t.co/S5oYLsTUT4",
+    "entities": {
+      "annotations": [
+        {
+          "start": 0,
+          "end": 17,
+          "probability": 0.9804,
+          "type": "Person",
+          "normalized_text": "Lin-Manuel Miranda"
+        },
+        {
+          "start": 23,
+          "end": 31,
+          "probability": 0.7069,
+          "type": "Person",
+          "normalized_text": "Pearl Jam"
+        },
+        {
+          "start": 114,
+          "end": 120,
+          "probability": 0.9925,
+          "type": "Place",
+          "normalized_text": "Georgia"
+        }
+      ],
+      "urls": [
+        {
+          "start": 123,
+          "end": 146,
+          "url": "https://t.co/S5oYLsTUT4",
+          "expanded_url": "https://cnn.it/2JxVTvX",
+          "display_url": "cnn.it/2JxVTvX"
+        }
+      ]
+    },
+    "public_metrics": {
+      "retweet_count": 157,
+      "reply_count": 83,
+      "like_count": 1442,
+      "quote_count": 45
+    },
+    "created_at": "2020-12-03T21:31:05.000Z",
+    "id": "1334611137766322178",
+    "author_id": "759251"
+  },
+  {
+    "text": "A Georgia election official has condemned threats of physical violence and intimidation against election workers and officials, pleading with President Trump to denounce the threats and urging both of the state's Republican senators to intervene https://t.co/5jF39BLV4Z",
+    "entities": {
+      "annotations": [
+        {
+          "start": 2,
+          "end": 8,
+          "probability": 0.5647,
+          "type": "Place",
+          "normalized_text": "Georgia"
+        },
+        {
+          "start": 142,
+          "end": 156,
+          "probability": 0.8343,
+          "type": "Person",
+          "normalized_text": "President Trump"
+        },
+        {
+          "start": 213,
+          "end": 222,
+          "probability": 0.4739,
+          "type": "Organization",
+          "normalized_text": "Republican"
+        }
+      ],
+      "urls": [
+        {
+          "start": 246,
+          "end": 269,
+          "url": "https://t.co/5jF39BLV4Z",
+          "expanded_url": "https://cnn.it/3fZocPS",
+          "display_url": "cnn.it/3fZocPS"
+        }
+      ]
+    },
+    "public_metrics": {
+      "retweet_count": 244,
+      "reply_count": 262,
+      "like_count": 1929,
+      "quote_count": 55
+    },
+    "created_at": "2020-12-02T03:31:09.000Z",
+    "id": "1333976972989505537",
+    "author_id": "759251"
+  },
+  {
+    "text": "A central factor around the GOP's decision to stay quiet about Trump's election fraud claims is the two critical Georgia Senate runoffs where Trump can play a key role in turning out their base to help keep the chamber in Republican hands https://t.co/niqqrro7yO",
+    "entities": {
+      "annotations": [
+        {
+          "start": 28,
+          "end": 30,
+          "probability": 0.9355,
+          "type": "Organization",
+          "normalized_text": "GOP"
+        },
+        {
+          "start": 63,
+          "end": 67,
+          "probability": 0.9988,
+          "type": "Person",
+          "normalized_text": "Trump"
+        },
+        {
+          "start": 113,
+          "end": 126,
+          "probability": 0.8636,
+          "type": "Organization",
+          "normalized_text": "Georgia Senate"
+        },
+        {
+          "start": 142,
+          "end": 146,
+          "probability": 0.9976,
+          "type": "Person",
+          "normalized_text": "Trump"
+        }
+      ],
+      "urls": [
+        {
+          "start": 239,
+          "end": 262,
+          "url": "https://t.co/niqqrro7yO",
+          "expanded_url": "https://cnn.it/2Vkkabf",
+          "display_url": "cnn.it/2Vkkabf"
+        }
+      ]
+    },
+    "public_metrics": {
+      "retweet_count": 57,
+      "reply_count": 160,
+      "like_count": 302,
+      "quote_count": 25
+    },
+    "created_at": "2020-12-01T15:50:07.000Z",
+    "id": "1333800553919352840",
+    "author_id": "759251"
+  },
+  {
+    "text": "Georgia Gov. Brian Kemp and Secretary of State Brad Raffensperger, both Republicans, have rebuffed President Trump's calls to overturn the state's election results more than a week after they certified Joe Biden as the winner https://t.co/pZuHrGUFSH",
+    "entities": {
+      "annotations": [
+        {
+          "start": 0,
+          "end": 10,
+          "probability": 0.8016,
+          "type": "Organization",
+          "normalized_text": "Georgia Gov"
+        },
+        {
+          "start": 13,
+          "end": 22,
+          "probability": 0.9967,
+          "type": "Person",
+          "normalized_text": "Brian Kemp"
+        },
+        {
+          "start": 47,
+          "end": 64,
+          "probability": 0.8171,
+          "type": "Person",
+          "normalized_text": "Brad Raffensperger"
+        },
+        {
+          "start": 72,
+          "end": 82,
+          "probability": 0.8078,
+          "type": "Organization",
+          "normalized_text": "Republicans"
+        },
+        {
+          "start": 99,
+          "end": 113,
+          "probability": 0.8824,
+          "type": "Person",
+          "normalized_text": "President Trump"
+        },
+        {
+          "start": 202,
+          "end": 210,
+          "probability": 0.9974,
+          "type": "Person",
+          "normalized_text": "Joe Biden"
+        }
+      ],
+      "urls": [
+        {
+          "start": 226,
+          "end": 249,
+          "url": "https://t.co/pZuHrGUFSH",
+          "expanded_url": "https://cnn.it/3mr6iYC",
+          "display_url": "cnn.it/3mr6iYC"
+        }
+      ]
+    },
+    "public_metrics": {
+      "retweet_count": 189,
+      "reply_count": 152,
+      "like_count": 1524,
+      "quote_count": 41
+    },
+    "created_at": "2020-12-01T04:19:34.000Z",
+    "id": "1333626769283444737",
+    "author_id": "759251"
+  },
+  {
+    "text": "Georgia Gov. Brian Kemp and Secretary of State Brad Raffensperger, both Republicans, have rebuffed President Trump's calls to overturn the state's election results more than a week after they certified Joe Biden as the winner https://t.co/ZVMtryZRnv",
+    "entities": {
+      "annotations": [
+        {
+          "start": 0,
+          "end": 10,
+          "probability": 0.8016,
+          "type": "Organization",
+          "normalized_text": "Georgia Gov"
+        },
+        {
+          "start": 13,
+          "end": 22,
+          "probability": 0.9967,
+          "type": "Person",
+          "normalized_text": "Brian Kemp"
+        },
+        {
+          "start": 47,
+          "end": 64,
+          "probability": 0.8171,
+          "type": "Person",
+          "normalized_text": "Brad Raffensperger"
+        },
+        {
+          "start": 72,
+          "end": 82,
+          "probability": 0.8078,
+          "type": "Organization",
+          "normalized_text": "Republicans"
+        },
+        {
+          "start": 99,
+          "end": 113,
+          "probability": 0.8824,
+          "type": "Person",
+          "normalized_text": "President Trump"
+        },
+        {
+          "start": 202,
+          "end": 210,
+          "probability": 0.9974,
+          "type": "Person",
+          "normalized_text": "Joe Biden"
+        }
+      ],
+      "urls": [
+        {
+          "start": 226,
+          "end": 249,
+          "url": "https://t.co/ZVMtryZRnv",
+          "expanded_url": "https://cnn.it/3lo2sOz",
+          "display_url": "cnn.it/3lo2sOz"
+        }
+      ]
+    },
+    "public_metrics": {
+      "retweet_count": 245,
+      "reply_count": 238,
+      "like_count": 2075,
+      "quote_count": 76
+    },
+    "created_at": "2020-11-30T20:10:06.000Z",
+    "id": "1333503591710121986",
+    "author_id": "759251"
+  },
+  {
+    "author_id": "1367531",
+    "public_metrics": {
+      "retweet_count": 91,
+      "reply_count": 350,
+      "like_count": 625,
+      "quote_count": 34
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 82,
+          "end": 105,
+          "url": "https://t.co/76YA4PH2Cn",
+          "expanded_url": "https://www.foxnews.com/politics/warnock-not-condemning-socialism-georgia-senate-debate",
+          "display_url": "foxnews.com/politics/warno\u2026"
+        }
+      ]
+    },
+    "created_at": "2020-12-07T16:40:06.000Z",
+    "id": "1335987457997873153",
+    "text": "Ga. Democratic Senate candidate under fire for not condemning socialism at debate\nhttps://t.co/76YA4PH2Cn"
+  },
+  {
+    "author_id": "1367531",
+    "public_metrics": {
+      "retweet_count": 167,
+      "reply_count": 753,
+      "like_count": 1944,
+      "quote_count": 60
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 47,
+          "end": 70,
+          "url": "https://t.co/7Q3ZqI3FEY",
+          "expanded_url": "https://www.foxnews.com/politics/trump-georgia-rally-saturday-dec-5-gop",
+          "display_url": "foxnews.com/politics/trump\u2026",
+          "images": [
+            {
+              "url": "https://pbs.twimg.com/news_img/1335219762620628993/ICJbAPND?format=jpg&name=orig",
+              "width": 1024,
+              "height": 512
+            },
+            {
+              "url": "https://pbs.twimg.com/news_img/1335219762620628993/ICJbAPND?format=jpg&name=150x150",
+              "width": 150,
+              "height": 150
+            }
+          ],
+          "status": 200,
+          "title": "GOP anticipation builds ahead of Trump's Georgia rally",
+          "description": "GOP anticipation and trepidation over Trump\u2019s Georgia Senate runoffs rally.",
+          "unwound_url": "https://www.foxnews.com/politics/trump-georgia-rally-saturday-dec-5-gop"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 12,
+          "end": 26,
+          "probability": 0.8505,
+          "type": "Person",
+          "normalized_text": "President Trump"
+        },
+        {
+          "start": 31,
+          "end": 38,
+          "probability": 0.9908,
+          "type": "Place",
+          "normalized_text": "Valdosta"
+        },
+        {
+          "start": 41,
+          "end": 42,
+          "probability": 0.9762,
+          "type": "Place",
+          "normalized_text": "Ga"
+        }
+      ]
+    },
+    "created_at": "2020-12-06T00:14:27.000Z",
+    "id": "1335377023066402822",
+    "text": "WATCH LIVE: President Trump in Valdosta, Ga. - https://t.co/7Q3ZqI3FEY"
+  },
+  {
+    "author_id": "1367531",
+    "public_metrics": {
+      "retweet_count": 195,
+      "reply_count": 622,
+      "like_count": 2332,
+      "quote_count": 53
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 136,
+          "end": 159,
+          "url": "https://t.co/FnNLrVypYy",
+          "expanded_url": "https://fxn.ws/3lLzxnQ",
+          "display_url": "fxn.ws/3lLzxnQ"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 9,
+          "end": 25,
+          "probability": 0.8887,
+          "type": "Organization",
+          "normalized_text": "Republican Senate"
+        },
+        {
+          "start": 51,
+          "end": 57,
+          "probability": 0.9957,
+          "type": "Place",
+          "normalized_text": "Georgia"
+        },
+        {
+          "start": 83,
+          "end": 97,
+          "probability": 0.696,
+          "type": "Person",
+          "normalized_text": "President Trump"
+        }
+      ]
+    },
+    "created_at": "2020-12-05T14:04:31.000Z",
+    "id": "1335223528422060034",
+    "text": "With the Republican Senate majority on the line in Georgia's runoffs this January, President Trump returns to the campaign trail today.\nhttps://t.co/FnNLrVypYy"
+  },
+  {
+    "author_id": "1367531",
+    "public_metrics": {
+      "retweet_count": 461,
+      "reply_count": 1642,
+      "like_count": 4890,
+      "quote_count": 149
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 66,
+          "end": 89,
+          "url": "https://t.co/Ya3qiUrVYC",
+          "expanded_url": "https://fxn.ws/2VBHYY6",
+          "display_url": "fxn.ws/2VBHYY6"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 0,
+          "end": 4,
+          "probability": 0.9961,
+          "type": "Person",
+          "normalized_text": "Trump"
+        },
+        {
+          "start": 30,
+          "end": 36,
+          "probability": 0.986,
+          "type": "Place",
+          "normalized_text": "Georgia"
+        }
+      ]
+    },
+    "created_at": "2020-12-05T02:37:34.000Z",
+    "id": "1335050653513752577",
+    "text": "Trump files latest lawsuit in Georgia challenging election result https://t.co/Ya3qiUrVYC"
+  },
+  {
+    "author_id": "1367531",
+    "public_metrics": {
+      "retweet_count": 331,
+      "reply_count": 984,
+      "like_count": 2519,
+      "quote_count": 201
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 81,
+          "end": 104,
+          "url": "https://t.co/uGNlCLyWBA",
+          "expanded_url": "https://www.foxnews.com/politics/georgia-recertifies-election-results-fulton-county-video",
+          "display_url": "foxnews.com/politics/georg\u2026"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 0,
+          "end": 6,
+          "probability": 0.8712,
+          "type": "Place",
+          "normalized_text": "Georgia"
+        }
+      ]
+    },
+    "created_at": "2020-12-04T18:30:30.000Z",
+    "id": "1334928080553570307",
+    "text": "Georgia recertifies election results, rejecting fraud claims tied to viral video\nhttps://t.co/uGNlCLyWBA"
+  },
+  {
+    "author_id": "1367531",
+    "public_metrics": {
+      "retweet_count": 152,
+      "reply_count": 242,
+      "like_count": 722,
+      "quote_count": 33
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 93,
+          "end": 116,
+          "url": "https://t.co/RLHsoHy6bl",
+          "expanded_url": "https://www.foxnews.com/politics/georgia-election-investigation-groups-what-we-know",
+          "display_url": "foxnews.com/politics/georg\u2026"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 24,
+          "end": 36,
+          "probability": 0.9983,
+          "type": "Person",
+          "normalized_text": "Stacey Abrams"
+        }
+      ]
+    },
+    "created_at": "2020-12-03T17:44:13.000Z",
+    "id": "1334554044531142656",
+    "text": "Voting group founded by Stacey Abrams was investigated in 2014 and now under spotlight again\nhttps://t.co/RLHsoHy6bl"
+  },
+  {
+    "author_id": "1367531",
+    "public_metrics": {
+      "retweet_count": 86,
+      "reply_count": 292,
+      "like_count": 337,
+      "quote_count": 32
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 97,
+          "end": 120,
+          "url": "https://t.co/amcYdTgIxA",
+          "expanded_url": "https://fxn.ws/3mzcPjY",
+          "display_url": "fxn.ws/3mzcPjY"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 0,
+          "end": 6,
+          "probability": 0.9672,
+          "type": "Place",
+          "normalized_text": "Georgia"
+        },
+        {
+          "start": 13,
+          "end": 21,
+          "probability": 0.7144,
+          "type": "Place",
+          "normalized_text": "Hollywood"
+        },
+        {
+          "start": 41,
+          "end": 51,
+          "probability": 0.7553,
+          "type": "Organization",
+          "normalized_text": "Republicans"
+        }
+      ]
+    },
+    "created_at": "2020-12-02T22:39:45.000Z",
+    "id": "1334266027778191363",
+    "text": "Georgia sees Hollywood figures posing as Republicans, mockingly urging conservatives not to vote https://t.co/amcYdTgIxA"
+  },
+  {
+    "author_id": "1367531",
+    "public_metrics": {
+      "retweet_count": 37,
+      "reply_count": 180,
+      "like_count": 332,
+      "quote_count": 11
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 109,
+          "end": 132,
+          "url": "https://t.co/gLTbe5BriX",
+          "expanded_url": "https://www.foxnews.com/politics/georgia-rep-elect-carolyn-bourdeaux-only-democrat-flip-seat",
+          "display_url": "foxnews.com/politics/georg\u2026"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 0,
+          "end": 11,
+          "probability": 0.4442,
+          "type": "Organization",
+          "normalized_text": "Georgia Rep."
+        },
+        {
+          "start": 19,
+          "end": 35,
+          "probability": 0.9937,
+          "type": "Person",
+          "normalized_text": "Carolyn Bourdeaux"
+        },
+        {
+          "start": 43,
+          "end": 50,
+          "probability": 0.6608,
+          "type": "Organization",
+          "normalized_text": "Democrat"
+        },
+        {
+          "start": 92,
+          "end": 96,
+          "probability": 0.9977,
+          "type": "Person",
+          "normalized_text": "Trump"
+        }
+      ]
+    },
+    "created_at": "2020-12-01T11:53:54.000Z",
+    "id": "1333741107210035200",
+    "text": "Georgia Rep.-elect Carolyn Bourdeaux, only Democrat to flip seat, says party should talk to Trump supporters\nhttps://t.co/gLTbe5BriX"
+  },
+  {
+    "author_id": "1367531",
+    "public_metrics": {
+      "retweet_count": 151,
+      "reply_count": 299,
+      "like_count": 942,
+      "quote_count": 34
+    },
+    "entities": {
+      "urls": [
+        {
+          "start": 87,
+          "end": 110,
+          "url": "https://t.co/GhJxtxsnum",
+          "expanded_url": "https://fxn.ws/3qdX18z",
+          "display_url": "fxn.ws/3qdX18z"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 0,
+          "end": 39,
+          "probability": 0.5769,
+          "type": "Organization",
+          "normalized_text": "Georgia Secretary of State Raffensperger"
+        }
+      ]
+    },
+    "created_at": "2020-11-30T21:19:24.000Z",
+    "id": "1333521031374499842",
+    "text": "Georgia Secretary of State Raffensperger investigating 250 cases connected to election https://t.co/GhJxtxsnum"
+  },
+  {
+    "entities": {
+      "hashtags": [
+        {
+          "start": 74,
+          "end": 79,
+          "tag": "OANN"
+        }
+      ],
+      "urls": [
+        {
+          "start": 50,
+          "end": 73,
+          "url": "https://t.co/trLHprvjHB",
+          "expanded_url": "https://www.oann.com/lindell-speaks-out-on-election-situation-in-ga/",
+          "display_url": "oann.com/lindell-speaks\u2026"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 0,
+          "end": 6,
+          "probability": 0.8893,
+          "type": "Person",
+          "normalized_text": "Lindell"
+        },
+        {
+          "start": 44,
+          "end": 45,
+          "probability": 0.7067,
+          "type": "Place",
+          "normalized_text": "Ga"
+        }
+      ]
+    },
+    "author_id": "1209936918",
+    "public_metrics": {
+      "retweet_count": 375,
+      "reply_count": 60,
+      "like_count": 2052,
+      "quote_count": 18
+    },
+    "created_at": "2020-12-07T00:58:19.000Z",
+    "id": "1335750450428006400",
+    "text": "Lindell speaks out on election situation in Ga. - https://t.co/trLHprvjHB #OANN"
+  },
+  {
+    "entities": {
+      "hashtags": [
+        {
+          "start": 81,
+          "end": 86,
+          "tag": "OANN"
+        }
+      ],
+      "urls": [
+        {
+          "start": 57,
+          "end": 80,
+          "url": "https://t.co/waEPQWkZ4P",
+          "expanded_url": "https://www.oann.com/president-trump-suggests-rep-collins-run-for-ga-gov/",
+          "display_url": "oann.com/president-trum\u2026"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 0,
+          "end": 14,
+          "probability": 0.5475,
+          "type": "Person",
+          "normalized_text": "President Trump"
+        },
+        {
+          "start": 25,
+          "end": 36,
+          "probability": 0.9763,
+          "type": "Person",
+          "normalized_text": "Rep. Collins"
+        }
+      ]
+    },
+    "author_id": "1209936918",
+    "public_metrics": {
+      "retweet_count": 590,
+      "reply_count": 108,
+      "like_count": 4178,
+      "quote_count": 65
+    },
+    "created_at": "2020-12-06T23:01:39.000Z",
+    "id": "1335721090706862080",
+    "text": "President Trump suggests Rep. Collins run for Ga. gov. - https://t.co/waEPQWkZ4P #OANN"
+  },
+  {
+    "entities": {
+      "hashtags": [
+        {
+          "start": 138,
+          "end": 143,
+          "tag": "OANN"
+        }
+      ],
+      "urls": [
+        {
+          "start": 114,
+          "end": 137,
+          "url": "https://t.co/KnWqK1xFaV",
+          "expanded_url": "https://www.oann.com/president-trumps-legal-team-presents-evidence-of-voter-fraud-in-ga-gov-brian-kemp-calls-for-signature-audit/",
+          "display_url": "oann.com/president-trum\u2026"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 0,
+          "end": 14,
+          "probability": 0.575,
+          "type": "Person",
+          "normalized_text": "President Trump"
+        },
+        {
+          "start": 65,
+          "end": 66,
+          "probability": 0.765,
+          "type": "Place",
+          "normalized_text": "Ga"
+        },
+        {
+          "start": 75,
+          "end": 84,
+          "probability": 0.9909,
+          "type": "Person",
+          "normalized_text": "Brian Kemp"
+        }
+      ]
+    },
+    "author_id": "1209936918",
+    "public_metrics": {
+      "retweet_count": 983,
+      "reply_count": 159,
+      "like_count": 6167,
+      "quote_count": 74
+    },
+    "created_at": "2020-12-04T21:46:48.000Z",
+    "id": "1334977481602785281",
+    "text": "President Trump\u2019s legal team presents evidence of voter fraud in Ga., Gov. Brian Kemp calls for signature audit - https://t.co/KnWqK1xFaV #OANN"
+  },
+  {
+    "entities": {
+      "hashtags": [
+        {
+          "start": 107,
+          "end": 112,
+          "tag": "OANN"
+        }
+      ],
+      "urls": [
+        {
+          "start": 83,
+          "end": 106,
+          "url": "https://t.co/tVD4p0PS3x",
+          "expanded_url": "https://www.oann.com/president-trump-questions-why-ga-governor-isnt-doing-more-against-ballot-fraud/",
+          "display_url": "oann.com/president-trum\u2026"
+        },
+        {
+          "start": 113,
+          "end": 136,
+          "url": "https://t.co/KmcwrZjIR8",
+          "expanded_url": "https://twitter.com/OANN/status/1333789152068833288/photo/1",
+          "display_url": "pic.twitter.com/KmcwrZjIR8"
+        }
+      ],
+      "annotations": [
+        {
+          "start": 0,
+          "end": 14,
+          "probability": 0.5801,
+          "type": "Person",
+          "normalized_text": "President Trump"
+        }
+      ]
+    },
+    "author_id": "1209936918",
+    "public_metrics": {
+      "retweet_count": 1033,
+      "reply_count": 260,
+      "like_count": 6827,
+      "quote_count": 94
+    },
+    "created_at": "2020-12-01T15:04:49.000Z",
+    "id": "1333789152068833288",
+    "text": "President Trump questions why Ga. governor isn\u2019t doing more against ballot fraud - https://t.co/tVD4p0PS3x #OANN https://t.co/KmcwrZjIR8"
+  },
+  {
+    "entities": {
+      "hashtags": [
+        {
+          "start": 124,
+          "end": 129,
+          "tag": "OANN"
+        }
+      ],
+      "urls": [
+        {
+          "start": 100,
+          "end": 123,
+          "url": "https://t.co/E5rtwQveUm",
+          "expanded_url": "https://www.oann.com/ga-secy-of-state-announces-probe-into-third-party-groups-trying-to-register-out-of-state-voters/",
+          "display_url": "oann.com/ga-secy-of-sta\u2026"
+        }
+      ]
+    },
+    "author_id": "1209936918",
+    "public_metrics": {
+      "retweet_count": 1067,
+      "reply_count": 315,
+      "like_count": 4483,
+      "quote_count": 122
+    },
+    "created_at": "2020-11-30T21:33:19.000Z",
+    "id": "1333524536755580929",
+    "text": "Ga. secy. of state announces probe into third-party groups trying to register out-of-state voters - https://t.co/E5rtwQveUm #OANN"
+  }
+]
