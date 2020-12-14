@@ -36,7 +36,7 @@ I used the resulting data to make this front end display using D3.js. While the 
 
 The dropdown can be used to explore data for different search topics.
 
-![An image of the front end display of the results from the web scraping](https://github.com/wmerrow/pfch-media-analysis/blob/master/screenshot.png)
+![An image of the front end display of the results from the web scraping](https://github.com/wmerrow/pfch-media-analysis/blob/main/screenshot.png)
 
 ### Reflection
 
