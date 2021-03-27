@@ -1,5 +1,6 @@
 body, nav, h1, h2, h3 {
 	font-family: sans-serif;
+	/*font-family: Lora;*/
 	/*color: #747704;*/
 	font-weight: 300;
 }
@@ -40,8 +41,12 @@ h3 {
 
 p {
 	font-weight: 300;
-	font-size: 16px;
+	font-size: 17px;
 	margin-bottom: 20px;
+}
+
+#about {
+	max-width: 625px;
 }
 
 .head {
@@ -147,7 +152,8 @@ li.homeNavItem {
 }
 
 a { 
-	color: #007766; 
+	color: #007d96; 
+	/*text-decoration: underline; */
 } 
 
 a.work-link { 

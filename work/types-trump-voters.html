@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Will Merrow</title>
+		<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+		<link href='https://fonts.googleapis.com/css?family=Lato:100,300,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="../css/bootstrap.css">
+		<link rel="stylesheet" href="../css/style.css">
+	</head>
+	<body>
+		<div class="container">
+
+			<div class="col-md-12">
+				<nav>
+					<li class="navItem navItemFirst"><a href="../index.html">Will Merrow</a></li>
+					<li class="navItem current"><a href="../work.html">Work</a></li>
+					<li class="navItem"><a href="../about.html">About</a></li>
+
+				</nav>
+			</div>
+
+
+
+<!-- 			<div class="col-md-12">
+				<ul>
+					<li><a href="https://github.com/wmerrow" target="_blank">GitHub</a>
+					<li><a href="https://public.tableau.com/profile/will.merrow#!/" target="_blank">Tableau</a>
+					<li><a href="https://bl.ocks.org/wmerrow" target="_blank">Blocks (D3)</a>
+				</ul>
+			</div> -->
+
+
+			<div class="col-md-12">
+				<h2>Voter Ideology and Changes in Trump Favorability</h2>
+				<p class="work-credit">Project for Data Analysis, fall 2019</p>
+				<p class="work-link">Full report: <a href="../media/work/INFO_640_Final_Project.pdf" target="_blank">INFO_640_Final_Project.pdf</a></p>
+				<p class="work-link">Code: <a href="https://github.com/wmerrow/trump-voters" target="_blank">https://github.com/wmerrow/trump-voters</a></p>
+				<!-- <p class="work-role">My role: visualization, UX/UI, and visual design, with input from team and client; lead project management</p> -->
+				<p>Tools: R</p>
+			</div>
+			<div class="col-md-12">
+				<!-- <img class="work" src="../media/work/ppic-featured.png"> -->
+				<h3 class="work-title">Design Notes</h3>
+			</div>
+
+			<div class="col-md-12 row">
+				<div class="col-md-4">
+					<p>This analysis uses machine learning to group Trump voters based on their political ideologies, and then looks at how many voters from each group changed their opinions of Trump over time, in order to identify what types of Trump voters are most likely to change their mind. I use survey data from the Democracy Fund Voter Study Group which contains individuals’ responses to a large number of questions asked of the same people on an annual basis.</p>
+					<p>I cluster Trump voters based on their ideology on twelve political issues, which are each a composite of multiple questions, assigning answers a value from -1 to 1 and averaging a participant’s responses.</p>
+					<p>These density plots show how all Trump voters in the survey fall on a left-right spectrum for each of the twelve issues, with the x-axes representing political opinion from liberal to conservative. This shows Trump voters are consistently to the right on immigration and racial issues, but more mixed when it comes to the economy and certain social issues.</p>
+				</div>
+				<div class="col-md-8">
+					<img class="work" src="../media/work/trump_voters_1.png">
+				</div>
+			</div>
+			<div class="col-md-12 row">
+				<div class="col-md-4">
+					<p>To group Trump voters by ideology, I use k means clustering with the 12 ideological variables. As we have no preconceived notion of what the ideological groups are or how many there should be, this is unsupervised machine learning. The result is four groups, as shown here. We can see that groups are primarily divided by economic issues (the top row of charts), and relatively uniform on social issues.</p>
+				</div>
+				<div class="col-md-8">
+					<img class="work" src="../media/work/trump_voters_2.png">
+				</div>
+			</div>
+			<div class="col-md-12 row">
+				<div class="col-md-4">
+					<p>Next, we can look at the percentage of voters within each group that had positive or negative changes in favorability toward Trump from 2016 to 2017, and separately from 2017 to 2018. Voters in group 2 (the most economically liberal Trump voters) were by far the most likely to have decreased favorability toward Trump.</p>
+					<p>There are other possible ways to go about answering this research question, such as multiple regression, although clustering by ideology has two main benefits. First, it allows for a deeper understanding of the different types of Trump voters, irrespective of changes in Trump favorability. Second, it accounts for a large number of ideological variables without being prone to “noise” where a single variable happens to correlate with the dependent variable.</p>
+				</div>
+				<div class="col-md-8">
+					<img class="work work-img-med" src="../media/work/trump_voters_3.png">
+					<img class="work work-img-med" src="../media/work/trump_voters_4.png">
+				</div>
+			</div>
+			<div class="col-md-12 row">
+				<div class="col-md-4">
+					<p>We can also see that for group 2, the decrease in favorability from 2016 to 2017 was larger than the decrease from 2017 to 2018, perhaps suggesting a realization after seeing how Trump actually governed.</p>
+					<p>The fact that we see a large difference between the time periods for group 2 but not for group 1 suggests that this “realization” in 2017 may have been a reaction to the differentiating issues between the groups. Both groups are liberal on economic inequality, but they differ starkly in their views of the role of the government in the economy, where group 2 is far more liberal, and also differ somewhat in views on gender roles, moral issues, and immigration and racial issues, where group 2 is somewhat more moderate.</p>
+				</div>
+				<div class="col-md-8">
+					<img class="work work-img-med" src="../media/work/trump_voters_5.png">
+				</div>
+			</div>
+			<div class="col-md-12 row">
+				<div class="col-md-4">
+					<p>I used R for the data aggregation and analysis, handling each step in its own script and referencing them from one master script.</p>
+					<p>I created the visualizations in ggplot2 and Excel.</p>
+				</div>
+				<div class="col-md-8">
+					<img class="work" src="../media/work/trump_voters_6.png">
+				</div>
+			</div>
+			
+
+		</div>
+	</body>
+</html>

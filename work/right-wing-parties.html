@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Will Merrow</title>
+		<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+		<link href='https://fonts.googleapis.com/css?family=Lato:100,300,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="../css/bootstrap.css">
+		<link rel="stylesheet" href="../css/style.css">
+	</head>
+	<body>
+		<div class="container">
+
+			<div class="col-md-12">
+				<nav>
+					<li class="navItem navItemFirst"><a href="../index.html">Will Merrow</a></li>
+					<li class="navItem current"><a href="../work.html">Work</a></li>
+					<li class="navItem"><a href="../about.html">About</a></li>
+
+				</nav>
+			</div>
+
+
+
+<!-- 			<div class="col-md-12">
+				<ul>
+					<li><a href="https://github.com/wmerrow" target="_blank">GitHub</a>
+					<li><a href="https://public.tableau.com/profile/will.merrow#!/" target="_blank">Tableau</a>
+					<li><a href="https://bl.ocks.org/wmerrow" target="_blank">Blocks (D3)</a>
+				</ul>
+			</div> -->
+
+
+			<div class="col-md-12">
+				<h2>How Anti-Immigrant Political Parties Are Evolving</h2>
+				<p class="work-credit">Project for Independent Study in Data Journalism, fall 2020</p>
+				<p class="work-link">Live version: <a href="https://wmerrow.github.io/right-wing-parties/" target="_blank">https://wmerrow.github.io/right-wing-parties/</a></p>
+				<p class="work-link">Code: <a href="https://github.com/wmerrow/wmerrow.github.io/tree/master/right-wing-parties" target="_blank">https://github.com/wmerrow/wmerrow.github.io/tree/master/right-wing-parties</a></p>
+				<!-- <p class="work-role">My role: visualization, UX/UI, and visual design, with input from team and client; lead project management</p> -->
+				<p>Tools: D3.js, R</p>
+			</div>
+			<div class="col-md-12">
+				<!-- <img class="work" src="../media/work/ppic-featured.png"> -->
+				<h3 class="work-title">Design Notes</h3>
+			</div>
+
+			<div class="col-md-12 row">
+				<div class="col-md-4">
+					<p>This scrollytelling project began with finding a recently published dataset on political parties in democracies, including their ideologies and attitudes toward democracy. After exploring different data stories, I decided to present an overview of the ideologies of anti-immigration parties in western Europe and the U.S.</p>
+				</div>
+				<div class="col-md-8">
+					<img class="work" src="../media/work/IS_1.png">
+				</div>
+			</div>
+			<div class="col-md-12 row">
+				<div class="col-md-4">
+					<p>I created the visualizations in D3 and used the graph-scroll.js library to implement a scrollytelling approach. As the user scrolls, the visualization transitions to a new version, and narrative text highlights the main points and provides context.</p>
+				</div>
+				<div class="col-md-8">
+					<img class="work" src="../media/work/IS_2.png">
+				</div>
+			</div>
+			<div class="col-md-12 row">
+				<div class="col-md-4">
+					<p>To keep users’ attention, I wanted to start with a simple visualization and then add complexity. After identifying the anti-immigration parties, the narrative introduces additional variables one at a time, showing change over time and then positions on the economy and democracy.</p>
+				</div>
+				<div class="col-md-8">
+					<img class="work" src="../media/work/IS_3.png">
+				</div>
+			</div>
+			<div class="col-md-12 row">
+				<div class="col-md-4">
+					<p>To end, the narrative returns to the overview with all political parties, transitioning to a scatterplot to show how the anti-immigration parties compare with more pro-immigration parties on views on democracy (nearly every anti-democracy party is also anti-immigration).</p>
+				</div>
+				<div class="col-md-8">
+					<img class="work work" src="../media/work/IS_4.png">
+				</div>
+			</div>
+			<div class="col-md-12 row">
+				<div class="col-md-4">
+					<p>The challenge in this project was identifying the data story. I began with a large dataset with many countries and many variables that were interesting.</p>
+					<p>I started by looking at existing visualizations of right-wing parties for inspiration and to learn about the subject.</p>
+				</div>
+				<div class="col-md-8">
+					<img class="work work-img-med" src="../media/work/IS_5.png">
+				</div>
+			</div>
+			<div class="col-md-12 row">
+				<div class="col-md-4">
+					<p>I then explored the data. Since I wanted to visualize several different variables, I decided to focus on a small number of parties to make it more digestible, so ultimately limited my dataset to the largest countries. I also chose to focus on anti-immigrant parties since immigration is a core part of the platform of right-wing parties, and correlated with anti-democratic views.</p>
+				</div>
+				<div class="col-md-8">
+					<img class="work work-img-med" src="../media/work/IS_6.png">
+				</div>
+			</div>
+			<div class="col-md-12 row">
+				<div class="col-md-4">
+					<p>I sketched different visualization approaches before settling on the bubble approach, which worked well for transitioning between different visualizations. I prepared the data in R, which was helpful for experimenting with different groups of countries.</p>
+					<p>Future improvements could be to refactor the code and add redrawing on resize, and to update once the dataset reflects Republicans’ anti-democratic behavior around the 2020 election.</p>
+				</div>
+				<div class="col-md-8">
+					<img class="work work-img-med" src="../media/work/IS_7.png">
+				</div>
+			</div>
+			
+
+		</div>
+	</body>
+</html>

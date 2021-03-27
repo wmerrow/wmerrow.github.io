@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Will Merrow</title>
+		<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+		<link href='https://fonts.googleapis.com/css?family=Lato:100,300,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="../css/bootstrap.css">
+		<link rel="stylesheet" href="../css/style.css">
+	</head>
+	<body>
+		<div class="container">
+
+			<div class="col-md-12">
+				<nav>
+					<li class="navItem navItemFirst"><a href="../index.html">Will Merrow</a></li>
+					<li class="navItem current"><a href="../work.html">Work</a></li>
+					<li class="navItem"><a href="../about.html">About</a></li>
+
+				</nav>
+			</div>
+
+
+
+<!-- 			<div class="col-md-12">
+				<ul>
+					<li><a href="https://github.com/wmerrow" target="_blank">GitHub</a>
+					<li><a href="https://public.tableau.com/profile/will.merrow#!/" target="_blank">Tableau</a>
+					<li><a href="https://bl.ocks.org/wmerrow" target="_blank">Blocks (D3)</a>
+				</ul>
+			</div> -->
+
+
+			<div class="col-md-12">
+				<h2>American Democracy is Rigged Against Democrats</h2>
+				<p class="work-credit">Project for Programming Interactive Data Visualizations, fall 2020</p>
+				<p class="work-link">Live version: <a href="https://wmerrow.github.io/democracy-rigged/" target="_blank">https://wmerrow.github.io/democracy-rigged/</a></p>
+				<p class="work-link">Code: <a href="https://github.com/wmerrow/Will-ProgVisFA20/tree/master/final_project" target="_blank">https://github.com/wmerrow/Will-ProgVisFA20/tree/master/final_project</a></p>
+				<!-- <p class="work-role">My role: visualization, UX/UI, and visual design, with input from team and client; lead project management</p> -->
+				<p>Tools: D3.js</p>
+			</div>
+			<div class="col-md-12">
+				<!-- <img class="work" src="../media/work/ppic-featured.png"> -->
+				<h3 class="work-title">Design Notes</h3>
+			</div>
+
+			<div class="col-md-12 row">
+				<div class="col-md-4">
+					<p>For this data storytelling project, I used D3 to create a single-page site to graphically show how the U.S. electoral system is biased against Democrats. While it is common knowledge that Donald Trump nearly won the election despite losing the popular vote, many informed voters are not aware of the extent of Republicans’ built-in advantages.</p>
+					<p>The user can choose a popular vote scenario with a slider and see which states and districts Republicans and Democrats would win, and which party would win control of the presidency, House, and Senate in that scenario.</p>
+				</div>
+				<div class="col-md-8">
+					<img class="work" src="../media/work/dem_rigged_1.png">
+				</div>
+			</div>
+			<div class="col-md-12 row">
+				<div class="col-md-4">
+					<p>The scenarios imagine that each state and district votes according to whether it leans Republican or Democrat after factoring in the popular vote scenario. In reality, there are many more variables involved, but the simple model is still instructive.</p>
+					<p>I wanted to provide a choice of scenarios because it seemed both fun and informative, and also did not detract from the main point, which is evident in the default states.</p>
+				</div>
+				<div class="col-md-8">
+					<img class="work" src="../media/work/dem_rigged_2.png">
+				</div>
+			</div>
+			<div class="col-md-12 row">
+				<div class="col-md-4">
+					<p>To help the user quickly grasp the main point, I included prominent messages explaining which party won each institution in the chosen scenario. While simple, my guess is these messages may be more important than the maps or bar charts for helping users understand the issue.</p>
+					<p>I experimented with different reds and blues and opted for colors that I felt were relatively bright while still being readable on a white background and not clashing when adjacent to one another.</p>
+				</div>
+				<div class="col-md-8">
+					<img class="work" src="../media/work/dem_rigged_3.png">
+				</div>
+			</div>
+			<div class="col-md-12 row">
+				<div class="col-md-4">
+					<p>My goal in using both maps and charts was to show how winning states and districts adds up to winning control of an institution, and the differences in how control is determined in each case. I chose to color the rectangles solid red or blue - a gradient could have showed margin of victory, but I wanted to emphasize the winner-take-all concept since that is the root of the problem for Democrats.</p>
+				</div>
+				<div class="col-md-8">
+					<img class="work work" src="../media/work/dem_rigged_4.png">
+				</div>
+			</div>
+			<div class="col-md-12 row">
+				<div class="col-md-4">
+					<p>Implementing multiple sections required a good amount of research and refactoring of the code, which was educational.</p>
+					<p>I began with detailed colored pencil sketches, and iterated on the layout based on feedback, breaking the page into four sections and including more narrative text.</p>
+				</div>
+				<div class="col-md-8">
+					<img class="work work-img-med" src="../media/work/dem_rigged_6.jpg">
+				</div>
+			</div>
+			<div class="col-md-12 row">
+				<div class="col-md-4">
+					<p>In future iterations, I would implement a more complex data model for the popular vote scenarios, and make the graphics responsive. I’d also like to conduct user testing to gauge whether the site communicates successfully.</p>
+				</div>
+				<div class="col-md-8">
+					<img class="work work-img-med" src="../media/work/dem_rigged_8.jpg">
+				</div>
+			</div>
+			
+
+		</div>
+	</body>
+</html>

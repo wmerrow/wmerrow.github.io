@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Will Merrow</title>
+		<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+		<link href='https://fonts.googleapis.com/css?family=Lato:100,300,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="../css/bootstrap.css">
+		<link rel="stylesheet" href="../css/style.css">
+	</head>
+	<body>
+		<div class="container">
+
+			<div class="col-md-12">
+				<nav>
+					<li class="navItem navItemFirst"><a href="../index.html">Will Merrow</a></li>
+					<li class="navItem current"><a href="../work.html">Work</a></li>
+					<li class="navItem"><a href="../about.html">About</a></li>
+
+				</nav>
+			</div>
+
+
+
+<!-- 			<div class="col-md-12">
+				<ul>
+					<li><a href="https://github.com/wmerrow" target="_blank">GitHub</a>
+					<li><a href="https://public.tableau.com/profile/will.merrow#!/" target="_blank">Tableau</a>
+					<li><a href="https://bl.ocks.org/wmerrow" target="_blank">Blocks (D3)</a>
+				</ul>
+			</div> -->
+
+
+			<div class="col-md-12">
+				<h2>Lockdowns and Covid Cases</h2>
+				<p class="work-credit">Project for Information Visualization, fall 2020</p>
+				<p class="work-link">Live version: <a href="https://public.tableau.com/profile/will.merrow#!/vizhome/lockdownsupdate/Story?publish=yes" target="_blank">https://public.tableau.com/profile/will.merrow#!/vizhome/lockdownsupdate/Story?publish=yes</a></p>
+				<!-- <p class="work-link">Code: <a href="https://github.com/wmerrow/wmerrow.github.io/tree/master/right-wing-parties" target="_blank">https://github.com/wmerrow/wmerrow.github.io/tree/master/right-wing-parties</a></p> -->
+				<!-- <p class="work-role">My role: visualization, UX/UI, and visual design, with input from team and client; lead project management</p> -->
+				<p>Tools: Tableau, R, Excel</p>
+			</div>
+			<div class="col-md-12">
+				<!-- <img class="work" src="../media/work/ppic-featured.png"> -->
+				<h3 class="work-title">Design Notes</h3>
+			</div>
+
+			<div class="col-md-12 row">
+				<div class="col-md-4">
+					<p>This storytelling project overlays countries’ covid cases with a quantitative index of their lockdown measures, using data from the Oxford Covid-19 Government Response Tracker.</p>
+					<p>My process included reviewing existing work, brainstorming, analyzing and preparing data in R, testing with users, and designing and building the final product in Tableau.</p>
+				</div>
+				<div class="col-md-8">
+					<img class="work" src="../media/work/covid_responses_1.png">
+				</div>
+			</div>
+			<div class="col-md-12 row">
+				<div class="col-md-4">
+					<p>I wanted to visualize two variables over time without using dual axis line charts to avoid implying that the heights of the lines are related.</p>
+					<p>I chose black for the area charts as a neutral color that would provide a strong contrast with the background, which needed to include both light and dark colors of varying hues. For the background, I opted for a blue-orange scale to suggest increasing urgency without using a more negative color like red.</p>
+				</div>
+				<div class="col-md-8">
+					<img class="work" src="../media/work/covid_responses_2.png">
+				</div>
+			</div>
+			<div class="col-md-12 row">
+				<div class="col-md-4">
+					<p>There were several stories in the data that I wanted to highlight, so I did this in a series of visualizations, writing chart titles with the goal of helping the user quickly understand what they should be looking for in each particular chart.</p>
+					<p>I included many annotations given the importance of interpretation with this visualization approach.</p>
+				</div>
+				<div class="col-md-8">
+					<img class="work" src="../media/work/covid_responses_3.png">
+					<img class="work" src="../media/work/covid_responses_4.png">
+				</div>
+			</div>
+			<div class="col-md-12 row">
+				<div class="col-md-4">
+					<p>For the scatterplot, I chose to use a log scale. This felt like a risk, and the scale wasn’t immediately noticed by my user test participants, although I felt it was the only way to allow comparisons on this type of chart given the huge differences in the numbers of cases, and guessed that more data-savvy users would want a scatterplot to be able to see the correlation more clearly.</p>
+				</div>
+				<div class="col-md-8">
+					<img class="work work" src="../media/work/covid_responses_5.png">
+				</div>
+			</div>
+			<div class="col-md-12 row">
+				<div class="col-md-4">
+					<p>I started by reviewing existing visualizations. Oxford publishes charts (shown here) showing both the government response and the number of deaths over time, using two y-axes, with a log scale for deaths. While dual axis charts and log scales can both be difficult to interpret, Oxford’s presentation in the above is useful and led me to think about how else I could show two variables changing over time.</p>
+				</div>
+				<div class="col-md-8">
+					<img class="work" src="../media/work/covid_responses_6.png">
+				</div>
+			</div>
+			<div class="col-md-12 row">
+				<div class="col-md-4">
+					<p>I also referenced coronavirus graphics by the New York Times and the Washington Post and how they dealt with the challenge of cases data that varies widely by country and exhibits exponential growth.</p>
+					<p>This visualization from the New York Times’ dashboard stuck in my mind as an example of a different way to show historical data for many localities in a compact format, and inspired some of my charts.</p>
+				</div>
+				<div class="col-md-8">
+					<img class="work" src="../media/work/covid_responses_7.png">
+				</div>
+			</div>
+			<div class="col-md-12 row">
+				<div class="col-md-4">
+					<p>I began by drawing some rough ideas to help brainstorm visual approaches. This produced the ideas of using background fills in place of a dual axis, and using days since reopening on the x-axis rather than the actual date.</p>
+				</div>
+				<div class="col-md-8">
+					<img class="work work-img-med" src="../media/work/covid_responses_8.jpeg">
+					<img class="work work-img-med" src="../media/work/covid_responses_9.jpeg">
+					<img class="work work-img-med" src="../media/work/covid_responses_10.jpeg">
+				</div>
+			</div>
+			<div class="col-md-12 row">
+				<div class="col-md-4">
+					<p>I used R to prepare the data and add additional variables, joining with cases and population data and adding key dates for each country: the date of the 10th case and the date of reopening (when the stringency index first decreased by a cumulative 10 points).</p>
+					<p>I created the visualizations in Tableau, going through several iterations before settling on the chart style.</p>
+					<p>I then conducted user testing with the Tableau prototype, observing test participants using the think aloud method. This led to some important changes such as more prominent axis labeling.</p>
+				</div>
+				<div class="col-md-8">
+					<img class="work work-img-med" src="../media/work/covid_responses_11.png">
+					<img class="work work-img-med" src="../media/work/covid_responses_12.png">
+				</div>
+			</div>
+
+		</div>
+	</body>
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Will Merrow</title>
+		<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+		<link href='https://fonts.googleapis.com/css?family=Lato:100,300,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="../css/bootstrap.css">
+		<link rel="stylesheet" href="../css/style.css">
+	</head>
+	<body>
+		<div class="container">
+
+			<div class="col-md-12">
+				<nav>
+					<li class="navItem navItemFirst"><a href="../index.html">Will Merrow</a></li>
+					<li class="navItem current"><a href="../work.html">Work</a></li>
+					<li class="navItem"><a href="../about.html">About</a></li>
+
+				</nav>
+			</div>
+
+
+
+<!-- 			<div class="col-md-12">
+				<ul>
+					<li><a href="https://github.com/wmerrow" target="_blank">GitHub</a>
+					<li><a href="https://public.tableau.com/profile/will.merrow#!/" target="_blank">Tableau</a>
+					<li><a href="https://bl.ocks.org/wmerrow" target="_blank">Blocks (D3)</a>
+				</ul>
+			</div> -->
+
+
+			<div class="col-md-12">
+				<h2>Child Mortality and Access to Cities</h2>
+				<p class="work-credit">Project for Intro to GIS, spring 2020</p>
+				<p class="work-link">Full report: <a href="../media/work/INFO_609_Final_Project.pdf" target="_blank">INFO_609_Final_Project.pdf</a></p>
+				<!-- <p class="work-role">My role: visualization, UX/UI, and visual design, with input from team and client; lead project management</p> -->
+				<p>Tools: QGIS, R</p>
+			</div>
+			<div class="col-md-12">
+				<!-- <img class="work" src="../media/work/ppic-featured.png"> -->
+				<h3 class="work-title">Design Notes</h3>
+			</div>
+
+			<div class="col-md-12 row">
+				<div class="col-md-4">
+					<p>In this GIS project, I used granular geospatial data to map the relationship between child mortality and travel time to the nearest city, taking a global scope and focusing on particular countries to look at sub-national trends. </p>
+					<p>Because access to cities is a continuous variable, we can visualize it using contour lines, and overlay it to analyze the correlation with child mortality. For readability, I overlay one contour line at a time, starting with an access level of 60 minutes to the nearest city.</p>
+					<p>This shows that access to cities is strongly correlated with child mortality rates, although there is variation within countries. Angola follows this pattern.</p>
+				</div>
+				<div class="col-md-8">
+					<img class="work" src="../media/work/child_mortality_cities_1.jpg">
+				</div>
+			</div>
+			<div class="col-md-12 row">
+				<div class="col-md-4">
+					<p>In Cambodia, we see a clear pattern, with the areas with greater access to cities having significantly lower mortality rates. We can also see the stark differences between countries, as child mortality rates in Thailand and Vietnam are near zero, regardless of the level of access to cities.</p>
+				</div>
+				<div class="col-md-8">
+					<img class="work" src="../media/work/child_mortality_cities_2.jpg">
+				</div>
+			</div>
+			<div class="col-md-12 row">
+				<div class="col-md-4">
+					<p>For more rural countries, it is useful to delineate 6 hours of travel time to the nearest city rather than 1 hour. Afghanistan shows a clear pattern when using this delineation.</p>
+				</div>
+				<div class="col-md-8">
+					<img class="work" src="../media/work/child_mortality_cities_3.jpg">
+				</div>
+			</div>
+			<div class="col-md-12 row">
+				<div class="col-md-4">
+					<p>We can also examine the change in child mortality rate from 2000-2015, and how it correlates with access to cities in 2015. Interestingly, the relationship does not always go in the same direction.</p>
+					<p>In Angola the areas with higher access to cities show the largest progress.</p>
+				</div>
+				<div class="col-md-8">
+					<img class="work work" src="../media/work/child_mortality_cities_4.jpg">
+				</div>
+			</div>
+			<div class="col-md-12 row">
+				<div class="col-md-4">
+					<p>By contrast, in Cambodia the rural areas show the largest improvement, and the cities themselves show a smaller change.</p>
+				</div>
+				<div class="col-md-8">
+					<img class="work" src="../media/work/child_mortality_cities_5.jpg">
+				</div>
+			</div>
+			<div class="col-md-12 row">
+				<div class="col-md-4">
+					<p>In Afghanistan, the rural areas in the middle of the country show huge improvement. However, the rural area in the northeast of the country (which we saw earlier has a very high mortality rate) does not.</p>
+				</div>
+				<div class="col-md-8">
+					<img class="work" src="../media/work/child_mortality_cities_6.jpg">
+				</div>
+			</div>
+			<div class="col-md-12 row">
+				<div class="col-md-4">
+					<p>I also used R to analyze how mortality rates vary with access to cities worldwide. Interestingly, increased access results in increasingly better mortality rates: moving from 60 to 30 minutes results in a modest improvement, while moving from 30 to 0 minutes results in a much larger improvement.</p>
+					<p>For more maps and technical notes on the QGIS operations, view the full report here: [link].</p>
+				</div>
+				<div class="col-md-8">
+					<img class="work work-img-med" src="../media/work/child_mortality_cities_7.png">
+				</div>
+			</div>
+			<div class="col-md-12 row">
+				<div class="col-md-4">
+					<p>The project idea started with finding the incredibly granular child mortality data from the Institute for Health Metrics and Evaluation and wanting to work with it, then thinking about what variables I might be able to overlay.</p>
+				</div>
+				<div class="col-md-8">
+					<img class="work" src="../media/work/child_mortality_cities_8.png">
+				</div>
+			</div>
+			<div class="col-md-12 row">
+				<div class="col-md-4">
+					<p>I started with raster data, first aligning the two raster files by downscaling the access to cities data from 1km to 5km resolution as shown here (the access to cities data is in blue and the child mortality data is in purple).</p>
+					<p>I then created contour lines from the access data and overlaid cities, and finally brought the raster data into R to chart the aggregated data with ggplot.</p>
+				</div>
+				<div class="col-md-8">
+					<img class="work" src="../media/work/child_mortality_cities_9.png">
+				</div>
+			</div>
+			<div class="col-md-12 row">
+				<div class="col-md-4">
+					<p>I decided to use the “magma” color scale since the large changes in brightness and hue do a good job of making small differences visible. This was important for this dataset, because I wanted variations within countries to be apparent while keeping all countries on the same color scale.</p>
+				</div>
+				<div class="col-md-8">
+					<img class="work" src="../media/work/child_mortality_cities_10.png">
+				</div>
+			</div>
+			
+
+		</div>
+	</body>
+</html>
