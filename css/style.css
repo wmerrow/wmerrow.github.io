@@ -71,6 +71,13 @@ img.work {
 	border: 1px solid #ccc;
 }
 
+video {
+	width: 100%;
+	height: auto;
+	margin-bottom: 20px;
+	border: 1.5px solid #ccc;
+}
+
 .title-text {
 	margin-top: 140px;
 	margin-bottom: 5px;
