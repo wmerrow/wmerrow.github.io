@@ -122,6 +122,10 @@ video {
 	margin-top: -15px;
 }
 
+.work-img-large {
+	max-width: 600px;
+}
+
 .work-img-med {
 	max-width: 420px;
 }
