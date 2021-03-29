@@ -19,6 +19,23 @@ body {
 	/*background-attachment: fixed;*/
 }
 
+footer {
+	font-size: 12px;
+	color: #999999;
+	display: block;
+	margin-left: 60px;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+#homepage-container {
+	position: relative;
+}
+
+#homepage-footer {
+	position: absolute;
+	bottom: 0;
+}
 
 circle:hover {
 	fill: #a33000;
