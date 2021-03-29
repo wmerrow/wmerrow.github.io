@@ -45,6 +45,10 @@ d3.csv("data/parties.csv", function(data_all) {
         .domain([1, 0])
         .range(['#000000','#aaaaaa'])
         .interpolate(d3.interpolateRgb);
+    var immigColor = d3.scaleLinear()
+        .domain([-5, 5])
+        .range(['red','blue'])
+        .interpolate(d3.interpolateRgb);
 
     // AXIS LINE
 
@@ -72,12 +76,13 @@ d3.csv("data/parties.csv", function(data_all) {
         .style('opacity', 0)
         .style('stroke', '#ffffff')
         .style('stroke-width', '0.5px')
-        .style('fill', '#aaaaaa');
+        .style('fill', d=> immigColor(+d.v2paimmig));
+        // .style('fill', '#aaaaaa');
 
     bubbles.transition().duration(2000)
-        .style('opacity', 1)
-        .transition().duration(1250)
-        .attr('cy', d=> bubbleIllibY(+d.v2xpa_illiberal))
-        .style('fill', d=> illibColor(+d.v2xpa_illiberal));
+        .style('opacity', 1);
+        // .transition().duration(1250)
+        // .attr('cy', d=> bubbleIllibY(+d.v2xpa_illiberal))
+        // .style('fill', d=> illibColor(+d.v2xpa_illiberal));
 
 } );
