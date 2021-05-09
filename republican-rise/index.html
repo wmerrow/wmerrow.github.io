@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Visualizing State Politics</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <div>
+
+    <div class="content-well">
+
+      <figure>
+        <img src="img/nh.jpg" alt="A photo of the New Hampshire state house">
+        <figcaption id="caption">The New Hampshire state house. <span class="attribution">tktk / Flickr.</span></figcaption>
+      </figure>
+
+      <h1>The Story of Republicans' Rise to Power in State Governments</h1>
+
+      <div id="bylineContainer">
+        <p class="byline">By Will Merrow</p>
+        <p class="byline">Projects in Information Visualization</p>
+        <p class="byline">Spring 2021</p>
+      </div>
+
+      <p>New Hampshire’s 2020 election results look a little odd. The state voted for the Democratic nominee, as it has done in the past five presidential elections, and reelected its all-Democratic congressional delegation. But the state government is now deep red: the Republican governor cruised to an easy reelection and the GOP took back control of both chambers in the state legislature.</p>
+      
+      <p>At the state level, three institutions matter: the <strong>governor</strong>, <strong>state senate</strong>, and <strong>state house (sometimes called assembly)</strong>. If a party controls all three, like Republicans in New Hampshire do, it has a "trifecta" and can pass laws without support from the other party.</p>
+
+      <p>In the 2020 election, Democrats won the presidency and both chambers of congress, but Republicans won more control at the state level:</p>
+
+    </div>
+
+    <div id='container' class='container-1'>
+      <div id='graph'></div>
+      <div id='sections' class="content-well">
+
+        <div>
+          <p>Twenty-three states, amounting to 41% of the U.S. population, have a Republican governor and a Republican majority in the house and senate. Democratic trifectas govern only fifteen states, amounting to 37% of the country. In the remaining states, control is split, with neither party controlling all three institutions, although Republicans have an edge in most cases.</p>
+        </div>
+
+        <div>
+          <p>If we arrange states from left to right according to their vote in the 2020 presidential election, we can see that New Hampshire is the most extreme case, although there are other states that voted for Biden but where Republicans have full control at the state level.</p>
+          <p>Part of this is due to Trump's weakness as a candidate: on the whole, state-level Republicans got more votes than the former Preident. But it is also a result of gerrymandering, where the party in control of a state government draws district boundaries to pack opposing voters into as few districts as possible, giving their candidates an advantage. This is part of the reason Republicans did so well in New Hampshire - they drew the boundaries during the last redistricting process, when they controlled the state government in 2011.</p>
+        </div>
+
+        <div>
+          <p>This map may not be surprising to us in 2021, but getting to this point was a multi-generational GOP project.</p>
+        </div>
+
+        <div>
+          <p>The past half century shows a pattern of Republican gains at the state level, with two key elections taking the GOP from irrelevance to the dominant position it holds today.</p>
+        </div>
+
+        <div>
+          <p>After the Watergate scandal in the 1970s, 27 states had a Democratic house, senate, and governor, with 62% of Americans living in these trifecta states. There was not a single state with trifecta Republican control.</p>
+        </div>
+
+        <div>
+          <p>Over the next two decades, Republicans made uneven gains, although Democrats still held an edge at the start of 1994. In the midterm election later that year, the GOP pushed its "Contract With America", criticizing President Clinton for taxing and spending.</p>
+        </div>
+
+        <div>
+          <p>The election turned out to be a wave and was called the "Republican Revolution." The GOP won trifecta control in states large and small, and made gains in the south that were part of a long-term realignment of the region. When state governments began their sessions in 1995, Republicans held more power than Democrats for the first time since the 70s.</p>
+        </div>
+
+        <div>
+          <p>By the start of 2010, Democrats had regained some ground and were riding high at the national level, with a supermajority in the senate which had just passed President Obama's signature health care legislation.</p>
+          <p>Republicans decided to invest heavily at the state level in the 2010 election. The Republican State Leadership Committee, the GOP’s fundraising arm focused on the states, invested $32 million, a 50% increase over their spending in the 2008 cycle. By contrast, the Democrats' committee spent only $11 million, a decrease from 2008.</p>
+        </div>
+
+        <div>
+          <p>The result was an electoral massacre reminiscent of 1994. Republicans gained control in states across the country but especially in the midwest and south. After 2010, the GOP controlled trifectas in 20 states, amounting to 44% of the population. Like 1994, their breakthrough came in a midterm election during a Democratic presidency.</p>
+        </div>
+
+        <div>
+          <p>In 2020, hoping to avoid the mistakes of 2010, the Democrats' state committee launched a "Flip Everything" campaign and raised over $50 million for state races, far more than in previous cycles. President Trump was polling poorly, and hopes were high for a wave election.</p>
+        </div>
+
+        <div>
+          <p>The result was a bitter disappointment for Democrats: Joe Biden won the popular vote by 7 million votes, but they failed to flip anything at the state level. In fact, the only changes in control in the states were Republicans winning the Montana governor's race and taking the New Hampshire house and senate.</p>
+        </div>
+
+        <div>
+          <p>While most attention was focused on the presidential race, the 2020 state elections were of critical importance because of the upcoming redistricting process, which only happens <strong>every ten years</strong>. Once per decade, states draw new boundaries for legislative districts—a dry-sounding event with enormous implications.</p>
+          <p>While districts should be drawn impartially, the party that draws the boundaries can do so in a way where it ends up with more seats than it would otherwise have. Called <strong>gerrymandering</strong>, the process involves packing your opponents' voters into as few districts as possible. Both parties have gerrymandered over the past decades, but Republicans are currently the worst offenders.</p>
+          <p>This is why the state results in 2010 and 2020 were so devastating for Democrats. Republicans' victory in 2010 came just in time for the redistricting process, which they used to set boundaries so that they can win the House even while losing the popular vote. In 2020, they maintained their dominant position, and Democrats will have to wait a decade for their next opportunity.</p>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="content-well">
+
+      <h2>Data sources</h2>
+      
+      <p class="sources">Party control of state governments comes from <a href="https://www.klarnerpolitics.org/" target="_blank">Carl Klarner</a> and from the <a href="https://www.ncsl.org/research/about-state-legislatures/partisan-composition.aspx" target="_blank">National Conference of State Legislatures</a>. Population data comes from the <a href="https://www.census.gov/" target="_blank">U.S. Census Bureau</a>. Presidential vote data comes from the <a href="https://electionlab.mit.edu/data" target="_blank">MIT Election Data and Science Lab</a>. This <a href="https://www.washingtonpost.com/opinions/2021/02/18/republicans-now-enjoy-unmatched-power-states-it-was-40-year-effort/" target="_blank">Washington Post article</a> provided inspiration.</p>
+    
+    </div>
+    
+    <script src="d3v4+jetpack.js"></script>
+    <script src="graph-scroll.js"></script>
+    <script src="charts.js"></script>
+
+  </div>
+
+</body>
