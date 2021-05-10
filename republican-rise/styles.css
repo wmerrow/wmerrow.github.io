@@ -1,40 +1,30 @@
-
-body{
+body {
   max-width: 1024px;
   margin: 0px auto;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-h1{
-  margin: 50px;
-}
-
-h1{
-  text-align: center;
-}
-
-
-#container{
+#container {
   position: relative;
 }
 
-#sections{
+#sections {
   width: 340px;
 }
 
-#sections > div{
+#sections > div {
   background: white;
   opacity: 1;
   margin-bottom: 200px;
 }
-#sections > div:last-child{
+#sections > div:last-child {
   margin-bottom: 30px;
 }
-#sections > div.graph-scroll-active{
+#sections > div.graph-scroll-active {
   opacity: 1;
 }
 
-#graph{
+#graph {
   margin-left: 40px;
   width: 500px;
   position: -webkit-sticky;
@@ -43,107 +33,114 @@ h1{
   float: right;
 }
 
-@media (max-width: 3000px)  {
-
-  h1{
-    margin: 50px 25px 30px 25px;
-    text-align: left;
-  }
-
-  h2{
-    margin: 0px 25px 20px 25px;
-    font-size: 18px;
-  }
-
-  p{
-    font-size: 18px;
-    margin: 10px 25px 10px 25px;
-  }
-
-  .content-well {
-    max-width: 700px;
-    margin: auto;
-  }
-
-  .sources {
-    font-size: 15px;
-    line-height: 20px;
-  }
-
-  #bylineContainer {
-    margin: 0px 25px 30px 25px;
-  }
-
-  .byline {
-    font-size: 14px;
-    color: #aaaaaa;
-    margin: 3px 0px 3px 0px;
-  }
-
-  #graph{
-    width: 100%;
-    height: 610px;
-    margin-left: 0px;
-    float: none;
-  }
-
-  #sections{
-    width: auto;
-    position: relative;
-    margin: 0px auto;
-  }
-
-  #sections > div{
-    background: rgba(255,255,255,.94);
-    padding: 10px;
-    border-top: 1px solid #bbbbbb;
-    border-bottom: 1px solid #bbbbbb;
-    margin-bottom: 80vh;
-  }
-
-  pre{
-    overflow: hidden;
-  }
-
-  img {
-    width: 100%;
-    margin: 0px;
-    margin-top: 100px;
-  }
-
-  figcaption {
-    font-size: 11px;
-    color: #aaaaaa;
-  /*  margin-top: 3px;
-    margin-bottom: 3px;*/
-  }
-
-  figure {
-    margin: 0px 25px 0px 25px;
-  }
-
-  .attribution {
-    font-style: italic;
-  }
-
+h1 {
+  margin: 50px 25px 30px 25px;
+  text-align: left;
+  font-size: 36px;
 }
 
-#mySvg{
+h2 {
+  margin: 0px 25px 20px 25px;
+  font-size: 18px;
+}
+
+p {
+  font-size: 18px;
+  margin: 10px 25px 10px 25px;
+}
+
+.content-well {
+  max-width: 700px;
+  margin: auto;
+}
+
+.non-graph {
+  max-width: 680px;
+}
+
+.sources {
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.copyright {
+  color: #bbbbbb;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#bylineContainer {
+  margin: 0px 25px 30px 25px;
+}
+
+.byline {
+  font-size: 14px;
+  color: #aaaaaa;
+  margin: 3px 0px 3px 0px;
+}
+
+#graph {
+  width: 100%;
+  height: 610px;
+  margin-left: 0px;
+  float: none;
+}
+
+#sections {
+  width: auto;
+  position: relative;
+  margin: 0px auto;
+}
+
+#sections > div {
+  background: rgba(255,255,255,.94);
+  padding: 10px;
+  border-top: 1px solid #bbbbbb;
+  border-bottom: 1px solid #bbbbbb;
+  margin-bottom: 80vh;
+}
+
+pre{
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+  margin: 0px;
+  margin-top: 100px;
+}
+
+figcaption {
+  font-size: 11px;
+  color: #aaaaaa;
+/*  margin-top: 3px;
+  margin-bottom: 3px;*/
+}
+
+figure {
+  margin: 0px 25px 0px 25px;
+}
+
+.attribution {
+  font-style: italic;
+}
+
+#mySvg {
   background-color: #ffffff;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-.nodeForce{
+.nodeForce {
   paint-order: stroke;
 }
 
-.nodeNonForce{
+.nodeNonForce {
   paint-order: stroke;
 }
 
-.nodeLabel{
+.nodeLabel {
   text-anchor: middle;
   font-weight: 400;
   fill: white;
@@ -154,66 +151,56 @@ h1{
   stroke-linejoin: miter;
 }
 
-.headerLabel{
+.headerLabel {
   text-anchor: middle;
   font-weight: bold;
   font-size: 18px;
 }
 
-.number{
+.number {
   text-anchor: middle;
   font-size: 14px;
 }
 
-.yearLabel{
+.yearLabel {
   text-anchor: middle;
   font-size: 16px;
   font-weight: bold;
 }
 
-.yearRect{
+.yearRect {
   fill: none;
   stroke: black;
   /*stroke width set in charts.js*/
 }
 
-.presLabel{
+.presLabel {
   text-anchor: middle;
   font-size: 14px;
   font-weight: bold;
 }
 
-.presLine{
+.presLine {
   stroke: #cccccc;
   stroke-width: 1px;
 }
 
-.presName{
+.presName {
   font-size: 11px;
   fill: #aaaaaa;
 }
 
-.barYear{
+.barYearAxis {
   text-anchor: middle;
-  font-size: 13px;
-  /*fill: #aaaaaa;*/
+  font-size: 14px;
+}
+
+.barTitle {
+  font-size: 14px;
   font-weight: bold;
 }
 
-.barTitle{
-  font-size: 15px;
-  /*font-weight: bold;*/
-}
-
-.barTitleSpanNormal{
-  font-weight: normal;
-}
-
-.barTitleSpan{
-  font-weight: normal;
-}
-
-.appoLine{
+.appoLine {
   stroke: black;
 /*  stroke width set in charts.js
   stroke-width: 3px;*/

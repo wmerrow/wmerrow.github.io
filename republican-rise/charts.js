@@ -1,7 +1,3 @@
-function log(something) {
-  console.log(something);
-};
-
 d3.queue()
 .defer(d3.csv, "data/output/party_control.csv")
 .defer(d3.csv, "data/output/party_control_aggregated.csv")
@@ -10,17 +6,13 @@ d3.queue()
   if (error) throw error;
 
   // metadata for party control
-  var contCats = ['full_dem', 'split', 'full_rep', 'NA'];
-  var contText = ['Democrat trifecta', 'Split control', 'Republican trifecta', 'Other'];
-  var contPositions = [0.25, 0.5, 0.75, 0.5];
-  var contOrder = [3, 2, 1, 4]; // custom order to use in sorting for stacked bar chart
+  var contCats = ['full_dem', 'split', 'full_rep'];
+  var contText = ['Democrat trifecta', 'Split control', 'Republican trifecta'];
+  var contPositions = [0.25, 0.5, 0.75];
+  var contOrder = [3, 2, 1]; // custom order to use in sorting for stacked bar chart
   // object with control metadata to use for lookup
   var contMeta = {};
   contCats.forEach((key, i) => contMeta[key] = {"text": contText[i], "position": contPositions[i], "order": contOrder[i]});
-
-  /// remove nebraska for now - Need to confirm Nebraska control to remove these two lines
-  var data_all = data_all.filter(({state}) => state !== "Nebraska");
-  var data_all_ag = data_all_ag.filter(({cont_text}) => cont_text !== "NA");
 
   // convert columns to numeric
   data_all.forEach(function(data){
@@ -42,6 +34,8 @@ d3.queue()
     data.pres_share_rep = +data.pres_share_rep;
     data.pres_marg_rep = +data.pres_marg_rep;
   })
+  // sort data by population so small bubbles are on top
+  data_all.sort((a,b)=>d3.descending(a.pop, b.pop));
 
   data_all_ag.forEach(function(data){
     data.year = +data.year;
@@ -96,8 +90,10 @@ d3.queue()
 
     // console.log(width, height);
 
-    // 700 x 440 is roughly the map aspect ratio so bubbles end up centered in states
-    var scalar = 1.37;
+
+    // DIMENSIONS
+
+    var scalar = 1.37; // scalar also applied to bubble size scales
     var width = 700 * scalar;
     var mapAspect = 582.5 / 918.4; // map aspect ratio
     var height = width * mapAspect;
@@ -129,23 +125,12 @@ d3.queue()
       left: (width - barChartWidth) * 0.5
     }
 
-    var r = 40;
+    var legendR = 5;
     var textSize = 11;
     var nodePadding = 1;
     var strokeWidth = 3; // stroke for highlight rect and lines
 
-    // color scale for control categories
-    var color = d3.scaleOrdinal()
-      .domain(contCats)
-      .range(['#0078c2', '#b8b6b0', '#d6422b', '#bfbdb8']);
-    /// bar chart colors need to be reversed for some reason, also split control uses lighter gray on bar chart
-    var barColor = d3.scaleOrdinal()
-      .domain(contCats)
-      .range(['#d6422b', '#d1cfc9', '#0078c2', '#dddddd']);
-      // .range(['#0078c2', '#92c5de', '#f4a582', '#d6422b', '#dddddd']);
-      //.range(['#4393c3', '#92c5de', '#f4a582', '#d6604d', '#dddddd']);
-
-    // data min and max
+    // data min and max for scales
     var pop_max = d3.max(data_all_2021, function(d) { return d.pop; });
     var pop_min = d3.min(data_all_2021, function(d) { return d.pop; });
     var marg_rep_max = d3.max(data_all_2021, function(d) { return d.pres_marg_rep; });
@@ -153,18 +138,34 @@ d3.queue()
     // determine max margin of victory for either Rs or Ds (check if marg_rep_max or marg_rep_max is farther from 0)
     var max_marg = d3.max([marg_rep_max, Math.abs(marg_rep_min)]);
 
+    // color palette
+    var blue = '#0078c2';
+    var gray = '#b3b0ab';
+    var grayLight = '#d1cfc9';
+    var red = '#d6422b';
+
+    
+    // SCALES
+
+    // color scale for control categories
+    var color = d3.scaleOrdinal()
+      .domain(contCats)
+      .range([blue, gray, red, gray]);
+    // bar chart colors need to be reversed, and split control uses lighter gray on bar chart
+    var barColor = d3.scaleOrdinal()
+      .domain(contCats)
+      .range([red, grayLight, blue, grayLight]);
     // size scales
     var sizeChart = d3.scaleSqrt()
       .domain([0, pop_max])
-      .range([0, 30 * scalar]); // max radius for charts
+      .range([0, 30 * scalar]); // max radius for force charts and large map
     var sizeMap = d3.scaleSqrt()
       .domain([0, pop_max])
-      .range([0, 11 * scalar]); // max radius for map
+      .range([0, 9 * scalar]); // max radius for small map
     var sizeText = d3.scaleLinear()
       .domain([pop_min, (pop_max - pop_min) / 2]) // max domain is pop midpoint
       .range([8, 12]) // min and max font size
       .clamp(true); // specifies that values beyond max domain (largest states) should not be larger than max font size in range
-
     // map x y scales
     var xLonScale = d3.scaleLinear()
       .domain([0, 1])
@@ -190,11 +191,20 @@ d3.queue()
     var yLegScale = d3.scaleLinear()
       .domain([0, 16])
       .range([height * .8, height * 0.2]);
-    // dummy scale
-    var yDefault = 200;
+    // dummy scale with default y position (for when we need to use a scale for consistency but just want to set a constant y position)
+    var yDefault = height * 0.38;
     var dummyScale = d3.scaleLinear()
       .domain([-1000, 1000])
       .range([yDefault, yDefault]);
+    // bar chart x y scales
+    var xYearScale = d3.scaleBand()
+        .domain(years)
+        .range([barChartMargin.left, barChartWidth + barChartMargin.right])
+        .paddingInner(0.05)
+        .align(0.1);
+    var yPopScale = d3.scaleLinear()
+        .domain([0, 1])
+        .range([barChartHeight + barChartMargin.top, barChartMargin.top]);
 
     // add svg
     var svg = d3.select('#graph').html('')
@@ -211,192 +221,22 @@ d3.queue()
       .attr("x", mapMargin.left)
       .attr("y", mapMargin.top)
       .style('opacity', 0);
-      // .style('display', 'none'); //margin.top);
 
     // add g after basemap so it goes on top
     var g = svg.append('g');
 
 
-    // BAR CHART
+    // PRESIDENTIAL VOTE AXIS
 
-    var xYearScale = d3.scaleBand()
-        .domain(years)
-        .range([barChartMargin.left, barChartWidth + barChartMargin.right])
-        .paddingInner(0.05)
-        .align(0.1);
-
-    var yPopScale = d3.scaleLinear()
-        .domain([0, 1])
-        .range([barChartHeight + barChartMargin.top, barChartMargin.top]);
-
-    // rectangles
-
-    var barChart = g.append('g').selectAll("g")
-      .data(bar_data)
-      .enter().append("g")
-      .style("fill", function(d) { return barColor(d.key); })  
-    .selectAll("rect")
-      .data(function(d) { return d; })
-      .enter().append("rect")
-      .attr('class', 'barRect')
-      .attr("x", function(d) { return xYearScale(d.data.year); })
-      .attr("y", function(d) { return yPopScale(d[1]); })
-      .attr("height", function(d) { return yPopScale(d[0]) - yPopScale(d[1]); })
-      .attr("width", xYearScale.bandwidth())
-      .style('opacity', 0);
-
-    // year labels
-
-    var barYear = g.append('g')
-      .selectAll(".presName")
-      .data([1980, 1984, 1988, 1992, 1996, 2000, 2004, 2008, 2012, 2016, 2020])
-      .enter().append("text")
-      .attr('class', 'barYear')
-      .text(d=> d)
-      .attr("x", d=> xYearScale(d) + xYearScale.bandwidth()/2)
-      .attr("y", barChartMargin.top + barChartHeight + 18)
-      .style('opacity', 0);
-
-    // president lines and names
-
-    var presMargin = 7;
-
-    var presLine = g.append('g')
-      .selectAll(".presLine")
-      .data(data_pres)
-      .enter().append("line")
-      .attr('class', 'presLine')
-      .attr("x1", d=> xYearScale(d.start_year) + 3)
-      .attr('x2', function(d){
-        // special case for end of Biden line
-        if (d.president === "Biden") {
-          return xYearScale(d.end_year) + xYearScale.bandwidth();
-        } else {
-          return xYearScale(d.end_year) - 2;
-      }})
-      .attr("y1", barChartMargin.top - presMargin)
-      .attr("y2", barChartMargin.top - presMargin)
-      .style('opacity', 0);
-
-    var presName = g.append('g')
-      .selectAll(".presName")
-      .data(data_pres)
-      .enter().append("text")
-      .attr('class', 'presName')
-      // .text(function(d){
-      //   if (d.president === "Biden") {
-      //     return "";
-      //   } else {
-      //     return d.president;
-      //   }
-      // })
-      .text(d=> d.president)
-      // Biden anchored left
-      .style("text-anchor", function(d){
-        if (d.president === "Biden") {
-          return 'start';
-        } else {
-          return 'middle';
-        }
-      })
-      // midpoint of start and end year
-      .attr("x", function(d){
-        if (d.president === "Biden") {
-          return xYearScale(d.start_year) + 3;
-        } else {
-          return (xYearScale(d.start_year) + xYearScale(d.end_year))/2 + 1;
-        }
-      })
-      .attr("y", barChartMargin.top - presMargin - 6)
-      .style('opacity', 0);
-
-    var barTitle = g.append('g');
-
-    var legendR = 5;
-
-    // add legend circles
-    barTitle.append('circle')
-      .attr('class', 'legendCircle')
-      .attr('cx', barChartMargin.left + 214)
-      .attr('cy', 43)
-      .attr('r', legendR)
-      .style('fill', '#0078c2');
-    barTitle.append('circle')
-      .attr('class', 'legendCircle')
-      .attr('cx', barChartMargin.left + 363)
-      .attr('cy', 43)
-      .attr('r', legendR)
-      .style('fill', '#d6422b');
-    barTitle.append('circle')
-      .attr('class', 'legendCircle')
-      .attr('cx', barChartMargin.left + 550)
-      .attr('cy', 43)
-      .attr('r', legendR)
-      .style('fill', '#bfbdb8');
-
-    barTitle
-      .append("text")
-      .attr('class', 'barTitle')
-      .attr("x", barChartMargin.left)
-      .attr("y", barChartMargin.top - 43)
-      .style('opacity', 0)
-      .append("tspan")
-        .attr('class', 'barTitleSpanNormal')
-        .text("Population living in states with ")
-      .append("tspan")
-        .attr('class', 'barTitleSpan')
-        .attr('dx', 3 * legendR + 1)
-        .text("Democrat trifectas, ")
-        .style('fill', '#000000')
-      .append("tspan")
-        .attr('class', 'barTitleSpan')
-        .attr('dx', 3 * legendR + 1)
-        .text("Republican trifectas, and ")
-        .style('fill', '#000000')
-      .append("tspan")
-        .attr('class', 'barTitleSpan')
-        .attr('dx', 3 * legendR + 1)
-        .text("split control")
-        .style('fill', '#000000');
-
-
-    // APPORTIONMENT LINES
-
-    var appoYears = [1980, 1990, 2000, 2010, 2020];
-
-    var appoLines = g.append('g')
-      .selectAll(".appoLine")
-      .data(appoYears)
-      .enter().append("line")
-      .attr('class', 'appoLine')
-      .attr("x1", d=> xYearScale(d) + xYearScale.bandwidth())//*0.87)
-      .attr("x2", d=> xYearScale(d) + xYearScale.bandwidth())//*0.87)
-      .attr("y1", barChartMargin.top + barChartHeight)
-      .attr("y2", barChartMargin.top + 1)
-      .style('stroke-width', strokeWidth)
-      .style('opacity', 0);
-
-    // var appoLabels = g.append('g')
-    //   .selectAll(".appoLabel")
-    //   .data(appoYears)
-    //   .enter().append("text")
-    //   .attr('class', 'appoLabel')
-    //   .text(d=> d)
-    //   .attr("x", d=> xYearScale(d) + xYearScale.bandwidth())
-    //   .attr("y", barChartMargin.top - 5)
-    //   .style('opacity', 0);
-
-    // PRES VOTE AXIS
-
-    //add axis
-    var axisHeight = yDefault + 25;
+    // add axis
+    var axisHeight = height * 0.47;
     var presAxis = g.append("g")
       .attr("class", "axis")
       .attr("transform", "translate(0," + (yDefault + (axisHeight / 2)) + ")")
       .call(d3.axisTop(xVoteScale)
               .ticks(10)
               .tickSize(axisHeight)
-              // remove minus signs and append +D or +R, or change to Even
+              // remove minus signs and append +D or +R, or change to 'Even'
               .tickFormat((function (v) {
                   if (v == 0) {
                     return 'Even';
@@ -412,39 +252,40 @@ d3.queue()
 
     // style axis lines (different style for zero line)
     d3.selectAll("g.axis g.tick line")
-        .style("stroke", function(d){
-           if (d === 0) {
-            return 'black';
-           } else {
-            return '#cccccc';
-           }
-        })
-        .style("stroke-width", function(d){
-           if (d === 0) {
-            return 1.5;
-           } else {
-            return 1;
-           }
-        })
-        .attr("y1", 0 - axisHeight)
-        .attr("y2", function(d){
-           if (d === 0) {
-            return 0;
-           } else {
-            return 8 - axisHeight;
-           }
-        });
+      .style("stroke", function(d){
+         if (d === 0) {
+          return 'black';
+         } else {
+          return '#cccccc';
+         }
+      })
+      .style("stroke-width", function(d){
+         if (d === 0) {
+          return 1.5;
+         } else {
+          return 1;
+         }
+      })
+      .attr("y1", axisHeight * -1)
+      .attr("y2", function(d){
+         if (d === 0) {
+          return 0;
+         } else {
+          return axisHeight * -1 + 8;
+         }
+      });
 
     // style and position axis text (different style for zero text)
     d3.selectAll("g.axis g.tick text")
-        .style("fill", function(d){
-           if (d === 0) {
-            return 'black';
-           } else {
-            return '#aaaaaa';
-           }
-        })
-        .attr("dy", -3);
+      .style("fill", function(d){
+         if (d === 0) {
+          return 'black';
+         } else {
+          return '#aaaaaa';
+         }
+      })
+      .attr("dy", -3);
+
 
     // BUBBLES
 
@@ -459,8 +300,7 @@ d3.queue()
 
     var simulation = d3.forceSimulation();
 
-
-    // UPDATE FUNCTION
+    // BUBBLE UPDATE FUNCTION
 
     // update bubbles and labels using parameters depending on step of scrollytelling
     function updateNodes( nodeData,
@@ -475,17 +315,20 @@ d3.queue()
                           yStr,
                           collStr,
                           newYear,
-                          i) { 
+                          presFlag,
+                          frcFlag,
+                          mapFlag,
+                          bar1Flag) { 
 
-      // transition /// keep this line within update, not sure why
+      // transition
       var t = d3.transition().duration(1000);
 
-      // update bubble force layout for steps 0-3
-      if (i < 4) {
+      // update force nodes' color, position, and size for relevant steps
+      if (frcFlag === true) {
 
         // Apply the general update pattern to the nodes
   
-        nodesForce = nodesForce.data(nodeData, d=> d.state); /// what is d.state doing?
+        nodesForce = nodesForce.data(nodeData, d=> d.state);
   
         nodesForce.exit().remove();
 
@@ -506,7 +349,7 @@ d3.queue()
 
         // Apply the general update pattern to the labels
 
-        nodeLabels = nodeLabels.data(nodeData, d=> d.state); /// what is d.state doing?
+        nodeLabels = nodeLabels.data(nodeData, d=> d.state);
       
         nodeLabels.exit().remove();
 
@@ -524,106 +367,276 @@ d3.queue()
           .style("stroke", d=> cScale(d[cInput]))
           .merge(nodeLabels);
 
+        // reset tick counter used in force simulation
+        var tickCounter = 0;
+
+        // update force simulation
         simulation.nodes(nodeData)
-          .force("x", d3.forceX().strength(xStr).x(function(d){
-            // different x force for step 3
-            if (i < 3) {
-              return xScale(d[xInput]);
-            } else {
-              return (xScale(d[xInput]) + xYearScale(newYear) + xYearScale.bandwidth()/2 - width/2);
-            }
-          }))
+          .force("x", d3.forceX().strength(xStr).x(d=> xScale(d[xInput])))
           .force("y", d3.forceY().strength(yStr).y(d=> yScale(d[yInput])))
           // avoid collision - change strength and number of iterations to adjust
           .force("collide", d3.forceCollide().strength(collStr).radius(d=> sScale(d.pop) + nodePadding).iterations(10))
+          // on tick, update x y positions of nodes and labels
           .on('tick', function(){
+            // for non-presidential vote bubbles, can use normal method of updating cx to d.x on each tick
+            // for presidential vote bubbles, want final x positions to be the exact presidential vote, not affected by other forces
+            // can't set other forces to zero because then nodes won't be attracted y center and will overlap
+            // could just set bubble x to desired x position, but then bubbles don't transition smoothly when coming from previous view
+            // solution is to interpolate between d.x and desired x position based on the tick number, using d.x for tick 0 and desired x position for tick 299, and linear interpolation for in between numbers
+            // this ensures that bubbles end up in desired x position and use a smooth transition to get there
+            // this results in some overlap of bubbles but not as much as overlap with collision strength zero
             nodesForce
-              // .transition().duration(100) /// transition on each tick to slow down bubbles, but this messes with bubble steps for some reason
-              .attr("cx", d=> d.x)
+              .attr("cx", function(d){
+                if (presFlag === true) {
+                  // for presidential vote bubbles, use method described above
+                  var tickScale = d3.scaleLinear()
+                    .domain([0, 299]) // min and max of tick counter
+                    .range([d.x, xScale(d[xInput])]); // d.x and desired x position
+                  return tickScale(tickCounter);
+                } else {
+                  // for non-presidential vote bubbles, can just use normal d.x
+                  return d.x;
+                }
+              })
               .attr("cy", d=> d.y);
             nodeLabels
-              // .transition().duration(100) /// transition on each tick to slow down bubbles, but this messes with bubble steps for some reason
-              .attr("x", d=> d.x)
+              .attr("x", function(d){
+                if (presFlag === true) {
+                  // for presidential vote bubbles, use method described above
+                  var tickScale = d3.scaleLinear()
+                    .domain([0, 299]) // min and max of tick counter
+                    .range([d.x, xScale(d[xInput])]); // d.x and desired x position
+                  return tickScale(tickCounter);
+                } else {
+                  // for non-presidential vote bubbles, can just use normal d.x
+                  return d.x;
+                }
+              })
               .attr("y", d=> d.y + textSize / 2 - 2); // adds half of text size to vertically center in bubbles
+            // increase tick counter
+            tickCounter++;
           });
         // re-energize the simulation
         simulation.alpha(1).restart();
 
-        // hide non-force nodes
-        d3.selectAll('.nodeNonForce').transition().style('opacity', 0);
+      };
 
-      } else {
-        // update non-force bubbles (without force layout) for steps 4 and on
+      // update non-force nodes' color, position, and size (just using x and y, not force layout) for relevant steps
+      // using mapFlag instead of nonFrcFlag so they update for earlier step even though opacity is 0
+      if (mapFlag === true) {
 
         // Apply the general update pattern to the nodes
   
-        nodesNonForce = nodesNonForce.data(nodeData, d=> d.state); /// what is d.state doing?
+        nodesNonForce = nodesNonForce.data(nodeData, d=> d.state);
   
         nodesNonForce.exit().remove();
 
         nodesNonForce
           .style("stroke", function(d){
-            // special stroke for states that flipped to R trifecta in 1995 and 2011
-            if (d.cont_flip === "TRUE" && d.cont_text === "full_rep" && (newYear === 1995 || newYear === 2011 || newYear === 2021)) {
+            // special stroke for states that flipped to R trifecta in 1995, 2011, and 2021, as long as it's not first bar chart view
+            if (bar1Flag === false && d.cont_flip === "TRUE" && d.cont_text === "full_rep" && (newYear === 1995 || newYear === 2011 || newYear === 2021)) {
               return "black";
             } else {
               return "white";
             }
           })
           .style("stroke-width", function(d){
-            if (d.cont_flip === "TRUE" && d.cont_text === "full_rep" && (newYear === 1995 || newYear === 2011 || newYear === 2021)) {
+            if (bar1Flag === false && d.cont_flip === "TRUE" && d.cont_text === "full_rep" && (newYear === 1995 || newYear === 2011 || newYear === 2021)) {
               return 5;
             } else {
               return 1.5;
             }
           })
-          // need to change stroke-width before transition for some reason
+          // need to change stroke-width before transition
           .transition(t)
-          //.style('opacity', 1)
           .style("fill", d=> cScale(d[cInput]))
           .attr("r", d=> sScale(d.pop))
-          .attr("cx", d=> xScale(d[xInput]) + xYearScale(newYear) + xYearScale.bandwidth()/2 - width/2)
+          .attr("cx", function(d){
+            // different x force for step where force nodes are used on map
+            if (mapFlag === true && frcFlag === true) {
+              return xScale(d[xInput]);
+            } else {
+              return (xScale(d[xInput]) + xYearScale(newYear) + xYearScale.bandwidth()/2 - width/2);
+            }
+          })
           .attr("cy", d=> yScale(d[yInput]));
 
         nodesNonForce = nodesNonForce.enter().append("circle")
           .attr("class", "nodeNonForce")
           .style("stroke", function(d){
-            // special stroke for states that flipped to R trifecta in 1995 and 2011
-            if (d.cont_flip === "TRUE" && d.cont_text === "full_rep" && (newYear === 1995 || newYear === 2011 || newYear === 2021)) {
+            // special stroke for states that flipped to R trifecta in 1995, 2011, and 2021, as long as it's not first bar chart view
+            if (bar1Flag === false && d.cont_flip === "TRUE" && d.cont_text === "full_rep" && (newYear === 1995 || newYear === 2011 || newYear === 2021)) {
               return "black";
             } else {
               return "white";
             }
           })
           .style("stroke-width", function(d){
-            if (d.cont_flip === "TRUE" && d.cont_text === "full_rep" && (newYear === 1995 || newYear === 2011 || newYear === 2021)) {
+            if (bar1Flag === false && d.cont_flip === "TRUE" && d.cont_text === "full_rep" && (newYear === 1995 || newYear === 2011 || newYear === 2021)) {
               return 5;
             } else {
               return 1.5;
             }
           })
-          //.style('opacity', 1)
           .style("fill", d=> cScale(d[cInput]))
           .attr("r", d=> sScale(d.pop))
-          .attr("cx", d=> xScale(d[xInput]) + xYearScale(newYear) + xYearScale.bandwidth()/2 - width/2)
+          .attr("cx", function(d){
+            // different x force for step where force nodes are used on map
+            if (mapFlag === true && frcFlag === true) {
+              return xScale(d[xInput]);
+            } else {
+              return (xScale(d[xInput]) + xYearScale(newYear) + xYearScale.bandwidth()/2 - width/2);
+            }
+          })
           .attr("cy", d=> yScale(d[yInput]))
           .merge(nodesNonForce);
 
       }
-      
-
-      // var t = d3.timer(function(elapsed) {
-      //     if (elapsed > 1000) {
-      //         simulation.alphaTarget(0); //After 1000ms, rest
-      //         //console.log("Time Passed")
-      //         t.stop()
-      //     };
-      // }, 1); // start timer after 1ms
 
     } // end update function
 
 
-    // LABELING
+    // BAR CHART
+
+    // background fill to cover elements transitioning behind it
+    g.append('rect')
+      .attr('class', 'barBackground')
+      .attr("x", barChartMargin.left)
+      .attr("y", barChartMargin.top)
+      .attr("height", barChartHeight)
+      .attr("width", barChartWidth)
+      .style('fill', 'white')
+      .style('opacity', 0);
+
+    // bars
+    var barChart = g.append('g').selectAll("g")
+      .data(bar_data)
+      .enter().append("g")
+      .style("fill", function(d) { return barColor(d.key); })  
+    .selectAll("rect")
+      .data(function(d) { return d; })
+      .enter().append("rect")
+      .attr('class', 'barRect')
+      .attr("x", function(d) { return xYearScale(d.data.year); })
+      .attr("y", function(d) { return yPopScale(d[1]); })
+      .attr("height", function(d) { return yPopScale(d[0]) - yPopScale(d[1]); })
+      .attr("width", xYearScale.bandwidth())
+      .style('opacity', 0);
+
+    // year axis
+    var barYearAxis = g.append('g')
+      .selectAll(".presName")
+      .data([1980, 1985, 1990, 1995, 2000, 2005, 2010, 2015, 2020])
+      .enter().append("text")
+      .attr('class', 'barYearAxis')
+      .text(d=> d)
+      .attr("x", d=> xYearScale(d) + xYearScale.bandwidth()/2)
+      .attr("y", barChartMargin.top + barChartHeight + 18)
+      .style('opacity', 0);
+
+    // president lines
+    var presMargin = 7;
+    var presLine = g.append('g')
+      .selectAll(".presLine")
+      .data(data_pres)
+      .enter().append("line")
+      .attr('class', 'presLine')
+      .attr("x1", d=> xYearScale(d.start_year) + 3)
+      .attr('x2', function(d){
+        // special case for end of Biden line
+        if (d.president === "Biden") {
+          return xYearScale(d.end_year) + xYearScale.bandwidth();
+        } else {
+          return xYearScale(d.end_year) - 3;
+      }})
+      .attr("y1", barChartMargin.top - presMargin)
+      .attr("y2", barChartMargin.top - presMargin)
+      .style('opacity', 0);
+
+    // president names
+    var presName = g.append('g')
+      .selectAll(".presName")
+      .data(data_pres)
+      .enter().append("text")
+      .attr('class', 'presName')
+      .text(d=> d.president)
+      // Biden anchored left
+      .style("text-anchor", function(d){
+        if (d.president === "Biden") {
+          return 'start';
+        } else {
+          return 'middle';
+        }
+      })
+      // midpoint of start and end year
+      .attr("x", function(d){
+        if (d.president === "Biden") {
+          return xYearScale(d.start_year) + 3;
+        } else {
+          return (xYearScale(d.start_year) + xYearScale(d.end_year))/2 + 1;
+        }
+      })
+      .attr("y", barChartMargin.top - presMargin - 6)
+      .style('opacity', 0);
+
+    // bar chart title
+    var barTitle = g.append('g');
+    // legend circles manually positioned in title text
+    barTitle.append('circle')
+      .attr('class', 'legendCircle')
+      .attr('cx', barChartMargin.left + 214)
+      .attr('cy', 43)
+      .attr('r', legendR)
+      .style('fill', blue)
+      .style('opacity', 0);
+    barTitle.append('circle')
+      .attr('class', 'legendCircle')
+      .attr('cx', barChartMargin.left + 363)
+      .attr('cy', 43)
+      .attr('r', legendR)
+      .style('fill', red)
+      .style('opacity', 0);
+    barTitle.append('circle')
+      .attr('class', 'legendCircle')
+      .attr('cx', barChartMargin.left + 550)
+      .attr('cy', 43)
+      .attr('r', legendR)
+      .style('fill', gray)
+      .style('opacity', 0);
+    // title text
+    barTitle
+      .append("text")
+      .attr('class', 'barTitle')
+      .attr("x", barChartMargin.left)
+      .attr("y", barChartMargin.top - 43)
+      .style('opacity', 0)
+      .append("tspan")
+        .text("Population living in states with ")
+      .append("tspan")
+        .attr('dx', 3 * legendR + 1)
+        .text("Democrat trifectas, ")
+      .append("tspan")
+        .attr('dx', 3 * legendR + 1)
+        .text("Republican trifectas, and ")
+      .append("tspan")
+        .attr('dx', 3 * legendR + 1)
+        .text("split control")
+    // apportionment lines
+    var appoYears = [1980, 1990, 2000, 2010, 2020];
+    var appoLines = g.append('g')
+      .selectAll(".appoLine")
+      .data(appoYears)
+      .enter().append("line")
+      .attr('class', 'appoLine')
+      .attr("x1", d=> xYearScale(d) + xYearScale.bandwidth())
+      .attr("x2", d=> xYearScale(d) + xYearScale.bandwidth())
+      .attr("y1", barChartMargin.top + barChartHeight)
+      .attr("y2", barChartMargin.top + 1)
+      .style('stroke-width', strokeWidth)
+      .style('opacity', 0);
+
+
+    // BUBBLE CHART HEADERS
 
     // add control labels
     var contLabel = svg.append("g").selectAll('.headerLabel')
@@ -634,7 +647,8 @@ d3.queue()
       })
       .attr('class', 'headerLabel')
       .attr('x', d=> width * d)
-      .attr('y', height * 0.12);
+      .attr('y', height * 0.12)
+      .style('opacity', 0);
 
     // add control numbers
     var contNumber = svg.append("g").selectAll('.number')
@@ -643,24 +657,16 @@ d3.queue()
       .text(d=> d3.format(".0%")(d.pop_pct) + " of the U.S. population")
       .attr('class', 'number')
       .attr('x', d=> width * contMeta[d.cont_text].position) // lookup corresponding position
-      .attr('y', height * 0.16);
+      .attr('y', height * 0.16)
+      .style('opacity', 0);
 
     // add pres vote label
     var presLabel = svg.append("g")
       .append('text')
-      .text('Presidential vote')
+      .text('2020 presidential vote')
       .attr('class', 'presLabel')
       .attr('x', width * 0.5)
       .attr('y', height * 0.09)
-      .style('opacity', 0);
-
-    // add year label
-    var yearLabel = svg.append("g")
-      .append('text')
-      .text(2021)
-      .attr('class', 'yearLabel')
-      .attr('x', d=> xYearScale('2021') + xYearScale.bandwidth()/2)
-      .attr('y', barChartMargin.top + barChartHeight + 22)
       .style('opacity', 0);
 
     // add year highlight rectangle
@@ -688,9 +694,6 @@ d3.queue()
           
           // STEPS (TURN WORD WRAP OFF TO VIEW AS TABLE)
 
-          //var dataTest =  [data_all_2021,         data_all_2021,              data_all_2021,         data75,         1995,         2010,         2010,         2011,         2021];
-
-
           //i             0              1                  2             3             4             5             6             7             8             9             10            11            
           //year
           var dataYear =  [2021,         2021,              2021,         2021,         1977,         1994,         1995,         2010,         2011,         2020,         2021,         2021        ];
@@ -699,9 +702,10 @@ d3.queue()
           var presFlag =  [false,        true,              false,        false,        false,        false,        false,        false,        false,        false,        false,        false       ];
           var mapFlag =   [false,        false,             true,         true,         true,         true,         true,         true,         true,         true,         true,         false       ];
           var mapLgFlag = [true,         true,              true,         false,        false,        false,        false,        false,        false,        false,        false,        false       ];
-          var frcFlag =   [true,         true,              true,         true,         false,        false,        false,        false,        false,        false,        false,        false       ];
-          var nonFrcFlag =[false,        false,             false,        false,        true,         true,         true,         true,         true,         true,         true,         false       ];
+          var frcFlag =   [true,         true,              true,         false,        false,        false,        false,        false,        false,        false,        false,        false       ];
+          var nonFrcFlag =[false,        false,             false,        true,         true,         true,         true,         true,         true,         true,         true,         false       ];
           var barFlag =   [false,        false,             false,        true,         true,         true,         true,         true,         true,         true,         true,         true        ];
+          var bar1Flag =  [false,        false,             false,        true,         false,        false,        false,        false,        false,        false,        false,        true        ];
           var yearFlag =  [false,        false,             false,        true,         true,         true,         true,         true,         true,         true,         true,         false       ];
           var appoFlag =  [false,        false,             false,        false,        false,        false,        false,        false,        false,        false,        false,        true        ];
           // bubble x
@@ -716,8 +720,8 @@ d3.queue()
           // bubble size
           var sScales =   [sizeChart,    sizeChart,         sizeChart,    sizeMap,      sizeMap,      sizeMap,      sizeMap,      sizeMap,      sizeMap,      sizeMap,      sizeMap,      sizeMap     ];
           // bubble x y strengths
-          var xStrs =     [0.1,          0.8,               0.1,          0.1,          0.1,          0.1,          0.1,          0.1,          0.1,          0.1,          0.1,          0.1         ];
-          var yStrs =     [0.1,          0.1,               0.1,          0.1,          0.1,          0.1,          0.1,          0.1,          0.1,          0.1,          0.1,          0.1         ];
+          var xStrs =     [0.11,         1,                 0.1,          0.1,          0.1,          0.1,          0.1,          0.1,          0.1,          0.1,          0.1,          0.1         ];
+          var yStrs =     [0.08,         0.04,              0.1,          0.1,          0.1,          0.1,          0.1,          0.1,          0.1,          0.1,          0.1,          0.1         ];
           // bubble collision strength
           var collStrs =  [1,            1,                 0,            0,            0,            0,            0,            0,            0,            0,            0,            0           ];
 
@@ -738,10 +742,12 @@ d3.queue()
                        yStrs[i],
                        collStrs[i],
                        dataYear[i],
-                       i);
+                       presFlag[i],
+                       frcFlag[i],
+                       mapFlag[i],
+                       bar1Flag[i]);
 
-          // show and hide elements as needed
-          // for some reason selecting using variables results in elements not fading out if you scroll too fast, but d3.selectAll doesn't have this issue
+          // show and hide elements as needed (selecting using variables results in elements not fading out if you scroll too fast, but d3.selectAll doesn't have this issue)
 
           // show or hide header labels
           if (introFlag[i] === true) {
@@ -768,7 +774,7 @@ d3.queue()
             d3.select('#basemap').style('opacity', 0);
           };
 
-          // different map size for step 2
+          // different map size if specified
           if (mapLgFlag[i] === true) {
             d3.select('#basemap')
               .transition().duration(1000)
@@ -779,7 +785,6 @@ d3.queue()
             d3.select('#basemap')
               .transition().duration(1000)
               .attr("width", mapWidth)
-              //.attr("x", mapMargin.left)
               .attr('x', xYearScale(dataYear[i]) + xYearScale.bandwidth()/2 - mapWidth/2)
               .attr("y", mapMargin.top);
           };
@@ -787,28 +792,28 @@ d3.queue()
           // show or hide bar chart and node labels
           if (barFlag[i] === true) {
             d3.selectAll('.nodeLabel').style('opacity', 0);
+            d3.selectAll('.barBackground').style('opacity', 1);
             d3.selectAll('.barRect').style('opacity', 1);
-            d3.selectAll('.barYear').style('opacity', 1);
+            d3.selectAll('.barYearAxis').style('opacity', 1);
             d3.selectAll('.barTitle').style('opacity', 1);
             d3.selectAll('.legendCircle').style('opacity', 1);
             d3.selectAll('.presName').style('opacity', 1);
             d3.selectAll('.presLine').style('opacity', 1);
           } else {
             d3.selectAll('.nodeLabel').style('opacity', 1);
+            d3.selectAll('.barBackground').style('opacity', 0);
             d3.selectAll('.barRect').style('opacity', 0);
-            d3.selectAll('.barYear').style('opacity', 0);
+            d3.selectAll('.barYearAxis').style('opacity', 0);
             d3.selectAll('.barTitle').style('opacity', 0);
             d3.selectAll('.legendCircle').style('opacity', 0);
             d3.selectAll('.presName').style('opacity', 0);
             d3.selectAll('.presLine').style('opacity', 0);
           };
 
-          // show or hide bar chart and node labels
+          // show or hide year highlight
           if (yearFlag[i] === true) {
-            d3.selectAll('.yearLabel').style('opacity', 0);
             d3.selectAll('.yearRect').style('opacity', 1);
           } else {
-            d3.selectAll('.yearLabel').style('opacity', 0);
             d3.selectAll('.yearRect').style('opacity', 0);
           };
 
@@ -833,31 +838,13 @@ d3.queue()
             d3.selectAll('.appoLine').transition().duration(750).style('opacity', 0);
           };
 
-          // update year label /// need to add interpolation transition effect
-          yearLabel
-            .text(dataYear[i])
-            .transition().duration(1000)
-            .attr('x', d=> xYearScale(dataYear[i]) + xYearScale.bandwidth()/2);
-
           // update year highlight rect
           yearRect
             .transition().duration(1000)
             .attr('x', d=> xYearScale(dataYear[i]) - strokeWidth/2);
 
-          // // change bar opacity depending on year
-          // barChart.style('opacity', function(d) {
-          //   if (+d.data.year === dataYear[i]) {
-          //     return 1;
-          //   } else { 
-          //     return 0.6;
-          //   }
-          // });
-
         }); // end 'active' listener
 
-    d3.select('#source')
-        .styles({'margin-bottom': window.innerHeight - 450 + 'px', padding: '100px'})
-  
   } // end render function
   
   // initial render

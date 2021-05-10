@@ -5,8 +5,6 @@ library(reshape2)
 library(ggplot2)
 library(tidyr)
 library(stringr)
-#library(RColorBrewer)
-#library(foreign)
 
 # PARTY CONTROL (1934-2015 although blank after 2011)
 
@@ -155,6 +153,9 @@ pc$cont_text[pc$government_cont < 0.99 & pc$government_cont > 0.01] <- "split"
 #pc$cont_text[pc$government_cont > 0.2 & pc$government_cont < 0.5] <- "lean_rep"
 ### could fix above to handle edge cases resulting from tie in legislature (.83, .16, .5)
 
+# change Nebraska to split since it has a nonpartisan legislature (even though it is effectively controlled by Republicans)
+pc$cont_text[pc$state == "Nebraska"] <- "split"
+
 # sort by year and state
 pc <- arrange(pc, state, year)
 
@@ -291,14 +292,6 @@ str(sa)
 
 # join with state abbreviations
 all <- left_join(all, sa, by = "state")
-str(all)
-
-# join with voting rights bill counts
-vr <- read.csv(file = "data/source/voting_rights/voting_rights_brennan_bills.csv", header = TRUE, stringsAsFactors = FALSE)
-str(vr)
-
-# join with voting rights bill counts
-all <- left_join(all, vr, by = "state_abbrev")
 str(all)
 
 # state x y positions
